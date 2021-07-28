@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import App from 'SRC/App'
+import Default from 'SRC/templates/default'
 
 Vue.config.productionTip = false
 
@@ -20,6 +21,8 @@ import Router from '@/router/index'
 
 import VideoBg from 'vue-videobg'
 Vue.component('video-bg', VideoBg)
+
+Vue.component('default', Default)
 
 new Vue({
     router: Router,

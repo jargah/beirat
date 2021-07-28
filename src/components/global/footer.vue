@@ -59,20 +59,11 @@ export default {
 
     .footer {
 
-
-
-
-        width: 100%;
-        position: absolute;
+        position: relative;
         bottom: 0;
+        background: black;
         height: 422px;
         background: #000000;
-
-        // position: absolute;
-        // bottom: 0;
-        // width: 100%;
-        // height: 422px;
-        // background-color: #000000;
 
         &__contact {
             position: absolute;
@@ -119,6 +110,65 @@ export default {
                 max-width: 215px;
             }
         }
+
+
+        // width: 100%;
+        // position: absolute;
+        // bottom: 0;
+        // height: 422px;
+        // background: #000000;
+
+        // position: absolute;
+        // bottom: 0;
+        // width: 100%;
+        // height: 422px;
+        // background-color: #000000;
+
+        // &__contact {
+        //     position: absolute;
+        //     top: 100px;
+        //     right: 122px;
+
+        //     &__btn {
+        //         padding: 0.375rem 3.75rem !important;
+        //         color: #fff !important;
+        //         border: 1px solid #fff !important;
+        //     }
+        // }
+
+        // &__social {
+        //     position: absolute;
+        //     top: 300px;
+        //     right: 45px;
+
+        // }
+
+
+        // &__content-text {
+        //     max-width: 645px;
+        //     position: absolute;
+        //     left: 144px;
+        //     top: 100px;
+
+        //     &__title {
+        //         font-size: 37px;
+        //         color: #fff;
+        //     }
+
+        //     &__about {
+        //         font-size: 17px;
+        //         color: #fff;
+        //     }
+
+        //     &__copyright {
+        //         font-size: 17px;
+        //         color: #717271;
+        //     }
+
+        //      &__blueberry {
+        //         max-width: 215px;
+        //     }
+        // }
 
     }
 

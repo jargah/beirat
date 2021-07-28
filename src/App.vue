@@ -1,36 +1,25 @@
 <template>
-    <div id="app">
-        <global-header />
-        <section id="body">
+
+        <component :is="layout">    
             <router-view />
-        </section>
-        <global-footer />
-    </div>
+        </component>
+
 </template>
 
 <script>
 
-    import Header from 'COMPONENTS/global/header'
-    import Footer from 'COMPONENTS/global/footer'
-
     export default {
         name: "App",
-        components: {
-            'global-header': Header,
-            'global-footer': Footer,
-        },
+        computed: {
+            layout() {
+                return this.$router.resolve({ path: this.$route.path }).route.meta.layout   
+            }
+        } 
     }
 </script>
 
 <style>
-    #app {
-        min-height:100%;
-        position:relative;
-    }
 
-    #body {
-        padding:10px;
-        padding-bottom: 700px;   /* Height of the footer */
-    }
+  
 
 </style>

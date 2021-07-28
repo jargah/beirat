@@ -28,7 +28,10 @@
                 </div>
                 <div class="header__nav__menu align-self-center">
                     <!-- <img :src="points" class="header__nav__menu--image mr-2" @click="openMenu"> <span> Menu </span> -->
-                    <a class="nav-button ml-auto mr-4" @click="openMenu"><span id="nav-icon3"><span></span><span></span><span></span><span></span></span></a>
+                    <div class="d-flex flex-row">
+                        <a class="nav-button ml-auto mr-4" @click="openMenu"><span id="nav-icon3"><span></span><span></span><span></span><span></span></span></a>
+                        <span class="header__nav__label align-self-center">Menu</span>
+                    </div>
                 </div>
             </div>
         </div> <!--navbar end-->
@@ -159,10 +162,13 @@ export default {
             left: 143px;
 
             &__item {
-                position: absolute;
-                max-width: 170px;
-                height: fit-content;
-                top: 10px;
+                    position: absolute;
+                    max-width: 211px;
+                    max-height: 90px;
+                    height: -webkit-fit-content;
+                    height: -moz-fit-content;
+                    height: fit-content;
+                    top: 4px;
             }
         }
 
@@ -184,10 +190,14 @@ export default {
 
                 color: #fff;
                 padding-left: 5.2rem !important;
-                padding: 2.2rem;
+                padding: 1.8rem;
                 position: relative;
                 max-width: 362px;
                 background: #717271;
+            }
+
+            &__label {
+                
             }
         }
     }

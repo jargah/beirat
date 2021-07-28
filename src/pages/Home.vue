@@ -1,15 +1,19 @@
 <template>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <div class="fullscreen-bg row">
-                    <video loop muted autoplay poster="https://imag.malavida.com/mvimgbig/download-fs/fullscreen-photo-viewer-18152-2.jpg" class="fullscreen-bg__video">
-                        <source :src="consultores" type="video/mp4">
-                    </video>
-                </div>
-            </div>
-        </div>
+    <div id="player-overlay">
+        <video loop muted autoplay>
+            <source :src="consultores" type="video/mp4" />
+        </video>    
     </div>
+    <!-- <section>
+        <video loop muted autoplay class="fullscreen-bg__video">
+            <source :src="consultores" type="video/mp4">
+        </video>
+    </section> -->
+    <!-- <div>
+        <video loop muted autoplay poster="https://imag.malavida.com/mvimgbig/download-fs/fullscreen-photo-viewer-18152-2.jpg" class="fullscreen-bg__video">
+            <source :src="consultores" type="video/mp4">
+        </video>
+    </div> -->
 </template>
 
 <script>
@@ -28,6 +32,35 @@ export default {
 </script>
 
 <style lang="scss">
+
+    section {
+        display: block;
+        height:100vh;
+        width: 100vw;
+    }
+
+    #player-overlay {
+    position: relative;
+
+    &:before {
+        content:'';
+        display: block;
+        padding-top: 50%;  // 50% equals a 2:1 ratio. you can read more about
+                        // the ratios in the link
+    }
+    }
+
+    video {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    }
+
+    
+
     .fullscreen-bg {
         position: fixed;
         top: 0;
