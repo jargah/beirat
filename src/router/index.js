@@ -66,7 +66,7 @@ const routes = [
         name: 'academy',
         path: '/academy',
         meta: {
-            layout: 'default'
+            layout: 'academy'
         },
         component: () => import( /* webpackChunkName: "js/page-academy" */ '@/pages/Academy')
     },
@@ -87,6 +87,14 @@ const routes = [
         component: () => import( /* webpackChunkName: "js/page-notice" */ '@/pages/Notice')
     },
     {
+        name: 'policity',
+        path: '/policity',
+        meta: {
+            layout: 'default'
+        },
+        component: () => import( /* webpackChunkName: "js/page-policity" */ '@/pages/Policity')
+    },
+    {
         name: 'error',
         path: '/error',
         meta: {
@@ -100,7 +108,7 @@ const routes = [
             layout: 'default'
         },
         beforeEnter: (to, from, next) => {
-            next('/')
+            next('/error')
         }
     }
 ]

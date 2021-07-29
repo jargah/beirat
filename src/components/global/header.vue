@@ -1,28 +1,23 @@
 <template>
     <header>
-        <!-- <div class="header">
-            <div class="d-flex justify-content-start header__logo">
-                <img :src="logo" class="header__logo__item" alt="logo">
-            </div>
-            <div class="d-flex justify-content-end">
-                <div class="header__nav__language align-self-center">
-                    <span>
-                        Español
-                    </span>
-                </div>
-                <div class="header__nav__menu align-self-center">
-                    <img :src="points" class="header__nav__menu--image mr-2" @click="openMenu"> <span> Menu </span>
-                </div>
-            </div>
-        </div> -->
-
         <div class="header">
             <div class="d-flex justify-content-start header__logo">
-                <img :src="logo" class="header__logo__item" alt="logo">
+                <router-link
+                    :to="{ name: 'home' }"
+                    custom
+                    v-slot="{ href, navigate, isExactActive }"
+                >
+                    <a
+                        :class="[isExactActive ? 'main-menu__active' : '']"
+                        :href="href"
+                        @click="navigate">
+                        <img :src="logo" class="header__logo__item" alt="logo" style="cursor:pointer;">
+                    </a>
+                </router-link>
             </div>
             <div class="d-flex justify-content-end">
                 <div class="header__nav__language align-self-center">
-                    <span>
+                    <span class="font-basic font-basic__nav">
                         Español
                     </span>
                 </div>
@@ -30,7 +25,7 @@
                     <!-- <img :src="points" class="header__nav__menu--image mr-2" @click="openMenu"> <span> Menu </span> -->
                     <div class="d-flex flex-row">
                         <a class="nav-button ml-auto mr-4" @click="openMenu"><span id="nav-icon3"><span></span><span></span><span></span><span></span></span></a>
-                        <span class="header__nav__label align-self-center">Menu</span>
+                        <span class="header__nav__label align-self-center font-basic font-basic__nav">Menu</span>
                     </div>
                 </div>
             </div>
@@ -41,46 +36,129 @@
                 <div class="col-6 ">
                     <div class="flex-center p-5 mt-4">
                         <ul class="nav flex-column">
-                            <li class="nav-item delay-1">
-                                <a class="nav-link main-menu__active" href="#">
-                                    Home
-                                </a>
-                            </li>
-                            <li class="nav-item delay-2">
-                                <a class="nav-link" href="#">
-                                    We Are
-                                </a>
-                            </li>
-                            <li class="nav-item delay-3">
-                                <a class="nav-link" href="#">
-                                    Business Investigation
-                                </a>
-                            </li>
-                            <li class="nav-item delay-4">
-                                <a class="nav-link" href="#">
-                                    Business Scalability
-                                </a>
-                            </li>
-                            <li class="nav-item delay-5">
-                                <a class="nav-link" href="#">
-                                    Digital Operation
-                                </a>
-                            </li>
-                            <li class="nav-item delay-6">
-                                <a class="nav-link" href="#">
-                                    Clients
-                                </a>
-                            </li>
-                            <li class="nav-item delay-7">
-                                <a class="nav-link" href="#">
-                                    Academy
-                                </a>
-                            </li>
-                            <li class="nav-item delay-8">
-                                <a class="nav-link" href="#">
-                                    Contact
-                                </a>
-                            </li>
+                            <router-link
+                                :to="{ name: 'home' }"
+                                custom
+                                v-slot="{ href, navigate, isExactActive }"
+                            >
+                                <li class="nav-item delay-1">
+                                    <a class="nav-link font-basic"
+                                        :class="[isExactActive ? 'main-menu__active' : '']"
+                                        :href="href"
+                                        @click="navigate, openMenu">
+                                        Home
+                                    </a>
+                                </li>
+                            </router-link>
+
+                            <router-link
+                                :to="{ name: 'we-are' }"
+                                custom
+                                v-slot="{ href, navigate, isExactActive }"
+                            >
+                               <li class="nav-item delay-2">
+                                    <a class="nav-link font-basic"
+                                        :href="href"
+                                        :class="[isExactActive ? 'main-menu__active' : '']"
+                                        @click="navigate, openMenu">
+                                        We Are
+                                    </a>
+                                </li>
+                            </router-link>
+
+                            <router-link
+                                :to="{ name: 'business-investigation' }"
+                                custom
+                                v-slot="{ href, navigate, isExactActive }"
+                            >
+                                <li class="nav-item delay-3">
+                                    <a class="nav-link font-basic"
+                                        :href="href"
+                                        :class="[isExactActive ? 'main-menu__active' : '']"
+                                        @click="navigate, openMenu">
+                                        Business Investigation
+                                    </a>
+                                </li>
+                            </router-link>
+
+
+                            <router-link
+                                :to="{ name: 'scalability' }"
+                                custom
+                                v-slot="{ href, navigate, isExactActive }"
+                            >
+                                <li class="nav-item delay-4">
+                                    <a class="nav-link font-basic"
+                                        :href="href"
+                                        :class="[isExactActive ? 'main-menu__active' : '']"
+                                        @click="navigate, openMenu">
+                                        Business Scalability
+                                    </a>
+                                </li>
+                            </router-link>
+
+
+                            <router-link
+                                :to="{ name: 'digital-operation' }"
+                                custom
+                                v-slot="{ href, navigate, isExactActive }"
+                            >
+                                <li class="nav-item delay-5">
+                                    <a class="nav-link font-basic"
+                                        :href="href"
+                                        :class="[isExactActive ? 'main-menu__active' : '']"
+                                        @click="navigate, openMenu">
+                                        Digital Operation
+                                    </a>
+                                </li>
+                            </router-link>
+
+                            <router-link
+                                :to="{ name: 'customer' }"
+                                custom
+                                v-slot="{ href, navigate, isExactActive }"
+                            >
+                                <li class="nav-item delay-6">
+                                    <a class="nav-link font-basic"
+                                        :href="href"
+                                        :class="[isExactActive ? 'main-menu__active' : '']"
+                                        @click="navigate, openMenu">
+                                        Clients
+                                    </a>
+                                </li>
+                            </router-link>
+
+                            <router-link
+                                :to="{ name: 'academy' }"
+                                custom
+                                v-slot="{ href, navigate, isExactActive }"
+                            >
+                                <li class="nav-item delay-7">
+                                    <a class="nav-link font-basic"
+                                        :href="href"
+                                        :class="[isExactActive ? 'main-menu__active' : '']"
+                                        @click="navigate, openMenu">
+                                        Academy
+                                    </a>
+                                </li>
+                            </router-link>
+
+
+                             <router-link
+                                :to="{ name: 'contact' }"
+                                custom
+                                v-slot="{ href, navigate, isExactActive }"
+                            >
+                                <li class="nav-item delay-8">
+                                    <a class="nav-link font-basic"
+                                        :href="href"
+                                        :class="[isExactActive ? 'main-menu__active' : '']"
+                                        @click="navigate, openMenu">
+                                        Contact
+                                    </a>
+                                </li>
+                            </router-link>
+
                         </ul>
                     </div>
                 </div>
@@ -90,18 +168,18 @@
                             <p>
                                 <img :src="asterisk" alt="beirat" class="menu-info__asterisk">
                             </p>
-                            <p class="menu-info">
+                            <p class="menu-info font-basic">
                                 WhatsApp
                             </p>
-                            <p class="menu-info">
+                            <p class="menu-info font-basic">
                                 hello@beirat.mx
                             </p>
-                            <p class="menu-info">
+                            <p class="menu-info font-basic">
                                 Rubén Darío 586, Prados Providencia
                                 <br>
                                 C.P.  44670, Guadalajara, Jalisco.
                             </p>
-                            <p class="menu-info">
+                            <p class="menu-info font-basic">
                                 Términos y condiciones
                                 <br>
                                 Aviso de privacidad
@@ -152,6 +230,13 @@ export default {
 
 <style lang="scss">
 
+    .font-basic {
+        &__nav {
+            font-size: 26px;
+            line-height: 36px;
+        }
+    }
+
     .header {
         width: 100%;
         display: grid;
@@ -197,7 +282,7 @@ export default {
             }
 
             &__label {
-                
+
             }
         }
     }

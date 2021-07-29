@@ -5,7 +5,38 @@ html, body {
     height:100%;
     margin:0;
     padding:0;
+    background: #fff;
 }
 
 @import '~bootstrap/scss/bootstrap.scss';
 @import '~bootstrap-vue/src/index.scss';
+
+@font-face {
+    font-family: "Basic Commercial";
+    src: url("//db.onlinewebfonts.com/t/e51570874d31b3871ee3526b90e740c5.eot");
+    src: url("//db.onlinewebfonts.com/t/e51570874d31b3871ee3526b90e740c5.eot?#iefix") format("embedded-opentype"),
+        url("//db.onlinewebfonts.com/t/e51570874d31b3871ee3526b90e740c5.woff2") format("woff2"),
+        url("//db.onlinewebfonts.com/t/e51570874d31b3871ee3526b90e740c5.woff") format("woff"),
+        url("//db.onlinewebfonts.com/t/e51570874d31b3871ee3526b90e740c5.ttf") format("truetype"),
+        url("//db.onlinewebfonts.com/t/e51570874d31b3871ee3526b90e740c5.svg#Basic Commercial") format("svg");
+}
+
+
+.font-basic {
+    font-family: 'Basic Commercial', serif;
+}
+
+
+@font-face {
+    font-family: "Futura PT Light";
+    src: url("//db.onlinewebfonts.com/t/7c9d8cabea7f4697dde2e98c001c5f2d.eot");
+    src: url("//db.onlinewebfonts.com/t/7c9d8cabea7f4697dde2e98c001c5f2d.eot?#iefix") format("embedded-opentype"),
+        url("//db.onlinewebfonts.com/t/7c9d8cabea7f4697dde2e98c001c5f2d.woff2") format("woff2"),
+        url("//db.onlinewebfonts.com/t/7c9d8cabea7f4697dde2e98c001c5f2d.woff") format("woff"),
+        url("//db.onlinewebfonts.com/t/7c9d8cabea7f4697dde2e98c001c5f2d.ttf") format("truetype"),
+        url("//db.onlinewebfonts.com/t/7c9d8cabea7f4697dde2e98c001c5f2d.svg#Futura PT Light") format("svg");
+}
+
+.font-futura {
+    font-family: 'Futura PT Light', serif;
+}

@@ -12,8 +12,13 @@ module.exports = {
     },
     lintOnSave: false,
     configureWebpack: {
+        node: {
+            net: 'empty',
+            tls: 'empty',
+            dns: 'empty'
+        },
         resolve: {
-            extensions: ['.less', '.sass', '.scss', '.css', '.js', '.vue','.git', '.png', '.svg', '.mp4'],
+            extensions: ['.less', '.sass', '.scss', '.css', '.js', '.vue','.gif', '.png', '.svg', '.mp4'],
             alias: {
                 "SRC": path.resolve(__dirname, 'src'),
                 "PAGES": path.resolve(__dirname, 'src/pages'),

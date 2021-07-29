@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from 'SRC/App'
 import Default from 'SRC/templates/default'
+import Academy from 'SRC/templates/academy'
 
 Vue.config.productionTip = false
 
@@ -17,12 +18,14 @@ Vue.use(MuseUI)
 import AnimateCSS from 'animate.css'
 Vue.use(AnimateCSS)
 
+
 import Router from '@/router/index'
 
 import VideoBg from 'vue-videobg'
 Vue.component('video-bg', VideoBg)
 
 Vue.component('default', Default)
+Vue.component('academy', Academy)
 
 new Vue({
     router: Router,

@@ -3,23 +3,25 @@
         <div class="row">
             <div class="col-8">
                 <div class="footer__content-text">
-                    <p class="footer__content-text__title mb-3">
+                    <p class="footer__content-text__title mb-3 font-futura font-futura__title">
                         UNLOCK YOUR FULL POTENTIAL.
                     </p>
-                    <p class="footer__content-text__about mt-1">
-                        Somos una firma consultora con más de 15 años de experiencia en la transformación de compañías y organizaciones a nivel nacional e internacional, incorporando tecnología y procesos científicamente fundados que promuevan su desarrollo y crecimiento.
-                    </p>
-                    <p class="footer__content-text__copyright mt-4">
-                        Todos los derechos reservados Beirat Consulting 2021
-                    </p>
-                    <p class="mt-4">
+                    <template v-if="$route.name == 'home'">
+                        <p class="footer__content-text__about mt-1 font-futura">
+                            Somos una firma consultora con más de 15 años de experiencia en la transformación de compañías y organizaciones a nivel nacional e internacional, incorporando tecnología y procesos científicamente fundados que promuevan su desarrollo y crecimiento.
+                        </p>
+                        <p class="footer__content-text__copyright mt-4 font-futura">
+                            Todos los derechos reservados Beirat Consulting 2021
+                        </p>
+                    </template>
+                    <p class="mt-4" :style="{  'padding-top': $route.name !== 'home' ? `130px`: `0` }">
                         <img :src="blueberry" alt="materialized_bluberry" class="footer__content-text__blueberry">
                     </p>
                 </div>
             </div>
             <div class="col-4">
                 <div class="footer__contact">
-                    <b-button variant="outline-dark footer__contact__btn">
+                    <b-button variant="outline-dark footer__contact__btn font-futura">
                         Contacto
                     </b-button>
                 </div>
@@ -57,6 +59,12 @@ export default {
 
 <style lang="scss">
 
+    .font-futura {
+        &__title {
+            font-size: 47px;
+        }
+    }
+
     .footer {
 
         position: relative;
@@ -92,7 +100,6 @@ export default {
             top: 100px;
 
             &__title {
-                font-size: 37px;
                 color: #fff;
             }
 
