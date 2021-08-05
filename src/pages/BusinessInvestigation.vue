@@ -13,11 +13,9 @@
                 </div>
             </div>
             <div class="row mb-1">
-                <div class="col-12">
-                     <video loop muted autoplay class="business__section1__video">
-                        <source :src="video2" type="video/mp4" />
-                    </video>
-                </div>
+                <video loop muted autoplay class="business__section1__video">
+                    <source :src="video2" type="video/mp4" />
+                </video>
             </div>
             <div class="row mb-1">
                 <div class="col-12 align-self-center">
@@ -45,11 +43,9 @@
             </p>
 
             <div class="row mb-1">
-                <div class="col-12">
-                     <video loop muted autoplay class="business__section2__video">
-                        <source :src="video2" type="video/mp4" />
-                    </video>
-                </div>
+                <video loop muted autoplay class="business__section2__video">
+                    <source :src="video3" type="video/mp4" />
+                </video>
             </div>
 
             <div class="row business__section2__row mt-5 mb-5">
@@ -113,7 +109,8 @@
 <script>
 
 import video1 from 'ASSETS/business-investigation/video/consultoria-en-guadalajara-1'
-import video2 from 'ASSETS/business-investigation/video/empresas-de-consultoria-en-guadalajara-linea'
+import video2 from 'ASSETS/business-investigation/video/consultoria-gdl-2'
+import video3 from 'ASSETS/business-investigation/video/empresas-de-consultoria-en-guadalajara-linea'
 import animation1 from 'ASSETS/business-investigation/gif/consultores-de-empresa-en-guadalajara-3'
 import animation2 from 'ASSETS/business-investigation/gif/consultores-de-empresas-2'
 import animation3 from 'ASSETS/business-investigation/gif/consultores-de-negocios-en-guadalajara-1'
@@ -130,6 +127,7 @@ export default {
         return {
             video1,
             video2,
+            video3,
             animation1,
             animation2,
             animation3,

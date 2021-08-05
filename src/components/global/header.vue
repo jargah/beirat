@@ -1,4 +1,5 @@
 <template>
+
     <header>
         <div class="header">
             <div class="d-flex justify-content-start header__logo">
@@ -17,24 +18,34 @@
             </div>
             <div class="d-flex justify-content-end">
                 <div class="header__nav__language align-self-center">
-                    <span class="font-basic font-basic__nav">
+                    <span class="font-menu font-menu__nav">
                         Español
                     </span>
                 </div>
                 <div class="header__nav__menu align-self-center">
-                    <!-- <img :src="points" class="header__nav__menu--image mr-2" @click="openMenu"> <span> Menu </span> -->
                     <div class="d-flex flex-row">
-                        <a class="nav-button ml-auto mr-4" @click="openMenu"><span id="nav-icon3"><span></span><span></span><span></span><span></span></span></a>
-                        <span class="header__nav__label align-self-center font-basic font-basic__nav">Menu</span>
+                        <a class="nav-button" @click="openMenu"><span id="nav-icon3"><span></span><span></span><span></span><span></span></span></a>
+                        <span class="font-menu font-menu__nav font-menu__menu-left">
+                            Menu
+                        </span>
                     </div>
                 </div>
+                <!-- <div class="header__nav__menu align-self-center">
+
+                    <div class="d-flex flex-row">
+                        <a class="nav-button" @click="openMenu"><span id="nav-icon3"><span></span><span></span><span></span><span></span></span></a>
+                        <span class="align-self-center font-menu font-menu__nav">
+                            Menu
+                        </span>
+                    </div>
+                </div> -->
             </div>
-        </div> <!--navbar end-->
+        </div>
 
         <div class="fixed-top main-menu">
-            <div class="row">
+            <div class="row main-menu__row">
                 <div class="col-6 ">
-                    <div class="flex-center p-5 mt-4">
+                    <div class="flex-center">
                         <ul class="nav flex-column">
                             <router-link
                                 :to="{ name: 'home' }"
@@ -42,7 +53,7 @@
                                 v-slot="{ href, navigate, isExactActive }"
                             >
                                 <li class="nav-item delay-1">
-                                    <a class="nav-link font-basic"
+                                    <a class="nav-link font-menu"
                                         :class="[isExactActive ? 'main-menu__active' : '']"
                                         :href="href"
                                         @click="navigate, openMenu">
@@ -57,7 +68,7 @@
                                 v-slot="{ href, navigate, isExactActive }"
                             >
                                <li class="nav-item delay-2">
-                                    <a class="nav-link font-basic"
+                                    <a class="nav-link font-menu"
                                         :href="href"
                                         :class="[isExactActive ? 'main-menu__active' : '']"
                                         @click="navigate, openMenu">
@@ -72,7 +83,7 @@
                                 v-slot="{ href, navigate, isExactActive }"
                             >
                                 <li class="nav-item delay-3">
-                                    <a class="nav-link font-basic"
+                                    <a class="nav-link font-menu"
                                         :href="href"
                                         :class="[isExactActive ? 'main-menu__active' : '']"
                                         @click="navigate, openMenu">
@@ -88,7 +99,7 @@
                                 v-slot="{ href, navigate, isExactActive }"
                             >
                                 <li class="nav-item delay-4">
-                                    <a class="nav-link font-basic"
+                                    <a class="nav-link font-menu"
                                         :href="href"
                                         :class="[isExactActive ? 'main-menu__active' : '']"
                                         @click="navigate, openMenu">
@@ -104,7 +115,7 @@
                                 v-slot="{ href, navigate, isExactActive }"
                             >
                                 <li class="nav-item delay-5">
-                                    <a class="nav-link font-basic"
+                                    <a class="nav-link font-menu"
                                         :href="href"
                                         :class="[isExactActive ? 'main-menu__active' : '']"
                                         @click="navigate, openMenu">
@@ -119,7 +130,7 @@
                                 v-slot="{ href, navigate, isExactActive }"
                             >
                                 <li class="nav-item delay-6">
-                                    <a class="nav-link font-basic"
+                                    <a class="nav-link font-menu"
                                         :href="href"
                                         :class="[isExactActive ? 'main-menu__active' : '']"
                                         @click="navigate, openMenu">
@@ -134,7 +145,7 @@
                                 v-slot="{ href, navigate, isExactActive }"
                             >
                                 <li class="nav-item delay-7">
-                                    <a class="nav-link font-basic"
+                                    <a class="nav-link font-menu"
                                         :href="href"
                                         :class="[isExactActive ? 'main-menu__active' : '']"
                                         @click="navigate, openMenu">
@@ -150,7 +161,7 @@
                                 v-slot="{ href, navigate, isExactActive }"
                             >
                                 <li class="nav-item delay-8">
-                                    <a class="nav-link font-basic"
+                                    <a class="nav-link font-menu"
                                         :href="href"
                                         :class="[isExactActive ? 'main-menu__active' : '']"
                                         @click="navigate, openMenu">
@@ -163,23 +174,29 @@
                     </div>
                 </div>
                 <div class="col-6">
-                    <div class="flex-center p-5 mt-5">
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-center mt-5">
+                            <a class="nav-button" @click="openMenu"><span id="nav-icon3"><span></span><span></span><span></span><span></span></span></a>
+                        </div>
+                    </div>
+                    <div class="flex-center">
                         <div class="flex-column">
+
                             <p>
                                 <img :src="asterisk" alt="beirat" class="menu-info__asterisk">
                             </p>
-                            <p class="menu-info font-basic">
+                            <p class="menu-info font-menu">
                                 WhatsApp
                             </p>
-                            <p class="menu-info font-basic">
+                            <p class="menu-info font-menu">
                                 hello@beirat.mx
                             </p>
-                            <p class="menu-info font-basic">
+                            <p class="menu-info font-menu">
                                 Rubén Darío 586, Prados Providencia
                                 <br>
                                 C.P.  44670, Guadalajara, Jalisco.
                             </p>
-                            <p class="menu-info font-basic">
+                            <p class="menu-info font-menu">
                                 Términos y condiciones
                                 <br>
                                 Aviso de privacidad
@@ -195,7 +212,7 @@
                     </div>
                 </div>
             </div>
-        </div> <!--main-menu end-->
+        </div>
     </header>
 </template>
 
@@ -230,30 +247,54 @@ export default {
 
 <style lang="scss">
 
-    .font-basic {
+    .navbar-brand
+    {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        text-align: center;
+        margin:0 auto;
+    }
+    .navbar-toggle {
+        z-index:3;
+    }
+
+    .font-menu {
         &__nav {
-            font-size: 26px;
-            line-height: 36px;
+            font-size: 25px;
+            font-weight: 700;
+            font-style: normal;
+            line-height: 71px;
+        }
+
+        &__menu-left {
+            position: absolute;
+            top: 13px;
+            right: 60px;
         }
     }
 
     .header {
+        position: fixed;
         width: 100%;
         display: grid;
         grid-template-areas: "a b";
+        background: rgba(255, 255, 255, 0);
+        z-index: 1;
+
 
         &__logo {
             position: relative;
             left: 143px;
 
             &__item {
-                    position: absolute;
-                    max-width: 211px;
-                    max-height: 90px;
-                    height: -webkit-fit-content;
-                    height: -moz-fit-content;
-                    height: fit-content;
-                    top: 4px;
+                position: absolute;
+                max-width: 211px;
+                max-height: 90px;
+                height: -webkit-fit-content;
+                height: -moz-fit-content;
+                height: fit-content;
+                top: 4px;
             }
         }
 
@@ -274,7 +315,7 @@ export default {
                 }
 
                 color: #fff;
-                padding-left: 5.2rem !important;
+                padding-right: 10.2rem !important;
                 padding: 1.8rem;
                 position: relative;
                 max-width: 362px;
@@ -301,6 +342,12 @@ export default {
         height: 100%;
         opacity: 0;
         visibility: hidden;
+
+        .row {
+            margin-right: 0px !important;
+            margin-left: 0px !important;
+        }
+
     }
     .nav-open .main-menu {
         opacity: 1;
@@ -403,10 +450,12 @@ export default {
         position: relative;
         z-index: 1111;
         border: solid 1px #f8f8f8;
-        height: 42px;
+        height: 37px;
         display: block;
-        width: 50px;
-        padding: 12px;
+        width: 43px;
+        padding: 9px;
+        // left: 36px;
+        top: 2px;
     }
     .nav-button #nav-icon3 {
         width: 24px;

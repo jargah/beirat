@@ -66,7 +66,7 @@ const routes = [
         name: 'academy',
         path: '/academy',
         meta: {
-            layout: 'academy'
+            layout: 'default'
         },
         component: () => import( /* webpackChunkName: "js/page-academy" */ '@/pages/Academy')
     },

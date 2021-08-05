@@ -1,4 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('font.scss');
+
+#player-overlay {
+    position: relative;
+
+    &:before {
+        content:'';
+        display: block;
+        padding-top: 50%;
+
+    }
+}
+
+.videofull {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
 
 html, body {
     font-family: 'Roboto', sans-serif;
@@ -21,9 +42,16 @@ html, body {
         url("//db.onlinewebfonts.com/t/e51570874d31b3871ee3526b90e740c5.svg#Basic Commercial") format("svg");
 }
 
+.font-menu {
+    font-family: 'BasicCommercial LT Com Roman';
+}
+
+.font-footer {
+    font-family: 'Futura PT Book';
+}
 
 .font-basic {
-    font-family: 'Basic Commercial', serif;
+    font-family: 'BasicCommercial LT Com Roman', serif;
 }
 
 
@@ -38,5 +66,5 @@ html, body {
 }
 
 .font-futura {
-    font-family: 'Futura PT Light', serif;
+    font-family: 'Futura PT Book', serif;
 }

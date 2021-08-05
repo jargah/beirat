@@ -2,21 +2,9 @@
     <div>
         <div id="player-overlay">
             <video loop muted autoplay class="videofull">
-                <source :src="consultores" type="video/mp4" />
+                <source :src="comming" type="video/mp4" />
             </video>
         </div>
-        <div class="brand">
-            <img :src="logo" alt="">
-        </div>
-
-        <p class="font-basic coming">
-            COMING SOON<span style="color: red;">...</span>
-        </p>
-
-        <div class="red_asterick">
-            <img :src="asterick" alt="">
-        </div>
-
     </div>
 </template>
 
@@ -24,13 +12,13 @@
 
 import logo from 'ASSETS/global/logo'
 import asterick from 'ASSETS/global/asterick_red'
-import consultores from 'ASSETS/home/consultores-de-negocios-en-guadalajara'
+import comming from 'ASSETS/comming_soon/empresas-de-consultoria-en-guadalajara-linea-academy'
 
 export default {
     name: 'videofull',
     data() {
         return {
-            consultores,
+            comming,
             logo,
             asterick
         }

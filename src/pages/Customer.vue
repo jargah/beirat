@@ -42,14 +42,18 @@
         <div class="customer__section1">
             <div class="row">
                 <div class="col-5 align-self-center">
-                    <p class="customer__section1__title">
+                    <p class="customer__section1__title mb-5">
                         TDMEX
                     </p>
 
                     <p class="customer__section1__description">
-                        Empresa comprometida con sus clientes y con el objetivo principal de prestarles el mejor servicio de carga terrestre.
+                        Empresa comprometida con sus clientes y con el objetivo principal
                         <br>
-                        Asegurándose en todo momento de cumplir con los tiempos establecidos y con la honestidad que nos caracteriza.
+                        de prestarles el mejor servicio de carga terrestre.
+                        <br>
+                        Asegurándose en todo momento de cumplir con los tiempos establecidos
+                        <br>
+                        y con la honestidad que nos caracteriza.
                     </p>
                 </div>
                 <div class="col-7 ">
@@ -91,7 +95,7 @@
                     </p>
 
                     <p class="customer__section1__description">
-                        “45 AÑOS DE EXPERIENCIA EN EL  SEGMENTO DE LA HOSPITALIDAD”
+                        “45 AÑOS DE EXPERIENCIA EN EL SEGMENTO DE LA HOSPITALIDAD”
                         <br>
                         <br>
                         45 Años de Experiencia en el segmento de la hospitalidad,
@@ -292,14 +296,15 @@ export default {
             &__title {
                 position: relative;
                 font-size: 40px;
-                left: 100px;
+                bottom: 30px;
+                margin-left: 100px;
             }
 
             &__description {
                 position: relative;
                 font-size: 15px;
-                left: 100px;
-                width: 600px;
+                top: 20px;
+                margin-left: 100px;
             }
 
             &__image {
@@ -311,15 +316,15 @@ export default {
             &__title {
                 position: relative;
                 font-size: 40px;
-                left: 100px;
-                width: 500px;
+                bottom: 30px;
+                margin-left: 100px;
             }
 
             &__description {
                 position: relative;
                 font-size: 15px;
-                left: 100px;
-                width: 500px;
+                top: 20px;
+                margin-left: 100px;
             }
 
             &__image {

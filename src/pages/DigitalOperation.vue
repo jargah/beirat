@@ -79,28 +79,30 @@
         </div>
 
         <div class="container-fluid digital__section4">
-            <div class="row digital__section4__row">
-                <div class="col-12 align-self-center digital__section4__row__text">
-                    <p class="digital__section4__title font-basic">
-                       Complementando nuestras capacidades internas, contamos con múltiples soluciones
-                       patentadas y una asociación con una de las empresas líderes en tecnología del mundo.
-                    </p>
+           <div class="container">
+                <div class="row digital__section4__row">
+                    <div class="col-12 align-self-center digital__section4__row">
+                        <p class="digital__section4__title font-basic">
+                        Complementando nuestras capacidades internas, contamos con múltiples soluciones
+                        patentadas y una asociación con una de las empresas líderes en tecnología del mundo.
+                        </p>
+                    </div>
                 </div>
-            </div>
+           </div>
         </div>
 
 
         <div class="container-fluid digital__section5">
-            <div class="row digital__section5__row">
-                <div class="col-12 align-self-center digital__section5__row__text">
-                    <p class="digital__section5__title font-basic">
-                        Ayudamos a nuestros clientes a desarrollar la cultura laboral y las capacidades necesarias
-                        <br>
-                        para ser ágiles e innovar antes del  mercado, mucho después de que nos hayamos ido.
-                        <br>
-                        <br>
-                        Este es el cambio que importa.
-                    </p>
+            <div class="container">
+                <div class="row digital__section5__row">
+                    <div class="col-12 align-self-center digital__section5__row__text">
+                        <p class="digital__section5__title font-basic">
+                            Ayudamos a nuestros clientes a desarrollar la cultura laboral y las capacidades necesarias para ser ágiles e innovar antes del  mercado, mucho después de que nos hayamos ido.
+                            <br>
+                            <br>
+                            Este es el cambio que importa.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -283,7 +285,6 @@ export default {
 
             &__title {
                 font-size: 30px;
-                max-width: 1000px;
             }
 
             &__description {
@@ -292,18 +293,14 @@ export default {
 
             &__row {
                 position: relative;
-                top: 100px;
-                padding-bottom: 200px;
+                top: 50px;
+                padding-bottom: 100px;
 
                 &__computer {
                     position: relative;
                     right: 100px;
                 }
 
-                &__text {
-                    position: relative;
-                    left: 200px;
-                }
 
             }
 
@@ -313,8 +310,7 @@ export default {
         &__section5 {
 
             &__title {
-                font-size: 30px;
-                max-width: 1000px;
+                font-size: 28px;
             }
 
             &__description {
@@ -324,17 +320,13 @@ export default {
             &__row {
                 position: relative;
                 top: 100px;
-                padding-bottom: 150px;
+                padding-bottom: 140px;
 
                 &__computer {
                     position: relative;
                     right: 100px;
                 }
 
-                &__text {
-                    position: relative;
-                    left: 200px;
-                }
 
             }
 

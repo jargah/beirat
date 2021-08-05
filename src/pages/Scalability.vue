@@ -21,37 +21,41 @@
                         <br>
                         de operación son el día a día, a menudo la razón de la falta de resultados
                         <br>
-                        es la ausencia de información científicamente fundada que nos permita tomar mejores decisiones en nuestro negocio.
+                        es la ausencia de información científicamente fundada que nos permita tomar
+                        <br>
+                        mejores decisiones en nuestro negocio.
                     </p>
                 </div>
             </div>
         </div>
 
         <div class="container-fluid scalability__section2">
-            <div class="row scalability__section2__row">
-                <div class="col-12 align-self-center scalability__section2__row__text">
-                    <p class="scalability__section2__title font-basic">
-                        CREEMOS QUE LAS EMPRESAS DISRUPTIVAS
-                        <br>
-                        CAMBIAN EL JUEGO POR COMPLETO
-                    </p>
+            <div class="container mb-5">
+                <div class="row scalability__section2__row">
+                    <div class="col-12 align-self-center scalability__section2__row__text">
+                        <p class="scalability__section2__title font-basic">
+                            CREEMOS QUE LAS EMPRESAS DISRUPTIVAS
+                            <br>
+                            CAMBIAN EL JUEGO POR COMPLETO
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="row scalability__section2__row2">
+                <div class="row scalability__section2__row2">
 
-                <div class="col-4">
-                    <p class="font-basic scalability__section2__description">
-                        Son aquellas que anticipan
-                        <br>
-                        los problemas antes de que existan 
-                        <br>
-                        o de que el mercado se dé cuenta que los tiene.
-                    </p>
-                </div>
-                <div class="col-7">
-                    <video loop muted autoplay class="scalability__section2__video">
-                        <source :src="video2" type="video/mp4" />
-                    </video>
+                    <div class="col-6">
+                        <p class="font-basic scalability__section2__description">
+                            Son aquellas que anticipan
+                            <br>
+                            los problemas antes de que existan 
+                            <br>
+                            o de que el mercado se dé cuenta que los tiene.
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <video loop muted autoplay class="scalability__section2__video">
+                            <source :src="video2" type="video/mp4" />
+                        </video>
+                    </div>
                 </div>
             </div>
         </div>
@@ -320,9 +324,10 @@ export default {
             }
 
             &__description {
-                font-size: 30px;
-                top: 170px;
+                font-size: 27px;
+                top: 121px;
                 position: relative;
+                color: #717271;
             }
 
             &__row {
@@ -362,15 +367,15 @@ export default {
                 &__description {
                     position: relative;
                     left: 100px;
-                    top: 100px;
-                    font-size: 25px;
+                    top: 20px;
+                    font-size: 18px;
                 }
 
                 &__ul {
                     position: relative;
                     left: 100px;
                     top: 100px;
-                    font-size: 20px;
+                    font-size: 17px;
 
                     &__li {
                         padding-bottom: 50px;
@@ -412,7 +417,8 @@ export default {
                     position: relative;
                     left: 100px;
                     top: 100px;
-                    font-size: 25px;
+                    font-size: 22px;
+                    color: #717271;
                 }
 
             }
@@ -450,7 +456,7 @@ export default {
                 }
 
                 &__description {
-                    font-size: 25px;
+                    font-size: 22px;
                     position: absolute;
                     left: 150px;
                     top: 15px;
@@ -489,10 +495,11 @@ export default {
                 }
 
                 &__description {
-                    font-size: 25px;
+                    font-size: 22px;
                     position: absolute;
                     left: 150px;
                     top: 15px;
+                    color: #717271;
                 }
 
             }
@@ -532,7 +539,7 @@ export default {
                 }
 
                 &__description {
-                    font-size: 25px;
+                    font-size: 22px;
                     position: absolute;
                     left: 150px;
                     top: 15px;
@@ -571,10 +578,11 @@ export default {
                 }
 
                 &__description {
-                    font-size: 25px;
+                    font-size: 22px;
                     position: absolute;
                     left: 150px;
                     top: 15px;
+                    color: #717271;
                 }
 
             }

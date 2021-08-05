@@ -3,14 +3,14 @@
         <div class="row">
             <div class="col-8">
                 <div class="footer__content-text">
-                    <p class="footer__content-text__title mb-3 font-futura font-futura__title">
+                    <p class="footer__content-text__title mb-3 font-footer font-footer__title">
                         UNLOCK YOUR FULL POTENTIAL.
                     </p>
                     <template v-if="$route.name == 'home'">
-                        <p class="footer__content-text__about mt-1 font-futura">
+                        <p class="footer__content-text__about mt-1 font-footer font-footer__description">
                             Somos una firma consultora con más de 15 años de experiencia en la transformación de compañías y organizaciones a nivel nacional e internacional, incorporando tecnología y procesos científicamente fundados que promuevan su desarrollo y crecimiento.
                         </p>
-                        <p class="footer__content-text__copyright mt-4 font-futura">
+                        <p class="footer__content-text__copyright mt-4 font-footer__copy">
                             Todos los derechos reservados Beirat Consulting 2021
                         </p>
                     </template>
@@ -21,9 +21,16 @@
             </div>
             <div class="col-4">
                 <div class="footer__contact">
-                    <b-button variant="outline-dark footer__contact__btn font-futura">
-                        Contacto
-                    </b-button>
+                    <router-link
+                                :to="{ name: 'contact' }"
+                                custom
+                                v-slot="{ navigate }"
+                            >
+                                <b-button variant="outline-dark footer__contact__btn font-footer__button" @click="navigate">
+                                    Contacto
+                                </b-button>
+                            </router-link>
+
                 </div>
 
                 <div class="footer__social">
@@ -59,14 +66,19 @@ export default {
 
 <style lang="scss">
 
-    .font-futura {
+    .font-footer {
         &__title {
             font-size: 47px;
+        }
+
+        &__description, &__copy, &__button {
+            font-family: 'BasicCommercial LT Com Roman' !important;
         }
     }
 
     .footer {
 
+        padding: 3px;
         position: relative;
         bottom: 0;
         background: black;
@@ -94,7 +106,7 @@ export default {
 
 
         &__content-text {
-            max-width: 645px;
+            max-width: 745px;
             position: absolute;
             left: 144px;
             top: 100px;
