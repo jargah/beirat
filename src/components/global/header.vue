@@ -43,8 +43,13 @@
         </div>
 
         <div class="fixed-top main-menu">
+            <div class="row">
+                <div class="col-10 d-flex justify-content-end mt-4">
+                    <a class="nav-button" @click="openMenu"><span id="nav-icon3"><span></span><span></span><span></span><span></span></span></a>
+                </div>
+            </div>
             <div class="row main-menu__row">
-                <div class="col-6 ">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
                     <div class="flex-center">
                         <ul class="nav flex-column">
                             <router-link
@@ -155,7 +160,7 @@
                             </router-link>
 
 
-                             <router-link
+                            <router-link
                                 :to="{ name: 'contact' }"
                                 custom
                                 v-slot="{ href, navigate, isExactActive }"
@@ -173,12 +178,8 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-6">
-                    <div class="row">
-                        <div class="col-12 d-flex justify-content-center mt-5">
-                            <a class="nav-button" @click="openMenu"><span id="nav-icon3"><span></span><span></span><span></span><span></span></span></a>
-                        </div>
-                    </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 mt-5 text-center">
+
                     <div class="flex-center">
                         <div class="flex-column">
 
@@ -197,16 +198,27 @@
                                 C.P.  44670, Guadalajara, Jalisco.
                             </p>
                             <p class="menu-info font-menu">
-                                Términos y condiciones
+
+                                <span style="cursor: pointer;" @click="redirect('term')">
+                                    Términos y condiciones
+                                </span>
                                 <br>
-                                Aviso de privacidad
+                                <span style="cursor: pointer;" @click="redirect('notice')">
+                                    Aviso de privacidad
+                                </span>
                                 <br>
-                                Politicas
+                                <span style="cursor: pointer;" @click="redirect('policity')">
+                                    Politicas
+                                </span>
                             </p>
                             <p>
-                                <img :src="instagram" alt="instragram" class="p-2">
+                                <a href="https://instagram.com/beirat.mx?utm_medium=copy_link" target="_blank">
+                                    <img :src="instagram" alt="instragram" class="p-2">
+                                </a>
                                 <img :src="twitter" alt="twitter" class="p-2">
-                                <img :src="linkedin" alt="linkedin" class="p-2">
+                                <a href="https://www.linkedin.com/in/beirat-mx-b10355214/" target="_blank">
+                                    <img :src="linkedin" alt="linkedin" class="p-2">
+                                </a>
                             </p>
                         </div>
                     </div>
@@ -227,6 +239,7 @@ import asterisk from 'ASSETS/global/asterisk'
 
 export default {
     name: 'global-header',
+
     data() {
         return {
             logo,
@@ -234,18 +247,90 @@ export default {
             instagram,
             twitter,
             linkedin,
-            asterisk
+            asterisk,
+            windowWidth: window.innerWidth
+        }
+    },
+    watch: {
+        windowWidth(newWidth, oldWidth) {
+            this.windowWidth = newWidth
         }
     },
     methods: {
+        onResize() {
+            this.windowWidth = window.innerWidth
+        },
         openMenu() {
             $('body').toggleClass('nav-open')
+        },
+        redirect(name) {
+            this.$router.push({
+                name: name
+            })
+            this.openMenu()
         }
-    }
+    },
+    mounted() {
+        $(window).scroll(function(){
+            var scroll = $(window).scrollTop();
+            if (scroll > 100) {
+                $(".header").css("background" , "#000").fadeIn(500);
+            }
+            else{
+                $(".header").css("background" , "rgba(255, 255, 255, 0)").fadeIn(500);
+            }
+        })
+
+        this.$nextTick(() => {
+            window.addEventListener('resize', this.onResize);
+        })
+    },
+    beforeDestroy() {
+        window.removeEventListener('resize', this.onResize);
+    },
 }
 </script>
 
 <style lang="scss">
+
+    @media (min-width: 769px) AND (max-width: 992px) {
+        .main-menu .nav li a {
+            font-size: 3.5vh !important;
+            font-weight: 200;
+        }
+
+        .nav-link {
+            display: block;
+            padding: 0.1rem 1rem;
+        }
+
+        .header__logo__item {
+            max-width: 209px !important;
+            max-height: 65px !important;
+            top: 10px !important;
+            left: -100px;
+        }
+    }
+
+    @media (min-width: 380px) AND (max-width: 768px) {
+        .main-menu .nav li a {
+            font-size: 3.5vh !important;
+            font-weight: 200;
+        }
+
+        .nav-link {
+            display: block;
+            padding: 0.1rem 1rem;
+        }
+
+        .header__logo__item {
+            max-width: 209px !important;
+            max-height: 65px !important;
+            top: 10px !important;
+            left: -100px;
+        }
+    }
+
 
     .navbar-brand
     {
@@ -274,6 +359,32 @@ export default {
         }
     }
 
+    @media (min-width: 380px) AND (max-width: 768px) {
+
+        .nav-button {
+            right: -45px;
+        }
+
+        .font-menu {
+            &__menu-left {
+                display: none;
+            }
+        }
+
+        .header {
+            &__nav {
+                &__language {
+                    display: none;
+                }
+
+                &__menu {
+                    max-width: 23px !important;
+                    right: 50px;
+                }
+            }
+        }
+    }
+
     .header {
         position: fixed;
         width: 100%;
@@ -297,6 +408,7 @@ export default {
                 top: 4px;
             }
         }
+
 
         &__nav {
             display: grid;

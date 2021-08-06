@@ -8,21 +8,20 @@
         <section class="we-are">
             <div class="container-fluid we-are__section1">
                 <div class="row mb-1">
-                    <div class="col-7 align-self-center">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-7 align-self-center">
                         <p class="font-futura font-futura__power">
                             EL PODER DEL <b>CONOCIMIENTO</b> ES EL ELEMENTO
-                            <br>
                             <b>FUNDAMENTAL PARA EL ÉXITO DE LOS NEGOCIOS</b>
                         </p>
                     </div>
-                    <div class="col-5 d-flex justify-content-end">
-                        <video loop muted autoplay>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-5 d-flex justify-content-end mt-5 ">
+                        <video loop muted autoplay class="video_formula">
                             <source :src="video1" type="video/mp4" />
                         </video>
                     </div>
                 </div>
                 <div class="row mt-2 mb-1">
-                    <div class="col-6">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
                         <div class="animation-we-are__item_1">
                             <img :src="animation12" alt="empresas-consultoras-gdl-1" class="animation-we-are">
                         </div>
@@ -32,7 +31,7 @@
                             y nos volvemos tus aliados en el logro de tus objetivos.
                         </p>
                     </div>
-                    <div class="col-6 ">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
                         <div>
                             <img :src="animation13" alt="asesores_de_negocios-1" class="animation-we-are">
                         </div>
@@ -46,19 +45,21 @@
 
             <div class="container-fluid we-are__section2">
 
-                <p class="we-are__section2__title font-futura">
-                    EL PODER DEL CONOCIMIENTO ES EL ELEMENTO
-                    <br>
-                    FUNDAMENTAL PARA EL ÉXITO DE LOS NEGOCIOS
-                </p>
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-sm-6 col-lg-6">
+                        <p class="we-are__section2__title font-futura">
+                            EL PODER DEL CONOCIMIENTO ES EL ELEMENTO
+                            FUNDAMENTAL PARA EL ÉXITO DE LOS NEGOCIOS
+                        </p>
 
-                <p class="we-are__section2__description font-basic">
-                    Encapsulamos soluciones estratégicas que resuelven
-                    <br>
-                    problemáticas específicas dentro de las organizaciones.
-                </p>
+                        <p class="we-are__section2__description font-basic">
+                            Encapsulamos soluciones estratégicas que resuelven
+                            problemáticas específicas dentro de las organizaciones.
+                        </p>
+                    </div>
+                </div>
                 <div class="row mb-1">
-                    <div class="col-12">
+                    <div class="col-12 col-sm-12 col-sm-6 col-lg-6">
                         <video loop muted autoplay class="we-are__section2__video">
                             <source :src="video2" type="video/mp4" />
                         </video>
@@ -69,13 +70,17 @@
 
             <div class="container-fluid we-are__section3">
 
-                <p class="we-are__section3__title font-basic">
-                    ¿QUE HACE POSIBLE TU TAZA DE CAFÉ?
-                </p>
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-sm-6 col-lg-6">
+                        <p class="we-are__section3__title font-basic">
+                            ¿QUE HACE POSIBLE TU TAZA DE CAFÉ?
+                        </p>
 
-                <p class="we-are__section3__description font-basic">
-                    Desde el cultivo, tostado hasta el comercio.
-                </p>
+                        <p class="we-are__section3__description font-basic">
+                            Desde el cultivo, tostado hasta el comercio.
+                        </p>
+                    </div>
+                </div>
                 <div class="row mb-1">
                     <div class="col-12">
                         <video loop muted autoplay class="we-are__section3__video">
@@ -88,19 +93,20 @@
 
             <div class="container-fluid we-are__section4">
 
-                <p class="we-are__section4__title font-futura">
-                    CUANDO UN PROBLEMA ES REALMENTE IMPORTANTE ES MUY PROBABLE
-                    <br>
-                    QUE EL CONSUMIDOR <strong>YA LO ESTÉ RESOLVIENDO DE ALGUNA MANERA</strong>
-                </p>
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-sm-6 col-lg-6">
+                         <p class="we-are__section4__title font-futura">
+                            CUANDO UN PROBLEMA ES REALMENTE IMPORTANTE ES MUY PROBABLE
+                            QUE EL CONSUMIDOR <strong>YA LO ESTÉ RESOLVIENDO DE ALGUNA MANERA</strong>
+                        </p>
 
-                <p class="we-are__section4__description font-basic">
-                    En esos casos, debemos cuestionarnos si hay alguna manera
-                    <br>
-                    de hacerlo mejor o por menos dinero.
-                    <br>
-                    ¿Cómo saberlo?, a través del método científico.
-                </p>
+                        <p class="we-are__section4__description font-basic">
+                            En esos casos, debemos cuestionarnos si hay alguna manera
+                            de hacerlo mejor o por menos dinero.
+                            ¿Cómo saberlo?, a través del método científico.
+                        </p>
+                    </div>
+                </div>
                 <div class="row mb-1">
                     <div class="col-12">
                         <video loop muted autoplay class="we-are__section4__video">
@@ -132,7 +138,7 @@
 
                                 <div class="we-are__section5__services__items">
                                     <div class="row mt-5">
-                                        <div class="col-3">
+                                        <div class="col-6 col-sm-6 col-md-6 col-lg-3">
                                             <div>
                                                 <img :src="animation1" alt="asesores-de-negocio-en-guadalajara" class="we-are__section5__services__image">
                                             </div>
@@ -140,7 +146,7 @@
                                                 Medicina y Farmacéutica
                                             </span>
                                         </div>
-                                        <div class="col-3">
+                                        <div class="col-6 col-sm-6 col-md-6 col-lg-3">
                                             <div>
                                                 <img :src="animation2" alt="asesores-de-negocio-en-guadalajara" class="we-are__section5__services__image">
                                             </div>
@@ -148,7 +154,7 @@
                                                 Construcción y Bienes raíces
                                             </span>
                                         </div>
-                                        <div class="col-3">
+                                        <div class="col-6 col-sm-6 col-md-6 col-lg-3">
                                             <div>
                                                 <img :src="animation3" alt="asesores-de-negocio-en-guadalajara" class="we-are__section5__services__image">
                                             </div>
@@ -156,7 +162,7 @@
                                                 Energía y Recursos naturales
                                             </span>
                                         </div>
-                                        <div class="col-3">
+                                        <div class="col-6 col-sm-6 col-md-6 col-lg-3">
                                             <div>
                                                 <img :src="animation4" alt="asesores-de-negocio-en-guadalajara" class="we-are__section5__services__image">
                                             </div>
@@ -166,7 +172,7 @@
                                         </div>
                                     </div>
                                     <div class="row mt-5">
-                                        <div class="col-3">
+                                        <div class="col-6 col-sm-6 col-md-6 col-lg-3">
                                             <div>
                                                 <img :src="animation5" alt="asesores-de-negocio-en-guadalajara" class="we-are__section5__services__image">
                                             </div>
@@ -174,7 +180,7 @@
                                                 Agropecuario
                                             </span>
                                         </div>
-                                        <div class="col-3">
+                                        <div class="col-6 col-sm-6 col-md-6 col-lg-3">
                                             <div>
                                                 <img :src="animation6" alt="asesores-de-negocio-en-guadalajara" class="we-are__section5__services__image">
                                             </div>
@@ -182,7 +188,7 @@
                                                 Manufactura
                                             </span>
                                         </div>
-                                        <div class="col-3">
+                                        <div class="col-6 col-sm-6 col-md-6 col-lg-3">
                                             <div>
                                                 <img :src="animation7" alt="asesores-de-negocio-en-guadalajara" class="we-are__section5__services__image">
                                             </div>
@@ -190,7 +196,7 @@
                                                 Productos de Consumo
                                             </span>
                                         </div>
-                                        <div class="col-3">
+                                        <div class="col-6 col-sm-6 col-md-6 col-lg-3">
                                             <div>
                                                 <img :src="animation8" alt="asesores-de-negocio-en-guadalajara" class="we-are__section5__services__image">
                                             </div>
@@ -200,7 +206,7 @@
                                         </div>
                                     </div>
                                     <div class="row mt-5 mb-5">
-                                        <div class="col-3">
+                                        <div class="col-6 col-sm-6 col-md-6 col-lg-3">
                                             <div>
                                                 <img :src="animation9" alt="asesores-de-negocio-en-guadalajara" class="we-are__section5__services__image">
                                             </div>
@@ -211,7 +217,7 @@
 
                                             </span>
                                         </div>
-                                        <div class="col-3">
+                                        <div class="col-6 col-sm-6 col-md-6 col-lg-3">
                                             <div>
                                                 <img :src="animation10" alt="asesores-de-negocio-en-guadalajara" class="we-are__section5__services__image">
                                             </div>
@@ -219,7 +225,7 @@
                                                 Comercio al por mayor
                                             </span>
                                         </div>
-                                        <div class="col-3">
+                                        <div class="col-6 col-sm-6 col-md-6 col-lg-3">
                                             <div>
                                                 <img :src="animation11" alt="asesores-de-negocio-en-guadalajara" class="we-are__section5__services__image">
                                             </div>
@@ -299,6 +305,10 @@ export default {
 
 <style lang="scss">
 
+.video_formula {
+    max-width: 100%;
+}
+
 #player-overlay {
         position: relative;
 
@@ -319,6 +329,46 @@ export default {
         width: 100%;
     }
 
+    @media (min-width: 769px) AND (max-width: 992px) {
+        .font-futura {
+            &__power {
+                font-size: 20px !important;
+            }
+        }
+
+        .video_formula {
+            max-width: 50% !important;
+        }
+
+        .we-are__section5__portafolio__title {
+            font-size: 18px !important;
+        }
+
+        .we-are__section5 {
+            padding-bottom: 850px !important;
+        }
+    }
+
+    @media (min-width: 380px) AND (max-width: 768px) {
+       .font-futura {
+            &__power {
+                font-size: 20px !important;
+            }
+        }
+
+        .video_formula {
+            max-width: 50% !important;
+        }
+
+        .we-are__section5__portafolio__title {
+            font-size: 18px !important;
+        }
+
+        .we-are__section5 {
+            padding-bottom: 850px !important;
+        }
+    }
+
     .animation-we-are {
         width: 84px;
         height: 86px;
@@ -327,6 +377,7 @@ export default {
 
     .we-are {
 
+        background: #fff;
 
         &__section1 {
             position: relative;

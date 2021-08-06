@@ -85,9 +85,13 @@
                     </div>
                     <div class="col-6">
                         <p class="font-futura">
-                            <img :src="instagram" alt="instragram" class="p-2" style="filter: invert(1);">
-                            <img :src="twitter" alt="twitter" class="p-2"  style="filter: invert(1);">
-                            <img :src="linkedin" alt="linkedin" class="p-2"  style="filter: invert(1);">
+                            <a href="https://instagram.com/beirat.mx?utm_medium=copy_link" target="_blank">
+                                <img :src="instagram" alt="instragram" class="p-2" style="filter: invert(1);">
+                            </a>
+                            <img :src="twitter" alt="twitter" class="p-2" style="filter: invert(1);">
+                            <a href="https://www.linkedin.com/in/beirat-mx-b10355214/" target="_blank">
+                                <img :src="linkedin" alt="linkedin" class="p-2" style="filter: invert(1);">
+                            </a>
                         </p>
                     </div>
                 </div>

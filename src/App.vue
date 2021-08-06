@@ -1,6 +1,6 @@
 <template>
 
-        <component :is="layout">    
+        <component :is="layout">
             <router-view />
         </component>
 
@@ -12,14 +12,14 @@
         name: "App",
         computed: {
             layout() {
-                return this.$router.resolve({ path: this.$route.path }).route.meta.layout   
+                return this.$router.resolve({ path: this.$route.path }).route.meta.layout
             }
-        } 
+        }
     }
 </script>
 
 <style>
 
-  
+
 
 </style>

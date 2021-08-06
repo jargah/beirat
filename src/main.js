@@ -18,6 +18,9 @@ Vue.use(MuseUI)
 import AnimateCSS from 'animate.css'
 Vue.use(AnimateCSS)
 
+import VueHead from 'vue-head'
+Vue.use(VueHead)
+
 
 import Router from '@/router/index'
 
