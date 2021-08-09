@@ -30,6 +30,9 @@ Vue.component('video-bg', VideoBg)
 Vue.component('default', Default)
 Vue.component('academy', Academy)
 
+import MarqueeText from 'vue-marquee-text-component'
+Vue.component('marquee-text', MarqueeText)
+
 new Vue({
     router: Router,
     render: h => h(App),

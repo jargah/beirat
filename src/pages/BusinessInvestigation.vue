@@ -3,13 +3,13 @@
         <videofull class="mtb-5" :src="video1" padding="4"></videofull>
 
         <div class="container-fluid business__section1">
-            <div class="row mb-1">
-                <div class="col-12 align-self-center">
-                    <p class="font-futura business__section1__title">
-                        Como empresas, nuestro trabajo es activar todo nuestro cerebro para que el
-                        <br>
-                        consumidor no tenga que pensar.
-                    </p>
+            <div class="container">
+                <div class="row mb-1">
+                    <div class="col-12 align-self-center">
+                        <p class="font-futura business__section1__title">
+                            Como empresas, nuestro trabajo es activar todo nuestro cerebro para que elconsumidor no tenga que pensar.
+                        </p>
+                    </div>
                 </div>
             </div>
             <div class="row mb-1">
@@ -17,13 +17,13 @@
                     <source :src="video2" type="video/mp4" />
                 </video>
             </div>
-            <div class="row mb-1">
-                <div class="col-12 align-self-center">
-                    <p class="font-futura business__section1__title business__section1__title__body">
-                        TODO EL PUNTO DE UNA EMPRESA ES ENCAPSULAR A UN NICHO DE
-                        <br>
-                        MERCADO DE MANERA CUALITATIVA O CUANTITATIVA.
-                    </p>
+            <div class="container">
+                <div class="row mb-1">
+                    <div class="col-12 align-self-center">
+                        <p class="font-futura business__section1__title business__section1__title__body">
+                            TODO EL PUNTO DE UNA EMPRESA ES ENCAPSULAR A UN NICHO DE MERCADO DE MANERA CUALITATIVA O CUANTITATIVA.
+                        </p>
+                    </div>
                 </div>
             </div>
 
@@ -32,15 +32,25 @@
 
         <div class="container-fluid business__section2">
 
-            <p class="business__section2__title font-futura">
-                CUANDO UN PROBLEMA ES REALMENTE IMPORTANTE ES MUY PROBABLE QUE EL CONSUMIDOR YA LO ESTÉ RESOLVIENDO DE ALGUNA MANERA
-            </p>
+            <div class="row">
+                <div class="col-12">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                    <p class="business__section2__title font-futura">
+                                        CUANDO UN PROBLEMA ES REALMENTE IMPORTANTE ES MUY PROBABLE QUE EL CONSUMIDOR YA LO ESTÉ RESOLVIENDO DE ALGUNA MANERA
+                                    </p>
 
-            <p class="business__section2__description font-basic">
-                En esos casos, debemos cuestionarnos si hay alguna manera de hacerlo mejor o por menos dinero.
-                <br>
-                ¿Cómo saberlo?, a través del método científico.
-            </p>
+                                    <p class="business__section2__description font-basic">
+                                        En esos casos, debemos cuestionarnos si hay alguna manera de hacerlo mejor o por menos dinero.
+                                        <br>
+                                        ¿Cómo saberlo?, a través del método científico.
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <div class="row mb-1">
                 <video loop muted autoplay class="business__section2__video">
@@ -48,57 +58,69 @@
                 </video>
             </div>
 
-            <div class="row business__section2__row mt-5 mb-5">
-                <div class="col-6">
-                    <div>
-                        <img :src="animation1">
-                    </div>
-                    <p class="font-basic business__section2__row__item">
-                        Si podemos cortar pasos en el proceso o agregar uno
-                        <br>
-                        que evite el problema en su totalidad, tenemos
-                        <br>
-                        una hipótesis de producto o servicio.
-                    </p>
-                </div>
-                <div class="col-6">
-                    <div>
-                        <img :src="animation2">
-                    </div>
-                    <p class="font-basic business__section2__row__item">
-                        Entre más valor le aportemos al usuario, más molestias o dinero le ahorremos, mejor vamos a poder negociar un producto o servicio.
-                    </p>
-                </div>
-            </div>
-            <div class="row business__section2__row mt-5">
-                <div class="col-6">
-                    <div>
-                        <img :src="animation3">
-                    </div>
-                    <p class="font-basic business__section2__row__item">
-                        Empieza tu investigación
-                    </p>
-                </div>
-            </div>
 
-            <p class="business__section2__investigation font-futura">
-                Empieza tu investigación <img :src="arrow">
-            </p>
-
-
-            <p class="business__section2__title1 font-futura text-center">
-                CONOCE MÁS SOBRE
-                <br>
-                LA INVESTIGACIÓN DE VIABILIDAD DE NEGOCIO
-            </p>
-
-            <div class="row mb-1">
+            <div class="row mobile-investigation">
                 <div class="col-12">
-                     <video loop muted autoplay class="business__section2__video">
-                        <source :src="video2" type="video/mp4" />
-                    </video>
+                    <div class="container">
+                        <div class="row business__section2__row mt-5 mb-5">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                <div>
+                                    <img :src="animation1" class="mobile-investigation-image">
+                                </div>
+                                <p class="font-basic business__section2__row__item">
+                                    Si podemos cortar pasos en el proceso o agregar uno
+                                    que evite el problema en su totalidad, tenemos
+                                    una hipótesis de producto o servicio.
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                <div>
+                                    <img :src="animation2" class="mobile-investigation-image">
+                                </div>
+                                <p class="font-basic business__section2__row__item">
+                                    Entre más valor le aportemos al usuario, más molestias o dinero le ahorremos, mejor vamos a poder negociar un producto o servicio.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row business__section2__row mt-5">
+                            <div class="col-6">
+                                <div>
+                                    <img :src="animation3" class="mobile-investigation-image">
+                                </div>
+                                <p class="font-basic business__section2__row__item">
+                                    Empieza tu investigación
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+
+            <div class="container">
+               <div class="row">
+                   <div class="col-12">
+                        <p class="business__section2__investigation font-futura text-center">
+                            Empieza tu investigación <img :src="arrow">
+                        </p>
+
+
+                        <p class="business__section2__title1 font-futura text-center">
+                            CONOCE MÁS SOBRE
+                            <br>
+                            LA INVESTIGACIÓN DE VIABILIDAD DE NEGOCIO
+                        </p>
+                   </div>
+               </div>
+            </div>
+
+            <!-- <div class="row mb-1">
+                <video loop muted autoplay class="business__section2__video" style="max-width: 100%;">
+                    <source :src="video2" type="video/mp4" />
+                </video>
+            </div> -->
 
         </div>
 
@@ -157,8 +179,6 @@ export default {
                 text-align: center;
                 margin-top: 100px;
                 font-size: 35px;
-                padding-left: 50px;
-                padding-right: 30px;
 
                 &__body {
                     padding-bottom: 300px;
@@ -173,14 +193,10 @@ export default {
 
         &__section2 {
             margin-top: 30px;
-            margin-bottom: 100px;
-            padding-bottom: 100px;
 
             &__title {
                 padding-top: 20px;
-                width: 1200px;
                 font-size: 35px;
-                padding-left: 100px;
             }
 
             &__title1 {
@@ -191,16 +207,12 @@ export default {
 
              &__investigation {
                 padding-top: 20px;
-                width: 1200px;
                 font-size: 35px;
-                padding-left: 70px;
             }
 
             &__description {
                 padding-top: 30px;
-                width: 800px;
                 font-size: 23px;
-                padding-left: 100px;
             }
 
             &__video {
@@ -208,8 +220,6 @@ export default {
             }
 
             &__row {
-                padding-left: 80px;
-                padding-right: 80px;
 
                 &__item {
                     font-size: 21px;
@@ -287,6 +297,36 @@ export default {
     .font-futura {
         &__power {
             font-size: 34px;
+        }
+    }
+
+
+
+    @media (min-width: 769px) AND (max-width: 992px) {
+        .mobile-investigation {
+            background: #C4C4C4 !important;
+        }
+
+        .business__section2__row__item {
+            color: #fff;
+        }
+
+        .mobile-investigation-image {
+            filter: invert(1);
+        }
+    }
+
+    @media (min-width: 380px) AND (max-width: 768px) {
+        .mobile-investigation {
+            background: #C4C4C4 !important;
+        }
+
+        .business__section2__row__item {
+            color: #fff;
+        }
+
+        .mobile-investigation-image {
+            filter: invert(1);
         }
     }
 </style>

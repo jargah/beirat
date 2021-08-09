@@ -235,7 +235,7 @@ import points from 'ASSETS/global/points'
 import instagram from 'ASSETS/global/instagram'
 import twitter from 'ASSETS/global/twitter'
 import linkedin from 'ASSETS/global/linkedin'
-import asterisk from 'ASSETS/global/asterisk'
+import asterisk from 'ASSETS/global/asterisk1'
 
 export default {
     name: 'global-header',

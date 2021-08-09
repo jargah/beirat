@@ -1,12 +1,12 @@
 <template>
     <section class="customer">
 
-        <div id="player-overlay" :style="{ 'padding-bottom': `6.2%` }">
+        <div id="player-overlay" >
             <video loop muted autoplay class="videofull">
                 <source :src="video1" type="video/mp4" />
             </video>
 
-            <div class="customer__title">
+            <div class="video-title">
                 <p>
                     COMPANIES THAT USE OUR
                     <br>
@@ -16,23 +16,27 @@
                 </p>
             </div>
 
-            <div class="container" id="logoMarqueeSection">
-                <div class="default-content-container flex items-center">
-                    <div class="default-content-container-inner marquee-wrapper relative overflow-hidden inline-block">
-                        <div class="marquee" style="animation-duration: 57s;">
-                            <a target="_blank"><img :src="image1" title="" class="marqueelogo" style="width: auto; max-width: none;" /></a>
-                            <a target="_blank"><img :src="image2" title="" class="marqueelogo" style="width: auto; max-width: none;" /></a>
-                            <a target="_blank"><img :src="image3" title="" class="marqueelogo" style="width: auto; max-width: none;" /></a>
-                            <a target="_blank"><img :src="image4" title="" class="marqueelogo" style="width: auto; max-width: none;" /></a>
-                            <a target="_blank"><img :src="image5" title="" class="marqueelogo" style="width: auto; max-width: none;" /></a>
+            <div class="container-fluid" id="logoMarqueeSection">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="default-content-container flex items-center">
+                            <div class="default-content-container-inner marquee-wrapper relative overflow-hidden inline-block">
+                                <div class="marquee" style="animation-duration: 57s;">
+                                    <a target="_blank"><img :src="image1" title="" class="marqueelogo" style="width: auto; max-width: none;" /></a>
+                                    <a target="_blank"><img :src="image2" title="" class="marqueelogo" style="width: auto; max-width: none;" /></a>
+                                    <a target="_blank"><img :src="image3" title="" class="marqueelogo" style="width: auto; max-width: none;" /></a>
+                                    <a target="_blank"><img :src="image4" title="" class="marqueelogo" style="width: auto; max-width: none;" /></a>
+                                    <a target="_blank"><img :src="image5" title="" class="marqueelogo" style="width: auto; max-width: none;" /></a>
 
-                        </div>
-                        <div class="marquee" style="animation-duration: 57s;">
-                            <a target="_blank"><img :src="image1" title="" class="marqueelogo" style="width: auto; max-width: none;" /></a>
-                            <a target="_blank"><img :src="image2" title="" class="marqueelogo" style="width: auto; max-width: none;" /></a>
-                            <a target="_blank"><img :src="image3" title="" class="marqueelogo" style="width: auto; max-width: none;" /></a>
-                            <a target="_blank"><img :src="image4" title="" class="marqueelogo" style="width: auto; max-width: none;" /></a>
-                            <a target="_blank"><img :src="image5" title="" class="marqueelogo" style="width: auto; max-width: none;" /></a>
+                                </div>
+                                <div class="marquee" style="animation-duration: 57s;">
+                                    <a target="_blank"><img :src="image1" title="" class="marqueelogo" style="width: auto; max-width: none;" /></a>
+                                    <a target="_blank"><img :src="image2" title="" class="marqueelogo" style="width: auto; max-width: none;" /></a>
+                                    <a target="_blank"><img :src="image3" title="" class="marqueelogo" style="width: auto; max-width: none;" /></a>
+                                    <a target="_blank"><img :src="image4" title="" class="marqueelogo" style="width: auto; max-width: none;" /></a>
+                                    <a target="_blank"><img :src="image5" title="" class="marqueelogo" style="width: auto; max-width: none;" /></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -41,125 +45,153 @@
 
         <div class="customer__section1">
             <div class="row">
-                <div class="col-5 align-self-center">
-                    <p class="customer__section1__title mb-5">
-                        TDMEX
-                    </p>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 align-self-center">
+                    <div class="container">
+                        <div class="row customer__section1__row">
+                            <div class="col-12">
+                                <p class="customer__section1__title mb-5">
+                                    TDMEX
+                                </p>
 
-                    <p class="customer__section1__description">
-                        Empresa comprometida con sus clientes y con el objetivo principal
-                        <br>
-                        de prestarles el mejor servicio de carga terrestre.
-                        <br>
-                        Asegurándose en todo momento de cumplir con los tiempos establecidos
-                        <br>
-                        y con la honestidad que nos caracteriza.
-                    </p>
+                                <p class="customer__section1__description mb-5">
+                                    Empresa comprometida con sus clientes y con el objetivo principal
+                                    <br>
+                                    de prestarles el mejor servicio de carga terrestre.
+                                    <br>
+                                    Asegurándose en todo momento de cumplir con los tiempos establecidos
+                                    <br>
+                                    y con la honestidad que nos caracteriza.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-7 ">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-7 mt-2">
                     <img :src="test" class="customer__section1__image">
                 </div>
             </div>
         </div>
         <div class="customer__section2">
             <div class="row">
-                <div class="col-7 ">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-7">
                     <img :src="test" class="customer__section1__image">
                 </div>
-                <div class="col-5 align-self-center">
-                    <p class="customer__section2__title">
-                        GREAT  EXPERIENCE
-                        <br>
-                        GUARANTEED
-                    </p>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 align-self-center">
+                    <div class="container">
+                        <div class="row customer__section2__row mt-5 mb-5">
+                            <div class="col-12">
+                                <p class="customer__section2__title">
+                                    GREAT  EXPERIENCE
+                                    <br>
+                                    GUARANTEED
+                                </p>
 
-                    <p class="customer__section2__description">
-                        Es un proyecto cuyo objetivo es el crear un certificado que avale
-                        <br>
-                        a los diferentes proveedores de servicios de hospitalidad, utilizando
-                        <br>
-                        una metodología basada en los estándares y criterios ya establecidos
-                        <br>
-                        por otras empresas como es el ISO 9001, pero enfocada al área hospitalaria.
-                    </p>
+                                <p class="customer__section2__description">
+                                    Es un proyecto cuyo objetivo es el crear un certificado que avale
+                                    <br>
+                                    a los diferentes proveedores de servicios de hospitalidad, utilizando
+                                    <br>
+                                    una metodología basada en los estándares y criterios ya establecidos
+                                    <br>
+                                    por otras empresas como es el ISO 9001, pero enfocada al área hospitalaria.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="customer__section1">
             <div class="row">
-                <div class="col-5 align-self-center">
-                    <p class="customer__section1__title">
-                        María Elena
-                        <br>
-                        Mendoza
-                    </p>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 align-self-center">
+                    <div class="container mt-5 mb-5">
+                        <div class="row customer__section1__row">
+                            <p class="customer__section1__title">
+                                María Elena
+                                <br>
+                                Mendoza
+                            </p>
 
-                    <p class="customer__section1__description">
-                        “45 AÑOS DE EXPERIENCIA EN EL SEGMENTO DE LA HOSPITALIDAD”
-                        <br>
-                        <br>
-                        45 Años de Experiencia en el segmento de la hospitalidad,
-                        <br>
-                        Iniciando en 1975 con la participación desde el arranque
-                        <br>
-                        del proyecto Paraíso Mazatlán en Sinaloa, desempeñándose
-                        <br>
-                        en los departamentos de Ama de Llaves, Atención al Huésped
-                        <br>
-                        y Supervisión de Mantenimiento.
-                    </p>
+                            <p class="customer__section1__description">
+                                “45 AÑOS DE EXPERIENCIA EN EL SEGMENTO DE LA HOSPITALIDAD”
+                                <br>
+                                <br>
+                                45 Años de Experiencia en el segmento de la hospitalidad,
+                                <br>
+                                Iniciando en 1975 con la participación desde el arranque
+                                <br>
+                                del proyecto Paraíso Mazatlán en Sinaloa, desempeñándose
+                                <br>
+                                en los departamentos de Ama de Llaves, Atención al Huésped
+                                <br>
+                                y Supervisión de Mantenimiento.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-7 ">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-7">
                     <img :src="test" class="customer__section1__image">
                 </div>
             </div>
         </div>
         <div class="customer__section2">
             <div class="row">
-                <div class="col-7 ">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-7">
                     <img :src="test" class="customer__section1__image">
                 </div>
-                <div class="col-5 align-self-center">
-                    <p class="customer__section2__title">
-                        Nova Capital
-                        <br>
-                        Humano
-                    </p>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 align-self-center">
+                    <div class="container mt-5 mb-5">
+                        <div class="row customer__section2__row">
+                            <div class="col-12">
+                                <p class="customer__section2__title">
+                                    Nova Capital
+                                    <br>
+                                    Humano
+                                </p>
 
-                    <p class="customer__section2__description">
-                        Te asesoran integralmente en relación a tu recurso humano,
-                        <br>
-                        con la finalidad de organizar, gestionar, atraer, monitorear y capitalizar
-                        <br>
-                        el talento de tu empresa.
-                    </p>
+                                <p class="customer__section2__description">
+                                    Te asesoran integralmente en relación a tu recurso humano,
+                                    <br>
+                                    con la finalidad de organizar, gestionar, atraer, monitorear y capitalizar
+                                    <br>
+                                    el talento de tu empresa.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="customer__section1">
             <div class="row">
-                <div class="col-5 align-self-center">
-                    <p class="customer__section1__title">
-                        Tractobull
-                    </p>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 align-self-center">
+                    <div class="container mt-5 mb-5">
+                        <div class="row customer__section1__row">
+                            <div class="col-12">
+                                <p class="customer__section1__title">
+                                    Tractobull
+                                </p>
 
-                    <p class="customer__section1__description">
-                        Empresa mexicana dedicada a la fabricación
-                        <br>
-                        y comercialización de partes y accesorios
-                        <br>
-                        para tracto camión en territorio Nacional
-                        <br>
-                        y extranjero con una experiencia de más de
-                        <br>
-                        30 años en el ramo,siempre manteniendo el
-                        <br>
-                        enfoque en cubrir las necesidades de nuestros
-                        <br>
-                        clientes día con día a través de un servicio de excelencia.
-                    </p>
+                                <p class="customer__section1__description">
+                                    Empresa mexicana dedicada a la fabricación
+                                    <br>
+                                    y comercialización de partes y accesorios
+                                    <br>
+                                    para tracto camión en territorio Nacional
+                                    <br>
+                                    y extranjero con una experiencia de más de
+                                    <br>
+                                    30 años en el ramo,siempre manteniendo el
+                                    <br>
+                                    enfoque en cubrir las necesidades de nuestros
+                                    <br>
+                                    clientes día con día a través de un servicio de excelencia.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-7 ">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-7 ">
                     <img :src="test" class="customer__section1__image">
                 </div>
             </div>
@@ -171,11 +203,11 @@
 <script>
 
 import video1 from 'ASSETS/business-investigation/video/consultoria-en-guadalajara-1'
-import image1 from 'ASSETS/customer/image/client/GEG'
-import image2 from 'ASSETS/customer/image/client/nova'
-import image3 from 'ASSETS/customer/image/client/Movalia'
-import image4 from 'ASSETS/customer/image/client/MariaElenamendoza'
-import image5 from 'ASSETS/customer/image/client/tdmex'
+import image1 from 'ASSETS/customer/image/client/geg-logo'
+import image2 from 'ASSETS/customer/image/client/nova-logo'
+import image3 from 'ASSETS/customer/image/client/movalia-logo'
+import image4 from 'ASSETS/customer/image/client/mariaelena-logo'
+import image5 from 'ASSETS/customer/image/client/tdmex-logo'
 import test from 'ASSETS/global/test'
 
 
@@ -218,6 +250,14 @@ export default {
         width: 100%;
     }
 
+    .video-title {
+        position: absolute;
+        color: #fff;
+        top: 200px;
+        left: 100px;
+        font-size: 30px;
+    }
+
     body {
         background: #fff;;
     }
@@ -228,10 +268,9 @@ export default {
     }
 
     #logoMarqueeSection {
-        max-width: 1920px!important;
         margin: 0 auto;
-        position: absolute;
-        top: 700px;
+        position: relative;
+        bottom: 100px;
     }
 
     .default-content-container {
@@ -239,9 +278,6 @@ export default {
         margin-right: auto;
         margin-top: 0;
         margin-bottom: 0;
-        padding-top: 4.5rem;
-        padding-bottom: 4.5rem;
-        width: 100%;
     }
 
     div.marquee>a>img {
@@ -255,9 +291,9 @@ export default {
     }
 
     .marquee-wrapper {
+        max-width: 100%;
         display:  inline-block;
         white-space: nowrap;
-        max-width: 1580px;
     }
 
     .marquee {
@@ -293,18 +329,18 @@ export default {
     .customer {
 
         &__section1 {
+
+            &__row {
+                padding-left: 100px;
+                padding-right: 100px;
+            }
+
             &__title {
-                position: relative;
                 font-size: 40px;
-                bottom: 30px;
-                margin-left: 100px;
             }
 
             &__description {
-                position: relative;
                 font-size: 15px;
-                top: 20px;
-                margin-left: 100px;
             }
 
             &__image {
@@ -313,26 +349,57 @@ export default {
         }
 
         &__section2 {
+
+            &__row {
+                padding-left: 100px;
+                padding-right: 100px;
+            }
+
             &__title {
-                position: relative;
                 font-size: 40px;
-                bottom: 30px;
-                margin-left: 100px;
             }
 
             &__description {
-                position: relative;
                 font-size: 15px;
-                top: 20px;
-                margin-left: 100px;
             }
 
             &__image {
                 max-width: 100%;
             }
         }
+    }
 
+    @media (min-width: 769px) AND (max-width: 992px) {
+        .customer__section1__row {
+            padding-left: 50px !important;
+            padding-right: 50px !important;
+        }
 
+        .customer__section2__row {
+            padding-left: 50px !important;
+            padding-right: 50px !important;
+        }
+
+        #logoMarqueeSection {
+            bottom: 150px !important;
+        }
+
+    }
+
+    @media (min-width: 380px) AND (max-width: 768px) {
+        .customer__section1__row {
+            padding-left: 50px !important;
+            padding-right: 50px !important;
+        }
+
+        .customer__section2__row {
+            padding-left: 50px !important;
+            padding-right: 50px !important;
+        }
+
+        #logoMarqueeSection {
+            bottom: 150px !important;
+        }
 
     }
 

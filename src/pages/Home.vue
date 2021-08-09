@@ -1,9 +1,9 @@
 <template>
     <div id="player-overlay">
-        <video loop muted autoplay class="videofull" v-if="video1 !== null">
+        <video loop muted autoplay class="videofull" id="video1">
             <source :src="video1" type="video/mp4" />
         </video>
-        <video loop muted autoplay class="videofull" v-if="video2 !== null">
+        <video loop muted autoplay class="videofull" id="video2">
             <source :src="video2" type="video/mp4" />
         </video>
     </div>
@@ -19,52 +19,23 @@ export default {
     name: 'home',
     data() {
         return {
-            consultores,
-            consultoresm,
-            video1: null,
-            video2: null,
-            windowWidth: window.innerWidth
+            video1: consultores,
+            video2: consultoresm,
         }
     },
     watch: {
-        windowWidth(newWidth, oldWidth) {
 
-            if(newWidth > 768) {
-                console.log(1)
-                this.video1 = consultores
-                this.video2 = null
-            }
-            else {
-                this.video2 = consultoresm
-                this.video1 = null
-            }
-
-            console.log(this.video1)
-
-            this.windowWidth = newWidth
-        }
     },
     methods: {
-        onResize() {
-            this.windowWidth = window.innerWidth
-        },
+
     },
 
     mounted() {
-        if(this.windowWidth > 768) {
-            this.video1 = consultores
-            this.video2 = null
-        }
-        else {
-            this.video2 = consultoresm
-            this.video1 = null
-        }
 
-        window.addEventListener('resize', this.onResize);
 
     },
     beforeDestroy() {
-        window.removeEventListener('resize', this.onResize);
+
     },
 }
 </script>
@@ -90,6 +61,14 @@ export default {
         width: 100%;
     }
 
+    #video1 {
+        display: block;
+    }
+
+    #video2 {
+        display: none;
+    }
+
 
     @media (min-width: 380px) AND (max-width: 768px) {
         #player-overlay {
@@ -97,6 +76,14 @@ export default {
                 padding-top: 120%;
 
             }
+        }
+
+        #video1 {
+            display: none !important;
+        }
+
+        #video2 {
+            display: block !important;
         }
     }
 
