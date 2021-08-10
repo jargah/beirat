@@ -94,11 +94,13 @@
             <div class="container-fluid we-are__section4">
 
                 <div class="row">
-                    <div class="col-12 col-sm-12 col-sm-6 col-lg-6">
+                    <div class="col-12 col-sm-12 col-sm-6 col-lg-8">
                          <p class="we-are__section4__title font-futura">
                             CUANDO UN PROBLEMA ES REALMENTE IMPORTANTE ES MUY PROBABLE
                             QUE EL CONSUMIDOR <strong>YA LO ESTÉ RESOLVIENDO DE ALGUNA MANERA</strong>
                         </p>
+                    </div>
+                    <div class="col-12 col-sm-12 col-sm-6 col-lg-6">
 
                         <p class="we-are__section4__description font-basic">
                             En esos casos, debemos cuestionarnos si hay alguna manera

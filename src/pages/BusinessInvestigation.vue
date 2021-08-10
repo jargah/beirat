@@ -1,11 +1,50 @@
 <template>
     <section class="business">
-        <videofull class="mtb-5" :src="video1" padding="4"></videofull>
+        <div id="player-overlay" >
+            <video loop muted autoplay class="videofull">
+                <source :src="video1" type="video/mp4" />
+            </video>
 
-        <div class="container-fluid business__section1">
+            <div class="video-text">
+                <div class="row mb-5">
+                    <div class="col-">
+                        <p class="video-text__title">
+                            INVESTIGACIÓN EN
+                            <br>
+                            NEGOCIOS
+                        </p>
+                    </div>
+                </div>
+                <div class="row mt-5 mb-5">
+                    <div class="col-">
+                        <p class="video-text__subtitle">
+                            En el fondo de nuestro corazón somos científicos.
+                        </p>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12">
+                        <p class="video-text__description">
+                            Creemos que como hacemos una cosa hacemos todas,
+                            <br>
+                            pues el cerebro es una red neural holística que recicla
+                            <br>
+                            los mismos patrones para distintas tareas. Por ende,
+                            <br>
+                            no podemos evitar usar el método científico a la hora
+                            <br>
+                            de hacer negocios.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid business__section1 mt-5">
             <div class="container">
-                <div class="row mb-1">
-                    <div class="col-12 align-self-center">
+                <div class="row mb-5">
+                    <div class="col-12 align-self-center mt-5">
                         <p class="font-futura business__section1__title">
                             Como empresas, nuestro trabajo es activar todo nuestro cerebro para que elconsumidor no tenga que pensar.
                         </p>
@@ -35,7 +74,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="container">
-                        <div class="row">
+                        <div class="row mt-5 mb-5">
                             <div class="col-12">
                                     <p class="business__section2__title font-futura">
                                         CUANDO UN PROBLEMA ES REALMENTE IMPORTANTE ES MUY PROBABLE QUE EL CONSUMIDOR YA LO ESTÉ RESOLVIENDO DE ALGUNA MANERA
@@ -160,6 +199,46 @@ export default {
 </script>
 
 <style lang="scss">
+
+    #player-overlay {
+        position: relative;
+
+        &:before {
+            content:'';
+            display: block;
+            padding-top: 50%;
+
+        }
+    }
+
+    .videofull {
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+    }
+
+    .video-text {
+        position: absolute;
+        color: rgb(0, 0, 0);
+        top: 170px;
+        right: 300px;
+
+        &__title {
+            font-size: 60px
+        }
+
+        &__subtitle {
+            font-size: 26px;
+            font-weight: bold;
+        }
+
+        &__description{
+            font-size: 26px;
+        }
+    }
 
     .animation-we-are {
         width: 84px;
@@ -300,9 +379,9 @@ export default {
         }
     }
 
+    @media (min-width: 992px) {
 
 
-    @media (min-width: 769px) AND (max-width: 992px) {
         .mobile-investigation {
             background: #C4C4C4 !important;
         }
@@ -313,10 +392,39 @@ export default {
 
         .mobile-investigation-image {
             filter: invert(1);
+        }
+
+        .video-text {
+            right: 100px !important;
+
+            &__title {
+                font-size: 40px !important;
+            }
+
+            &__subtitle {
+                font-size: 20px !important;
+            }
+
+            &__description {
+                font-size: 20px !important;
+            }
         }
     }
 
-    @media (min-width: 380px) AND (max-width: 768px) {
+
+    @media (min-width: 769px) AND (max-width: 991px) {
+
+        video {
+            display: none;
+        }
+
+        #player-overlay {
+            &:before {
+                padding-top: 80%;
+
+            }
+        }
+
         .mobile-investigation {
             background: #C4C4C4 !important;
         }
@@ -327,6 +435,97 @@ export default {
 
         .mobile-investigation-image {
             filter: invert(1);
+        }
+
+        .video-text {
+            right: 300px !important;
+
+            &__title {
+                font-size: 30px !important;
+            }
+
+            &__subtitle {
+                font-size: 15px !important;
+            }
+
+            &__description {
+                font-size: 15px !important;
+            }
+        }
+    }
+
+    @media (min-width: 620px) AND (max-width: 768px) {
+
+        #player-overlay {
+            &:before {
+                padding-top: 100%;
+
+            }
+        }
+
+        video {
+            display: none;
+        }
+
+
+        .video-text {
+
+            right: 200px !important;
+
+            &__title {
+                font-size: 30px !important;
+            }
+
+            &__subtitle {
+                font-size: 15px !important;
+            }
+
+            &__description {
+                font-size: 15px !important;
+            }
+        }
+    }
+
+    @media (min-width: 380px) AND (max-width: 619px) {
+
+        #player-overlay {
+            &:before {
+                padding-top: 140%;
+
+            }
+        }
+
+        video {
+            display: none;
+        }
+
+        .mobile-investigation {
+            background: #C4C4C4 !important;
+        }
+
+        .business__section2__row__item {
+            color: #fff;
+        }
+
+        .mobile-investigation-image {
+            filter: invert(1);
+        }
+
+        .video-text {
+
+            right: 100px !important;
+
+            &__title {
+                font-size: 30px !important;
+            }
+
+            &__subtitle {
+                font-size: 15px !important;
+            }
+
+            &__description {
+                font-size: 15px !important;
+            }
         }
     }
 </style>

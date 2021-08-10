@@ -4,26 +4,24 @@
         <div class="container-fluid scalability__section1">
             <div class="row">
                 <div class="col-12">
-                    <div class="container">
-                        <div class="row scalability__section1__row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-7 d-flex justify-content-end scalability__section1__row__computer">
-                                <video loop muted autoplay class="business__section1__video" style="max-width: 100%;">
-                                    <source :src="video1" type="video/mp4" />
-                                </video>
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-5 align-self-center ">
-                                <p class="scalability__section1__title font-basic mb-4">
-                                    DIAGNÓSTICO EMPRESARIAL
-                                </p>
-                                <p class="scalability__section1__description font-basic mt-5">
-                                    Cuando contamos con un producto o servicio ya establecido, y comprendemos
-                                    la visión a futuro de nuestra compañía, pero no hemos logrado un crecimiento
-                                    ordenado, sistematizado y automatizado, en el que las problemáticas
-                                    de operación son el día a día, a menudo la razón de la falta de resultados
-                                    es la ausencia de información científicamente fundada que nos permita tomar
-                                    mejores decisiones en nuestro negocio.
-                                </p>
-                            </div>
+                    <div class="row scalability__section1__row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-7 d-flex justify-content-end scalability__section1__row__computer d-flex justify-content-center">
+                            <video loop muted autoplay class="business__section1__video" style="max-width: 100%;">
+                                <source :src="video1" type="video/mp4" />
+                            </video>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-5 align-self-center ">
+                            <p class="scalability__section1__title font-basic mb-4 d-flex justify-content-center">
+                                DIAGNÓSTICO EMPRESARIAL
+                            </p>
+                            <p class="scalability__section1__description font-basic mt-5 d-flex justify-content-center">
+                                Cuando contamos con un producto o servicio ya establecido, y comprendemos
+                                la visión a futuro de nuestra compañía, pero no hemos logrado un crecimiento
+                                ordenado, sistematizado y automatizado, en el que las problemáticas
+                                de operación son el día a día, a menudo la razón de la falta de resultados
+                                es la ausencia de información científicamente fundada que nos permita tomar
+                                mejores decisiones en nuestro negocio.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -42,7 +40,7 @@
                     </div>
                 </div>
                 <div class="row scalability__section2__row2">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 mb-5">
                         <p class="font-basic scalability__section2__description">
                             Son aquellas que anticipan
                             <br>
@@ -52,7 +50,7 @@
                         </p>
                     </div>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-6">
-                        <video loop muted autoplay class="scalability__section2__video" style="max-width: 100%;">
+                        <video loop muted autoplay class="scalability__section2__video mt-5" style="max-width: 100%;">
                             <source :src="video2" type="video/mp4" />
                         </video>
                     </div>
@@ -419,6 +417,8 @@ export default {
 
         &__section4 {
 
+            background: #000;
+            color: #fff;
 
             &__title {
                 padding-left: 50px;
@@ -445,7 +445,6 @@ export default {
                     left: 100px;
                     top: 50px;
                     font-size: 22px;
-                    color: #717271;
                 }
 
             }
@@ -457,8 +456,6 @@ export default {
 
         &__section5 {
 
-            background: #000;
-            color: #fff;
 
             &__title {
                 padding-left: 50px;
@@ -492,6 +489,8 @@ export default {
 
         &__section6 {
 
+            background: #000;
+            color: #fff;
 
             &__title {
                 padding-left: 50px;
@@ -514,7 +513,6 @@ export default {
                 &__description {
                     font-size: 22px;
                     top: 15px;
-                    color: #717271;
                 }
 
             }
@@ -525,11 +523,6 @@ export default {
         }
 
         &__section7 {
-
-
-            background: #000;
-            color: #fff;
-
 
             &__title {
                 padding-left: 50px;
@@ -564,6 +557,8 @@ export default {
 
         &__section8 {
 
+            background: #000;
+            color: #fff;
 
             &__title {
                 padding-left: 50px;
@@ -586,7 +581,6 @@ export default {
 
                 &__description {
                     font-size: 22px;
-                    color: #717271;
                 }
 
             }
@@ -597,7 +591,34 @@ export default {
         }
     }
 
-    @media (min-width: 769px) AND (max-width: 992px) {
+    @media (min-width: 992px) {
+
+
+        .scalability__section3__row {
+            padding-left: 50px !important;
+            padding-right: 50px !important;
+
+            &__title {
+                font-size: 40px !important;
+            }
+
+            &__description {
+                font-size: 25px !important;
+            }
+
+            &__ul {
+
+                font-size: 23px !important;
+
+            }
+        }
+
+
+
+
+    }
+
+    @media (min-width: 769px) AND (max-width: 991px) {
         .scalability__section1__title {
             padding-left: 30px;
             padding-right: 30px;

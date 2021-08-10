@@ -128,7 +128,7 @@
         <div class="digital__section3">
             <div class="row">
                 <div class="col-12 align-self-center">
-                    <img :src="image2" style="max-width: 100%;">
+                    <img :src="image2" style="max-width: 100%; min-width: 100%;">
                 </div>
             </div>
         </div>
@@ -203,11 +203,11 @@ export default {
         &__section1 {
 
             &__title {
-                font-size: 50px;
+                font-size: 60px;
             }
 
             &__description {
-                font-size: 20px;
+                font-size: 30px;
             }
 
             &__row {
@@ -236,11 +236,11 @@ export default {
             color: #fff;
 
             &__title {
-                font-size: 30px;
+                font-size: 40px;
             }
 
             &__description {
-                font-size: 15px;
+                font-size: 20px;
             }
 
             &__row {
@@ -311,18 +311,13 @@ export default {
         &__section5 {
 
             &__title {
-                font-size: 20px;
+                font-size: 35px;
             }
 
             &__description {
                 font-size: 15px;
             }
 
-            &__row {
-                padding-left: 100px;
-                padding-right: 100px;
-
-            }
 
         }
 
@@ -335,11 +330,11 @@ export default {
             }
 
             &__description {
-                font-size: 20px;
+                font-size: 40px;
             }
 
             &__subtitle {
-                font-size: 25px;
+                font-size: 35px;
             }
 
             &__row {
@@ -391,7 +386,7 @@ export default {
     }
 
     @media (min-width: 380px) AND (max-width: 768px) {
-        .digital__section1__row, .digital__section2__row, .digital__section3__row, .digital__section4__row, .digital__section6__row {
+        .digital__section1__row, .digital__section2__row, .digital__section3__row, .digital__section4__row, .digital__section5__row, .digital__section6__row {
             padding-left: 50px;
             padding-right: 50px;
         }
