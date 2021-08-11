@@ -5,12 +5,12 @@
             <div class="row">
                 <div class="col-12">
                     <div class="row scalability__section1__row">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-7 d-flex justify-content-end scalability__section1__row__computer d-flex justify-content-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 d-flex justify-content-end scalability__section1__row__computer d-flex justify-content-center">
                             <video loop muted autoplay class="business__section1__video" style="max-width: 100%;">
                                 <source :src="video1" type="video/mp4" />
                             </video>
                         </div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-5 align-self-center ">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 align-self-center ">
                             <p class="scalability__section1__title font-basic mb-4 d-flex justify-content-center">
                                 DIAGNÓSTICO EMPRESARIAL
                             </p>
@@ -29,31 +29,33 @@
         </div>
 
         <div class="container-fluid scalability__section2">
-            <div class="container mb-5">
-                <div class="row scalability__section2__row">
-                    <div class="col-12 align-self-center scalability__section2__row__text">
-                        <p class="scalability__section2__title font-basic">
-                            CREEMOS QUE LAS EMPRESAS DISRUPTIVAS
-                            <br>
-                            CAMBIAN EL JUEGO POR COMPLETO
-                        </p>
-                    </div>
-                </div>
-                <div class="row scalability__section2__row2">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 mb-5">
-                        <p class="font-basic scalability__section2__description">
-                            Son aquellas que anticipan
-                            <br>
-                            los problemas antes de que existan 
-                            <br>
-                            o de que el mercado se dé cuenta que los tiene.
-                        </p>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
-                        <video loop muted autoplay class="scalability__section2__video mt-5" style="max-width: 100%;">
-                            <source :src="video2" type="video/mp4" />
-                        </video>
-                    </div>
+            <div class="row">
+                <div class="col-12">
+                        <div class="row scalability__section2__row">
+                            <div class="col-12 align-self-center scalability__section2__row__text">
+                                <p class="scalability__section2__title font-basic">
+                                    CREEMOS QUE LAS EMPRESAS DISRUPTIVAS
+                                    <br>
+                                    CAMBIAN EL JUEGO POR COMPLETO
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row scalability__section2__row2">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 mb-5">
+                                <p class="font-basic scalability__section2__description">
+                                    Son aquellas que anticipan
+                                    <br>
+                                    los problemas antes de que existan 
+                                    <br>
+                                    o de que el mercado se dé cuenta que los tiene.
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                <video loop muted autoplay class="scalability__section2__video mt-5" style="max-width: 100%;">
+                                    <source :src="video2" type="video/mp4" />
+                                </video>
+                            </div>
+                        </div>
                 </div>
             </div>
         </div>
@@ -147,12 +149,15 @@
 
         <div class="scalability__section5">
             <div class="row">
+                <div class="col-12 col-12 col-sm-12 col-md-12 col-lg-6">
+                    <img :src="image2" class="scalability__section5__image">
+                </div>
                 <div class="col-12 col-12 col-sm-12 col-md-12 col-lg-6 align-self-center">
                     <div class="container">
                         <div class="row scalability__section5__row">
                             <div class="col-12 mb-5">
                                 <p class="font-futura mt-5 scalability__section5__row__title">
-                                    ¿QUIERES VENDER MÁS?
+                                    ¿QUIERES REDUCIR GASTOS?
                                 </p>
 
                                 <p class="font-futura mt-5 scalability__section5__row__description">
@@ -164,9 +169,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-12 col-sm-12 col-md-12 col-lg-6">
-                    <img :src="image2" class="scalability__section5__image">
                 </div>
             </div>
         </div>
@@ -313,12 +315,12 @@ export default {
             margin-bottom: 100px;
 
             &__title {
-                font-size: 40px;
+                font-size: 70px;
 
             }
 
             &__description {
-                font-size: 15px;
+                font-size: 26px;
             }
 
             &__row {
@@ -342,16 +344,16 @@ export default {
 
         &__section2 {
 
-            padding-left: 50px;
-            padding-right: 50px;
+            padding-left: 80px;
+            padding-right: 80px;
 
 
             &__title {
-                font-size: 30px;
+                font-size: 40px;
             }
 
             &__description {
-                font-size: 27px;
+                font-size: 40px;
                 top: 121px;
                 position: relative;
                 color: #717271;
@@ -417,9 +419,6 @@ export default {
 
         &__section4 {
 
-            background: #000;
-            color: #fff;
-
             &__title {
                 padding-left: 50px;
                 position: relative;
@@ -437,14 +436,14 @@ export default {
                 &__title {
                     position: relative;
                     left: 100px;
-                    font-size: 35px;
+                    font-size: 40px;
                 }
 
                 &__description {
                     position: relative;
                     left: 100px;
                     top: 50px;
-                    font-size: 22px;
+                    font-size: 30px;
                 }
 
             }
@@ -473,11 +472,11 @@ export default {
 
 
                 &__title {
-                    font-size: 35px;
+                    font-size: 40px;
                 }
 
                 &__description {
-                    font-size: 22px;
+                    font-size: 30px;
                 }
 
             }
@@ -507,11 +506,11 @@ export default {
                 padding-right: 100px;
 
                 &__title {
-                    font-size: 35px;
+                    font-size: 40px;
                 }
 
                 &__description {
-                    font-size: 22px;
+                    font-size: 30px;
                     top: 15px;
                 }
 
@@ -539,12 +538,12 @@ export default {
                 padding-right: 100px;
 
                 &__title {
-                    font-size: 35px;
+                    font-size: 40px;
                     bottom: 15px;
                 }
 
                 &__description {
-                    font-size: 22px;
+                    font-size: 30px;
                     top: 15px;
                 }
 
@@ -575,12 +574,12 @@ export default {
                 padding-right: 100px;
 
                 &__title {
-                    font-size: 35px;
+                    font-size: 40px;
                     bottom: 15px;
                 }
 
                 &__description {
-                    font-size: 22px;
+                    font-size: 30px;
                 }
 
             }

@@ -1,17 +1,13 @@
 <template>
     <div>
-        <div id="player-overlay">
-            <video loop muted autoplay class="videofull">
-                <source :src="consultores" type="video/mp4" />
-            </video>
-        </div>
+        <video-weare></video-weare>
         <section class="we-are">
             <div class="container-fluid we-are__section1">
-                <div class="row mb-1">
+                <div class="row mt-5 mb-5">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-7 align-self-center">
                         <p class="font-futura font-futura__power">
-                            EL PODER DEL <b>CONOCIMIENTO</b> ES EL ELEMENTO
-                            <b>FUNDAMENTAL PARA EL ÉXITO DE LOS NEGOCIOS</b>
+                            EL PODER DEL <b style="font-style: normal; font-weight: bold;">CONOCIMIENTO</b> ES EL ELEMENTO
+                            <span style="font-weight: bold;">FUNDAMENTAL PARA EL ÉXITO DE LOS NEGOCIOS</span>
                         </p>
                     </div>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-5 d-flex justify-content-end mt-5 ">
@@ -43,23 +39,30 @@
 
             </div>
 
-            <div class="container-fluid we-are__section2">
+            <div class="container-fluid we-are__section2 mb-5">
 
-                <div class="row">
-                    <div class="col-12 col-sm-12 col-sm-6 col-lg-6">
-                        <p class="we-are__section2__title font-futura">
-                            EL PODER DEL CONOCIMIENTO ES EL ELEMENTO
-                            FUNDAMENTAL PARA EL ÉXITO DE LOS NEGOCIOS
-                        </p>
-
-                        <p class="we-are__section2__description font-basic">
-                            Encapsulamos soluciones estratégicas que resuelven
-                            problemáticas específicas dentro de las organizaciones.
-                        </p>
+                <div class="row mt-5 mb-5">
+                    <div class="col-12 col-sm-12 col-sm-12 col-lg-8 mt-5 mb-5">
+                        <div class="container">
+                            <div class="row we-are__section2__row">
+                                <div class="col-12 mt-5 mb-5">
+                                    <p class="we-are__section2__title font-futura mt-5 mb-5">
+                                        EL PODER DEL CONOCIMIENTO ES EL ELEMENTO
+                                        FUNDAMENTAL PARA EL ÉXITO DE LOS NEGOCIOS
+                                    </p>
+                                </div>
+                                <div class="col-12 mt-5">
+                                    <p class="we-are__section2__description font-basic mt-5 mb-5">
+                                        Encapsulamos soluciones estratégicas que resuelven
+                                        problemáticas específicas dentro de las organizaciones.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="row mb-1">
-                    <div class="col-12 col-sm-12 col-sm-6 col-lg-6">
+                <div class="row mb-5">
+                    <div class="col-12">
                         <video loop muted autoplay class="we-are__section2__video">
                             <source :src="video2" type="video/mp4" />
                         </video>
@@ -69,16 +72,22 @@
             </div>
 
             <div class="container-fluid we-are__section3">
-
                 <div class="row">
-                    <div class="col-12 col-sm-12 col-sm-6 col-lg-6">
-                        <p class="we-are__section3__title font-basic">
-                            ¿QUE HACE POSIBLE TU TAZA DE CAFÉ?
-                        </p>
-
-                        <p class="we-are__section3__description font-basic">
-                            Desde el cultivo, tostado hasta el comercio.
-                        </p>
+                    <div class="col-12 col-sm-12 col-sm-12 col-lg-8">
+                        <div class="container">
+                            <div class="row we-are__section3__row">
+                                <div class="col-12 mt-5 mb-5">
+                                    <p class="we-are__section3__title font-basic">
+                                        ¿QUE HACE POSIBLE TU TAZA DE CAFÉ?
+                                    </p>
+                                </div>
+                                <div class="col-12 mt-2 mb-5">
+                                    <p class="we-are__section3__description font-basic">
+                                        Desde el cultivo, tostado hasta el comercio.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="row mb-1">
@@ -95,18 +104,30 @@
 
                 <div class="row">
                     <div class="col-12 col-sm-12 col-sm-6 col-lg-8">
-                         <p class="we-are__section4__title font-futura">
-                            CUANDO UN PROBLEMA ES REALMENTE IMPORTANTE ES MUY PROBABLE
-                            QUE EL CONSUMIDOR <strong>YA LO ESTÉ RESOLVIENDO DE ALGUNA MANERA</strong>
-                        </p>
+                        <div class="container">
+                            <div class="row we-are__section4__row">
+                                <div class="col-12 mt-5 mb-5">
+                                    <p class="we-are__section4__title font-futura">
+                                        CUANDO UN PROBLEMA ES REALMENTE IMPORTANTE ES MUY PROBABLE
+                                        QUE EL CONSUMIDOR <strong>YA LO ESTÉ RESOLVIENDO DE ALGUNA MANERA</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-sm-6 col-lg-6">
+                    <div class="col-12 col-sm-12 col-sm-6 col-lg-8">
 
-                        <p class="we-are__section4__description font-basic">
-                            En esos casos, debemos cuestionarnos si hay alguna manera
-                            de hacerlo mejor o por menos dinero.
-                            ¿Cómo saberlo?, a través del método científico.
-                        </p>
+                        <div class="container">
+                            <div class="row we-are__section4__row">
+                                <div class="col-12 mt-5">
+                                    <p class="we-are__section4__description font-basic">
+                                        En esos casos, debemos cuestionarnos si hay alguna manera
+                                        de hacerlo mejor o por menos dinero.
+                                        ¿Cómo saberlo?, a través del método científico.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="row mb-1">
@@ -249,7 +270,7 @@
 
 <script>
 
-import consultores from 'ASSETS/home/consultores-de-negocios-en-guadalajara'
+import video_weare from '@/components/video/home'
 import video1 from 'ASSETS/we-are/video/consultores-de-empresas-formula'
 import video2 from 'ASSETS/we-are/video/empresas-de-consultoria-organizacion'
 import video3 from 'ASSETS/we-are/video/consultores-de-empresa-en-guadalajara-proceso'
@@ -273,16 +294,14 @@ import animation12 from 'ASSETS/we-are/gif/empresas-consultoras-gdl-1'
 import animation13 from 'ASSETS/we-are/gif/asesores_de_negocios-2'
 
 //import animation6 from 'ASSETS/we-are/gif/asesoria-de-negocios-en-guadalajara-4'
-import videofull from 'COMPONENTS/media/videofull'
 
 export default {
     name: 'we-are',
     components: {
-        videofull
+        'video-weare': video_weare
     },
     data() {
         return {
-            consultores,
             video1,
             video2,
             video3,
@@ -307,29 +326,11 @@ export default {
 
 <style lang="scss">
 
-.video_formula {
-    max-width: 100%;
-}
-
-#player-overlay {
-        position: relative;
-
-        &:before {
-            content:'';
-            display: block;
-            padding-top: 50%;
-
-        }
+    .video_formula {
+        max-width: 100%;
+        min-width: 100%;
     }
 
-    .videofull {
-        bottom: 0;
-        left: 0;
-        position: absolute;
-        right: 0;
-        top: 0;
-        width: 100%;
-    }
 
     @media (min-width: 769px) AND (max-width: 992px) {
         .font-futura {
@@ -382,74 +383,70 @@ export default {
         background: #fff;
 
         &__section1 {
-            position: relative;
-            top: 150px;
-            padding-bottom: 160px;
-            /* margin-top: 30px; */
-            /* margin-bottom: 100px; */
             padding-left: 70px;
             padding-right: 70px;
         }
 
         &__section2 {
             background: #000;
-            margin-top: 30px;
-            margin-bottom: 100px;
-            padding-bottom: 100px;
+            padding-bottom: 50px;
+
+            &__row {
+                padding-left: 50px;
+                padding-right: 50px;
+            }
 
             color: #fff;
 
             &__title {
-                padding-top: 70px;
-                font-size: 35px;
-                padding-left: 100px;
+
+                font-size: 40px;
             }
 
             &__description {
-                padding-top: 30px;
-                font-size: 23px;
-                padding-left: 100px;
+                font-size: 26px;
             }
 
             &__video {
-                width: 100%;
+                max-width: 100%;
+                min-width: 100%;
             }
         }
 
         &__section3 {
-            margin-top: 30px;
-            margin-bottom: 10px;
+
+            &__row {
+                padding-left: 50px;
+                padding-right: 50px;
+            }
 
             &__title {
-                padding-top: 20px;
-                font-size: 35px;
-                padding-left: 100px;
+                font-size: 40px;
             }
 
             &__description {
-                padding-top: 30px;
-                font-size: 23px;
-                padding-left: 100px;
+                font-size: 26px;
             }
 
             &__video {
-                width: 100%;
+                max-width: 100%;
+                min-width: 100%;
             }
         }
 
         &__section4 {
-            margin-top: 30px;
+
+            &__row {
+                padding-left: 50px;
+                padding-right: 50px;
+            }
 
             &__title {
-                padding-top: 20px;
-                font-size: 35px;
-                padding-left: 100px;
+                font-size: 40px;
             }
 
             &__description {
-                padding-top: 30px;
-                font-size: 23px;
-                padding-left: 100px;
+                font-size: 26px;
             }
 
             &__video {
@@ -472,7 +469,7 @@ export default {
 
                 &__title {
                     color: #fff;
-                    font-size: 35px;
+                    font-size: 40px;
                     margin-top: 6rem !important;
                 }
             }
@@ -488,7 +485,7 @@ export default {
                 &__title {
                     position: relative;
                     color: #717271;
-                    font-size: 24px;
+                    font-size: 31px;
                 }
 
                 &__items {
@@ -503,19 +500,19 @@ export default {
     .font-basic {
         &__weare {
             &__item1{
-                font-size: 20px;
+                font-size: 26px;
             }
 
             &__item2{
-                font-size: 20px;
+                font-size: 26px;
             }
         }
     }
 
     .font-futura {
         &__power {
-            font-family: 'BasicCommercial LT Com Roman' !important;
-            font-size: 34px;
+
+            font-size: 40px;
         }
     }
 </style>

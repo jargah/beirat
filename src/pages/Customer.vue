@@ -44,7 +44,7 @@
         </div>
 
         <div class="customer__section1">
-            <div class="row">
+            <div class="row mt-5">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-5 align-self-center">
                     <div class="container">
                         <div class="row customer__section1__row">
@@ -53,7 +53,7 @@
                                     TDMEX
                                 </p>
 
-                                <p class="customer__section1__description mb-5">
+                                <p class="customer__section1__description mb-6">
                                     Empresa comprometida con sus clientes y con el objetivo principal
                                     <br>
                                     de prestarles el mejor servicio de carga terrestre.
@@ -66,19 +66,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-12 col-md-12 col-lg-7 mt-2">
-                    <img :src="test" class="customer__section1__image">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-7 mt-4">
+                    <img :src="test" class="customer__section1__image" style="max-width: 100%; min-width: 100%;">
                 </div>
             </div>
         </div>
         <div class="customer__section2">
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-7">
-                    <img :src="test" class="customer__section1__image">
+                    <img :src="test" class="customer__section1__image" style="max-width: 100%; min-width: 100%;">
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-5 align-self-center">
                     <div class="container">
-                        <div class="row customer__section2__row mt-5 mb-5">
+                        <div class="row customer__section2__row ">
                             <div class="col-12">
                                 <p class="customer__section2__title">
                                     GREAT  EXPERIENCE
@@ -104,7 +104,7 @@
         <div class="customer__section1">
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-5 align-self-center">
-                    <div class="container mt-5 mb-5">
+                    <div class="container">
                         <div class="row customer__section1__row">
                             <p class="customer__section1__title">
                                 María Elena
@@ -130,14 +130,14 @@
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-7">
-                    <img :src="test" class="customer__section1__image">
+                    <img :src="test" class="customer__section1__image" style="max-width: 100%; min-width: 100%;">
                 </div>
             </div>
         </div>
         <div class="customer__section2">
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-7">
-                    <img :src="test" class="customer__section1__image">
+                    <img :src="test" class="customer__section1__image" style="max-width: 100%; min-width: 100%;">
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-5 align-self-center">
                     <div class="container mt-5 mb-5">
@@ -164,8 +164,8 @@
         </div>
         <div class="customer__section1">
             <div class="row">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-5 align-self-center">
-                    <div class="container mt-5 mb-5">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-7 align-self-center">
+                    <div class="container">
                         <div class="row customer__section1__row">
                             <div class="col-12">
                                 <p class="customer__section1__title">
@@ -191,8 +191,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-12 col-md-12 col-lg-7 ">
-                    <img :src="test" class="customer__section1__image">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 ">
+                    <img :src="test" class="customer__section1__image" style="max-width: 100%; min-width: 100%;">
                 </div>
             </div>
         </div>
@@ -330,17 +330,18 @@ export default {
 
         &__section1 {
 
+
             &__row {
                 padding-left: 100px;
                 padding-right: 100px;
             }
 
             &__title {
-                font-size: 40px;
+                font-size: 60px;
             }
 
             &__description {
-                font-size: 15px;
+                font-size: 30px;
             }
 
             &__image {
@@ -356,11 +357,11 @@ export default {
             }
 
             &__title {
-                font-size: 40px;
+                font-size: 60px;
             }
 
             &__description {
-                font-size: 15px;
+                font-size: 30px;
             }
 
             &__image {

@@ -29,7 +29,7 @@
         </div>
 
         <div class="container-fluid digital__section2">
-            <div class="row mb-5">
+            <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-6 align-self-center digital__section2__row__text">
                     <div class="container mt-5 mb-3">
                         <div class="row digital__section2__row">
@@ -58,9 +58,9 @@
 
 
         <div class="digital__section3">
-            <div class="row mt-2 mb-5">
+            <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-6 align-self-center">
-                    <img :src="image1" style="max-width: 100%;">
+                    <img :src="image1" style="max-width: 100%; min-width: 100%;">
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-6 align-self-center text-center">
                     <div class="container">
@@ -90,12 +90,13 @@
 
         <div class="container-fluid digital__section4">
             <div class="row">
-                <div class="col-12">
-                    <div class="container">
+                <div class="col-12 mt-5 mb-5">
+                    <div class="container-fluid">
                         <div class="row mt-5 mb-5">
-                            <div class="col-12 align-self-center digital__section4__row">
+                            <div class="col-12 align-self-center digital__section4__row text-center">
                                 <p class="digital__section4__title font-basic">
                                 Complementando nuestras capacidades internas, contamos con múltiples soluciones
+                                <br>
                                 patentadas y una asociación con una de las empresas líderes en tecnología del mundo.
                                 </p>
                             </div>
@@ -240,7 +241,7 @@ export default {
             }
 
             &__description {
-                font-size: 20px;
+                font-size: 26px;
             }
 
             &__row {
@@ -272,11 +273,11 @@ export default {
                 padding-right: 100px;
 
                 &__title {
-                    font-size: 40px;
+                    font-size: 70px;
                 }
 
                 &__description {
-                    font-size: 25px;
+                    font-size: 40px;
                 }
 
             }
@@ -292,7 +293,7 @@ export default {
             color: #fff;
 
             &__title {
-                font-size: 30px;
+                font-size: 40px;
             }
 
             &__description {

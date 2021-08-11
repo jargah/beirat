@@ -1,9 +1,9 @@
 <template>
     <footer class="bg-dark">
         <div class="container-fluid footer">
-            <div class="row">
+            <div class="row mt-5">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-8">
-                    <div class="row">
+                    <div class="row mt-5">
                         <div class="col-12">
                             <p class="footer__content-text__title mb-3 font-footer font-footer__title">
                                 UNLOCK YOUR FULL POTENTIAL.
@@ -64,7 +64,7 @@
                                     custom
                                     v-slot="{ navigate }"
                                 >
-                                    <b-button variant="outline-dark footer__contact__btn font-footer__button" @click="navigate">
+                                    <b-button size="lg" variant="outline-dark footer__contact__btn font-footer__button" @click="navigate">
                                         Contacto
                                     </b-button>
                                 </router-link>
@@ -216,6 +216,7 @@ export default {
                 padding: 0.375rem 3.75rem !important;
                 color: #fff !important;
                 border: 1px solid #fff !important;
+                font-size: 40px;
             }
         }
 
