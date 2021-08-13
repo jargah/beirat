@@ -19,8 +19,8 @@
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-6">
                 <div class="container">
-                    <div class="row row_form">
-                        <div class="12">
+                    <div class="row row_form p-5">
+                        <div class="col-12">
                             <div class="row">
                                 <div class="col-12">
                                     <p class="font-basic label_contact">
@@ -80,24 +80,31 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="row mt-5">
-                                <div class="col-6">
-                                    <p class="font-futura">
-                                        Rubén Darío 586, Prados Providencia
-                                        <br>
-                                        C.P.  44670, Guadalajara, Jalisco.
-                                    </p>
-                                </div>
-                                <div class="col-6">
-                                    <p class="font-futura">
-                                        <a href="https://instagram.com/beirat.mx?utm_medium=copy_link" target="_blank">
-                                            <img :src="instagram" alt="instragram" class="p-2" style="filter: invert(1);">
-                                        </a>
-                                        <img :src="twitter" alt="twitter" class="p-2" style="filter: invert(1);">
-                                        <a href="https://www.linkedin.com/in/beirat-mx-b10355214/" target="_blank">
-                                            <img :src="linkedin" alt="linkedin" class="p-2" style="filter: invert(1);">
-                                        </a>
-                                    </p>
+
+                            <div class="row row_form">
+                                <div class="col-12">
+                                    <div class="row mt-5">
+                                        <div class="col-4">
+                                            <p class="font-futura">
+                                                Rubén Darío 586, Prados Providencia
+                                                <br>
+                                                C.P.  44670, Guadalajara, Jalisco.
+                                            </p>
+                                        </div>
+                                        <div class="col-8 text-right">
+                                            <p class="font-futura">
+                                                <a href="https://instagram.com/beirat.mx?utm_medium=copy_link" target="_blank">
+                                                    <img :src="instagram" alt="instragram" class="p-2" style="filter: invert(1);">
+                                                </a>
+                                                <a href="https://twitter.com/BeiratM?s=09" target="_blank" style="filter: invert(1);">
+                                                    <img :src="twitter" alt="twitter" class="p-2">
+                                                </a>
+                                                <a href="https://www.linkedin.com/in/beirat-mx-b10355214/" target="_blank">
+                                                    <img :src="linkedin" alt="linkedin" class="p-2" style="filter: invert(1);">
+                                                </a>
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

@@ -1,6 +1,6 @@
 <template>
     <header class="v-header container">
-        <div class="fullscreen-video-wrap">+
+        <div class="fullscreen-video-wrap">
             <video loop muted autoplay >
                 <source :src="video1" type="video/mp4" />
             </video>
@@ -48,15 +48,23 @@
 <script>
 
 
-import consultores from 'ASSETS/home/consultores-de-negocios-en-guadalajara'
-import consultoresm from 'ASSETS/home/consultores-de-negocios-en-guadalajara-video-mobile'
+import consultores from 'ASSETS/customer/video/empresas-de-asesoria-guadalajara'
+import image1 from 'ASSETS/customer/image/client/geg-logo'
+import image2 from 'ASSETS/customer/image/client/nova-logo'
+import image3 from 'ASSETS/customer/image/client/movalia-logo'
+import image4 from 'ASSETS/customer/image/client/mariaelena-logo'
+import image5 from 'ASSETS/customer/image/client/tdmex-logo'
 
 export default {
-    name: 'home',
+    name: 'customer',
     data() {
         return {
             video1: consultores,
-            video2: consultoresm,
+            image1,
+            image2,
+            image3,
+            image4,
+            image5,
         }
     },
     watch: {
@@ -83,7 +91,8 @@ export default {
         color: #fff;
         top: 200px;
         left: 100px;
-        font-size: 30px;
+        font-size: 70px;
+        text-align: left !important;
     }
 
     .logoMarqueeSection {
@@ -94,7 +103,8 @@ export default {
     #logoMarqueeSection {
         margin: 0 auto;
         position: relative;
-        bottom: 100px;
+        bottom: 250px;
+        filter: invert(1);
     }
 
     .default-content-container {
@@ -205,7 +215,7 @@ export default {
         }
 
         #logoMarqueeSection {
-            bottom: 150px !important;
+            bottom: 250px !important;
         }
 
     }
@@ -222,7 +232,7 @@ export default {
         }
 
         #logoMarqueeSection {
-            bottom: 150px !important;
+            bottom: 250px !important;
         }
 
     }

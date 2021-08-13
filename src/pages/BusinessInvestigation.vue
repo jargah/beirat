@@ -8,7 +8,7 @@
                 <div class="row mb-5">
                     <div class="col-12 align-self-center">
                         <p class="font-futura business__section1__title">
-                            Como empresas, nuestro trabajo es activar todo nuestro cerebro para que elconsumidor no tenga que pensar.
+                            Como empresas, nuestro trabajo es activar todo nuestro cerebro para <b>que el consumidor no tenga que pensar</b>.
                         </p>
                     </div>
                 </div>
@@ -91,7 +91,7 @@
                                     <img :src="animation3" class="mobile-investigation-image">
                                 </div>
                                 <p class="font-basic business__section2__row__item">
-                                    Empieza tu investigación
+                                    Para ello es muy importante contar con una Investigación de Viabilidad de Negocio. 
                                 </p>
                             </div>
                         </div>
@@ -103,9 +103,19 @@
             <div class="container">
                <div class="row">
                    <div class="col-12">
-                        <p class="business__section2__investigation font-futura text-center">
-                            Empieza tu investigación <img :src="arrow">
-                        </p>
+                       <router-link
+                            :to="{ name: 'contact' }"
+                            custom
+                            v-slot="{ href, navigate }"
+                        >
+                            <a
+                                :href="href"
+                                @click="navigate">
+                                <p class="business__section2__investigation font-futura text-center" style="color: #000; cursor: pointer;">
+                                    Empieza tu investigación <img :src="arrow">
+                                </p>
+                            </a>
+                        </router-link>
 
 
                         <p class="business__section2__title1 font-futura text-center">
@@ -185,7 +195,7 @@ export default {
                 font-size: 35px;
 
                 &__body {
-                    padding-bottom: 300px;
+                    padding-bottom: 100px;
                 }
             }
 

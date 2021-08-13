@@ -18,7 +18,7 @@
             </div>
             <div class="d-flex justify-content-end">
                 <div class="header__nav__language align-self-center">
-                    <span class="font-menu font-menu__nav">
+                    <span class="font-menu font-menu__nav" :style="{ 'color': $route.name == 'customer' ? '#fff' : '#000' }">
                         Español
                     </span>
                 </div>

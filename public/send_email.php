@@ -6,7 +6,7 @@ use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
 //Load Composer's autoloader
-require 'vendor/autoload.php';
+require '../PHPMailer/vendor/autoload.php';
 
 //Create an instance; passing `true` enables exceptions
 $mail = new PHPMailer(true);
@@ -19,17 +19,15 @@ try {
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
     $mail->Username   = 'hello@beirat.mx';                     //SMTP username
     $mail->Password   = 'Control2580!';                               //SMTP password
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
+    $mail->SMTPSecure = 'ssl';            //Enable implicit TLS encryption
     $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
     $mail->setFrom('hello@beirat.mx', 'Beirat');
-    $mail->addAddress('joe@example.net', 'Joe User');     //Add a recipient
+
+    $mail->addAddress('jaime.rico@tequilaplus.com', 'Jaime Rico');
 
 
-    //Attachments
-    $mail->addAttachment('/var/tmp/file.tar.gz');         //Add attachments
-    $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    //Optional name
 
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
@@ -39,6 +37,7 @@ try {
 
     $mail->send();
     echo 'Message has been sent';
-} catch (Exception $e) {
+}
+catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
