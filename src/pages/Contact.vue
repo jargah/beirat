@@ -223,6 +223,16 @@ export default {
         font-size: 40px;
     }
 
+    @media (min-width: 768px) and (max-width: 1024px) {
+
+        .label_contact {
+            margin-top: 55px;
+            margin-bottom: 10px;
+            font-size: 25px;
+        }
+
+    }
+
 
     @media (min-width: 769px) AND (max-width: 992px) {
         .label_contact {

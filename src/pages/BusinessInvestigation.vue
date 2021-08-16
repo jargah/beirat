@@ -8,7 +8,7 @@
                 <div class="row mb-5">
                     <div class="col-12 align-self-center">
                         <p class="font-futura business__section1__title">
-                            Como empresas, nuestro trabajo es activar todo nuestro cerebro para <b>que el consumidor no tenga que pensar</b>.
+                            {{ $t('business.section1.title') }}
                         </p>
                     </div>
                 </div>
@@ -22,7 +22,7 @@
                 <div class="row mb-1">
                     <div class="col-12 align-self-center">
                         <p class="font-futura business__section1__title business__section1__title__body">
-                            TODO EL PUNTO DE UNA EMPRESA ES ENCAPSULAR A UN NICHO DE MERCADO DE MANERA CUALITATIVA O CUANTITATIVA.
+                            {{ $t('business.section1.title2') }}
                         </p>
                     </div>
                 </div>
@@ -39,13 +39,13 @@
                         <div class="row mt-5 mb-5">
                             <div class="col-12">
                                     <p class="business__section2__title font-futura">
-                                        CUANDO UN PROBLEMA ES REALMENTE IMPORTANTE ES MUY PROBABLE QUE EL CONSUMIDOR YA LO ESTÉ RESOLVIENDO DE ALGUNA MANERA
+                                        {{ $t('business.section2.title') }}
                                     </p>
 
                                     <p class="business__section2__description font-basic">
-                                        En esos casos, debemos cuestionarnos si hay alguna manera de hacerlo mejor o por menos dinero.
+                                        {{ $t('business.section2.description') }}
                                         <br>
-                                        ¿Cómo saberlo?, a través del método científico.
+                                        {{ $t('business.section2.question') }}
                                     </p>
                             </div>
                         </div>
@@ -69,9 +69,7 @@
                                     <img :src="animation1" class="mobile-investigation-image">
                                 </div>
                                 <p class="font-basic business__section2__row__item">
-                                    Si podemos cortar pasos en el proceso o agregar uno
-                                    que evite el problema en su totalidad, tenemos
-                                    una hipótesis de producto o servicio.
+                                    {{ $t('business.section2.item1') }}
                                 </p>
                             </div>
                             <div class="col-12 col-sm-12 col-md-12 col-lg-6">
@@ -79,7 +77,7 @@
                                     <img :src="animation2" class="mobile-investigation-image">
                                 </div>
                                 <p class="font-basic business__section2__row__item">
-                                    Entre más valor le aportemos al usuario, más molestias o dinero le ahorremos, mejor vamos a poder negociar un producto o servicio.
+                                    {{ $t('business.section2.item2') }}
                                 </p>
                             </div>
                         </div>
@@ -112,16 +110,16 @@
                                 :href="href"
                                 @click="navigate">
                                 <p class="business__section2__investigation font-futura text-center" style="color: #000; cursor: pointer;">
-                                    Empieza tu investigación <img :src="arrow">
+                                    {{ $t('business.section2.investigation') }} <img :src="arrow">
                                 </p>
                             </a>
                         </router-link>
 
 
                         <p class="business__section2__title1 font-futura text-center">
-                            CONOCE MÁS SOBRE
+                            {{ $t('business.section2.option') }}
                             <br>
-                            LA INVESTIGACIÓN DE VIABILIDAD DE NEGOCIO
+                            {{ $t('business.section2.option2') }}
                         </p>
                    </div>
                </div>

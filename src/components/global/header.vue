@@ -18,16 +18,13 @@
             </div>
             <div class="d-flex justify-content-end">
                 <div class="header__nav__language align-self-center">
-                    <span class="font-menu font-menu__nav" :style="{ 'color': $route.name == 'customer' ? '#fff' : '#000' }">
-                        Español
+                    <span class="font-menu font-menu__nav" :style="{ 'color': $route.name == 'customer' ? '#fff' : '#000' }" @click="changeLanguage">
+                        {{ $t('global.language') }}
                     </span>
                 </div>
                 <div class="header__nav__menu align-self-center">
                     <div class="d-flex flex-row">
                         <a class="nav-button" @click="openMenu"><span id="nav-icon3"><span></span><span></span><span></span><span></span></span></a>
-                        <!-- <span class="font-menu font-menu__nav font-menu__menu-left">
-                            Menu
-                        </span> -->
                     </div>
                 </div>
             </div>
@@ -233,6 +230,7 @@ export default {
 
     data() {
         return {
+            route: this.$route,
             logo,
             points,
             instagram,
@@ -259,16 +257,38 @@ export default {
                 name: name
             })
             this.openMenu()
+        },
+        changeLanguage() {
+            this.$i18n.locale = this.$i18n.locale === 'es' ? 'en' : 'es'
         }
     },
     mounted() {
         $(window).scroll(function(){
             var scroll = $(window).scrollTop();
+
+
             if (scroll > 100) {
                 $(".header").css("background" , "#000").fadeIn(500);
+
+                console.log(window.location.pathname.includes('customer'))
+
+                if(window.location.pathname.includes('customer')) {
+                    $('.font-menu__nav').css('color', '#fff')
+                }
+                else {
+                    $('.font-menu__nav').css('color', '#fff')
+                }
+
             }
             else{
+
                 $(".header").css("background" , "rgba(255, 255, 255, 0)").fadeIn(500);
+                if(window.location.pathname.includes('customer')) {
+                    $('.font-menu__nav').css('color', '#fff')
+                }
+                else {
+                    $('.font-menu__nav').css('color', '#000')
+                }
             }
         })
 
@@ -341,6 +361,7 @@ export default {
             font-weight: 700;
             font-style: normal;
             line-height: 71px;
+            cursor: pointer;
         }
 
         &__menu-left {

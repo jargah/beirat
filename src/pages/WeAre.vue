@@ -6,8 +6,7 @@
                 <div class="row mt-5 mb-5">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-7 align-self-center">
                         <p class="font-futura font-futura__power">
-                            EL PODER DEL <b style="font-style: normal; font-weight: bold;">CONOCIMIENTO</b> ES EL ELEMENTO
-                            <span style="font-weight: bold;">FUNDAMENTAL PARA EL ÉXITO DE LOS NEGOCIOS</span>
+                            {{ $t('weare.section1.title') }}
                         </p>
                     </div>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-5 d-flex justify-content-end mt-5 ">
@@ -22,9 +21,7 @@
                             <img :src="animation12" alt="empresas-consultoras-gdl-1" class="animation-we-are">
                         </div>
                         <p class="font-basic font-basic__weare__item1">
-                            En Beirat Consulting te asesoramos, capacitamos
-                            <br>
-                            y nos volvemos tus aliados en el logro de tus objetivos.
+                            {{ $t('weare.section1.description') }}
                         </p>
                     </div>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-6">
@@ -32,7 +29,7 @@
                             <img :src="animation13" alt="asesores_de_negocios-1" class="animation-we-are">
                         </div>
                         <p class="font-basic font-basic__weare__item2">
-                            Somos una firma consultora con más de 15 años de experiencia en la transformación de compañías y organizaciones a nivel nacional e internacional, incorporando tecnología y procesos científicamente fundados que promuevan su desarrollo y crecimiento.
+                            {{ $t('weare.section1.description2') }}
                         </p>
                     </div>
                 </div>
@@ -47,14 +44,12 @@
                             <div class="row we-are__section2__row">
                                 <div class="col-12 mt-5 mb-5">
                                     <p class="we-are__section2__title font-futura mt-5 mb-5">
-                                        EL PODER DEL CONOCIMIENTO ES EL ELEMENTO
-                                        FUNDAMENTAL PARA EL ÉXITO DE LOS NEGOCIOS
+                                        {{ $t('weare.section2.title') }}
                                     </p>
                                 </div>
                                 <div class="col-12 mt-5">
                                     <p class="we-are__section2__description font-basic mt-5 mb-5">
-                                        Encapsulamos soluciones estratégicas que resuelven
-                                        problemáticas específicas dentro de las organizaciones.
+                                        {{ $t('weare.section2.description') }}
                                     </p>
                                 </div>
                             </div>
@@ -78,12 +73,12 @@
                             <div class="row we-are__section3__row">
                                 <div class="col-12 mt-5 mb-5">
                                     <p class="we-are__section3__title font-basic">
-                                        ¿QUE HACE POSIBLE TU TAZA DE CAFÉ?
+                                        {{ $t('weare.section3.title') }}
                                     </p>
                                 </div>
                                 <div class="col-12 mt-2 mb-5">
                                     <p class="we-are__section3__description font-basic">
-                                        Desde el cultivo, tostado hasta el comercio.
+                                        {{ $t('weare.section3.description') }}
                                     </p>
                                 </div>
                             </div>
@@ -108,8 +103,7 @@
                             <div class="row we-are__section4__row">
                                 <div class="col-12 mt-5 mb-5">
                                     <p class="we-are__section4__title font-futura">
-                                        CUANDO UN PROBLEMA ES REALMENTE IMPORTANTE ES MUY PROBABLE
-                                        QUE EL CONSUMIDOR <strong>YA LO ESTÉ RESOLVIENDO DE ALGUNA MANERA</strong>
+                                        {{ $t('weare.section4.title') }}
                                     </p>
                                 </div>
                             </div>
@@ -121,9 +115,8 @@
                             <div class="row we-are__section4__row">
                                 <div class="col-12 mt-5">
                                     <p class="we-are__section4__description font-basic">
-                                        En esos casos, debemos cuestionarnos si hay alguna manera
-                                        de hacerlo mejor o por menos dinero.
-                                        ¿Cómo saberlo?, a través del método científico.
+                                        {{ $t('weare.section4.description') }}
+                                        {{ $t('weare.section4.question') }}
                                     </p>
                                 </div>
                             </div>
@@ -145,7 +138,7 @@
                         <div class="col-3">
                            <div class="we-are__section5__portafolio text-center">
                                 <p class="we-are__section5__portafolio__title font-futura">
-                                    NUESTRO PORTAFOLIO
+                                    {{ $t('weare.section5.portafolio.title') }}
                                 </p>
                             </div>
                         </div>
@@ -154,7 +147,7 @@
                                 <div class="row">
                                     <div class="col-12 mt-5 mb-4">
                                         <p class="we-are__section5__services__title font-basic">
-                                            Está conformado por diferentes industrias, como
+                                            {{ $t('weare.section5.services.title') }}
                                         </p>
                                     </div>
                                 </div>

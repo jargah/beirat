@@ -12,15 +12,10 @@
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-6 align-self-center ">
                             <p class="scalability__section1__title font-basic mb-4 d-flex justify-content-center">
-                                DIAGNÓSTICO EMPRESARIAL
+                                {{ $t('scalability.title') }}
                             </p>
                             <p class="scalability__section1__description font-basic mt-5 d-flex justify-content-center">
-                                Cuando contamos con un producto o servicio ya establecido, y comprendemos
-                                la visión a futuro de nuestra compañía, pero no hemos logrado un crecimiento
-                                ordenado, sistematizado y automatizado, en el que las problemáticas
-                                de operación son el día a día, a menudo la razón de la falta de resultados
-                                es la ausencia de información científicamente fundada que nos permita tomar
-                                mejores decisiones en nuestro negocio.
+                                {{ $t('scalability.description') }}
                             </p>
                         </div>
                     </div>
@@ -34,19 +29,14 @@
                         <div class="row scalability__section2__row">
                             <div class="col-12 align-self-center scalability__section2__row__text">
                                 <p class="scalability__section2__title font-basic">
-                                    CREEMOS QUE LAS EMPRESAS DISRUPTIVAS
-                                    CAMBIAN EL JUEGO POR COMPLETO
+                                    {{ $t('scalability.section1.title') }}
                                 </p>
                             </div>
                         </div>
                         <div class="row scalability__section2__row2">
                             <div class="col-12 col-sm-12 col-md-12 col-lg-6 mb-5">
                                 <p class="font-basic scalability__section2__description">
-                                    Son aquellas que anticipan
-                                    <br>
-                                    los problemas antes de que existan 
-                                    <br>
-                                    o de que el mercado se dé cuenta que los tiene.
+                                    {{ $t('scalability.section1.description') }}
                                 </p>
                             </div>
                             <div class="col-12 col-sm-12 col-md-12 col-lg-6">
@@ -67,32 +57,25 @@
                         <div class="row">
                             <div class="col-12  scalability__section3__row pb-5">
                                 <p class="font-futura scalability__section3__row__title mb-5">
-                                    SOLUCIONES RÁPIDAS A LOS MALOS
-                                    RESULTADOS
+                                    {{ $t('scalability.section2.title') }}
                                 </p>
                             </div>
                             <div class="col-12 scalability__section3__row">
                                 <p class="font-futura  scalability__section3__row__description">
-                                    En la mayoría de los casos, los malos resultados constituyen el motivo principal
-
-                                    por el cual uno o varios directivos empiezan a realizar cambios,
-                                    <br>
-                                    y las primeras ideas para darle la vuelta a esta situación pueden ser tan simples
-                                    <br>
-                                    como innecesarias, por ejemplo:
+                                    {{ $t('scalability.section2.subtitle') }}
                                 </p>
                             </div>
                             <div class="col-12 scalability__section3__row pt-5 pb-5">
                                 <p class="font-futura mt-5 scalability__section3__row__ul">
                                     <ul>
                                         <li class="scalability__section3__row__ul__li pb-3">
-                                            Hablar con todo el personal y pedirles que den el 200% y que se pongan la camiseta.
+                                            {{ $t('scalability.section2.item1') }}
                                         </li>
                                         <li class="scalability__section3__row__ul__li pb-3">
-                                            Despedir al Jefe o Gerente del área que tiene malos resultados.
+                                            {{ $t('scalability.section2.item2') }}
                                         </li>
                                         <li class="scalability__section3__row__ul__li pb-3">
-                                            Despedir una cantidad de personas que nos permita mejorar nuestros resultados económicos.
+                                            {{ $t('scalability.section2.item3') }}
                                         </li>
                                     </ul>
                                 </p>
@@ -113,7 +96,7 @@
                     <div class="container">
                         <div class="col-12">
                             <p class="font-futura mb-5 scalability__section4__title">
-                                ¿QUÉ GANAMOS UTILIZANDO LA CIENCIA COMO FORMA DE HACER NEGOCIO?
+                                {{ $t('scalability.section4.title') }}
                             </p>
                         </div>
                     </div>
@@ -121,16 +104,11 @@
                 <div class="col-12 col-12 col-sm-12 col-md-12 col-lg-6 align-self-center text-left">
 
                     <p class="font-futura mt-5 scalability__section4__row__title">
-                                ¿QUIERES VENDER MÁS?
-                            </p>
+                        {{ $t('scalability.section4.item1.title') }}
+                    </p>
 
                     <p class="font-futura mt-5 scalability__section4__row__description">
-                        Encontraremos las posibilidades que no está
-                        aprovechando en cuanto a la venta cruzada o tal
-                        vez se sorprenderá al ver que algunos grupos no
-                        están dando el 100%, por desconocimiento de
-                        producto/servicio o por falta de supervisión,
-                        sistema de comisiones poco atractivo, etc.
+                        {{ $t('scalability.section4.item2.description') }}
 
                     </p>
 
@@ -155,10 +133,7 @@
                                 </p>
 
                                 <p class="font-futura mt-5 scalability__section5__row__description">
-                                    Encontrará los principales desvíos en las
-                                    cuentas, el motivo e incluso los momentos en los
-                                    que hay posibilidades de gastar más, sin control
-                                    alguno.
+                                    {{ $t('scalability.section4.item2.description') }}
                                 </p>
                             </div>
                         </div>
@@ -174,19 +149,11 @@
                         <div class="row scalability__section6__row">
                             <div class="col-12 mb-5">
                                 <p class="font-futura mt-5 scalability__section6__row__title">
-                                    ¿QUIERES COLABORADORES MÁS
-
-                                    COMPROMETIDOS?
+                                    {{ $t('scalability.section4.item3.title') }}
                                 </p>
 
                                 <p class="font-futura mt-5 scalability__section6__row__description">
-                                    Encontrará los drivers principales por los que
-
-                                    sus trabajadores no están conectados con la
-
-                                    empresa: sueldo, reconocimiento, línea de
-
-                                    carrera, capacitaciones, clima, etc.
+                                    {{ $t('scalability.section4.item3.description') }}
                                 </p>
                             </div>
                         </div>
@@ -208,17 +175,11 @@
                         <div class="row scalability__section7__row">
                             <div class="col-12 mb-5">
                                 <p class="font-futura mt-5 scalability__section7__row__title">
-                                    ¿QUIERES MAYOR RENTABILIDAD?
+                                    {{ $t('scalability.section4.item4.title') }}
                                 </p>
 
                                 <p class="font-futura mt-5 scalability__section7__row__description">
-                                    Encontrará los drivers principales por los que
-
-                                    sus trabajadores no están conectados con la
-
-                                    empresa: sueldo, reconocimiento, línea de
-
-                                    carrera, capacitaciones, clima, etc.
+                                    {{ $t('scalability.section4.item4.description') }}
                                 </p>
                             </div>
                         </div>
@@ -426,8 +387,7 @@ export default {
             &__row {
 
                 &__title {
-                    position: relative;
-                    left: 100px;
+                    margin-left: 100px;
                     font-size: 40px;
                 }
 
@@ -674,8 +634,8 @@ export default {
         }
 
         .scalability__section4__row__title {
-            position: relative;
-            left: 50px;
+
+            margin-left: 50px;
             font-size: 30px;
         }
 

@@ -9,9 +9,9 @@
                                 UNLOCK YOUR FULL POTENTIAL.
                             </p>
                         </div>
-                        <div class="col-12">
+                        <div class="col-8">
                             <p class="footer__content-text__about font-footer font-footer__description">
-                                Somos una firma consultora con más de 15 años de experiencia en la transformación de compañías y organizaciones a nivel nacional e internacional, incorporando tecnología y procesos científicamente fundados que promuevan su desarrollo y crecimiento.
+                                {{ $t('global.description') }}
                             </p>
                         </div>
                     </div>
@@ -26,7 +26,7 @@
                                     v-slot="{ navigate }"
                                 >
                                     <b-button size="lg" variant="outline-dark footer__contact__btn font-footer__button" @click="navigate">
-                                        Contacto
+                                        {{ $t('global.contact') }}
                                     </b-button>
                                 </router-link>
                             </div>

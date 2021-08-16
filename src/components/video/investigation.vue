@@ -98,7 +98,6 @@ export default {
             top: 150px !important;
 
             &__title {
-                text-align: center;
                 font-size: 40px !important;
             }
 

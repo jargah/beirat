@@ -246,8 +246,8 @@ export default {
 
             &__row {
 
-                padding-left: 100px;
-                padding-right: 100px;
+                padding-left: 50px;
+                padding-right: 50px;
 
             }
 
@@ -269,11 +269,11 @@ export default {
 
             &__row {
 
-                padding-left: 100px;
-                padding-right: 100px;
+                padding-left: 50px;
+                padding-right: 50px;
 
                 &__title {
-                    font-size: 70px;
+                    font-size: 60px;
                 }
 
                 &__description {
@@ -359,8 +359,53 @@ export default {
     }
 
 
-    @media (min-width: 769px) AND (max-width: 992px) {
+    @media (min-width: 768px) AND (max-width: 992px) {
         .digital__section1__row, .digital__section2__row, .digital__section3__row, .digital__section4__row, .digital__section6__row {
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        .digital__section2__title {
+            font-size: 22px;
+        }
+
+        .digital__section3__row__title {
+            font-size: 40px;
+        }
+
+        .digital__section3__row__description {
+            font-size: 30px;
+        }
+
+        .digital__section4__title {
+            font-size: 30px;
+        }
+
+        .digital__section6__subtitle {
+            font-size: 30px;
+        }
+    }
+
+    @media (min-width: 320px) AND (max-width: 480px) {
+
+        .digital__section1__title {
+            font-size: 30px !important;
+        }
+
+        .digital__section1__description {
+            font-size: 20px;
+        }
+
+
+        .digital__section5__title {
+            font-size: 25px;
+        }
+
+        .digital__section6__description {
+            font-size: 30px;
+        }
+
+        .digital__section1__row, .digital__section2__row, .digital__section3__row, .digital__section4__row, .digital__section5__row, .digital__section6__row {
             padding-left: 50px;
             padding-right: 50px;
         }
@@ -384,9 +429,10 @@ export default {
         .digital__section6__subtitle {
             font-size: 20px;
         }
+
     }
 
-    @media (min-width: 380px) AND (max-width: 768px) {
+    @media (min-width: 481px) AND (max-width: 767px) {
         .digital__section1__row, .digital__section2__row, .digital__section3__row, .digital__section4__row, .digital__section5__row, .digital__section6__row {
             padding-left: 50px;
             padding-right: 50px;

@@ -215,8 +215,8 @@ export default {
 
 
             &__row {
-                padding-left: 100px;
-                padding-right: 100px;
+                padding-left: 50px;
+                padding-right: 50px;
             }
 
             &__title {
@@ -235,8 +235,8 @@ export default {
         &__section2 {
 
             &__row {
-                padding-left: 100px;
-                padding-right: 100px;
+                padding-left: 50px;
+                padding-right: 50px;
             }
 
             &__title {
@@ -251,6 +251,37 @@ export default {
                 max-width: 100%;
             }
         }
+    }
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+
+        .customer__section2__title, .customer__section1__title {
+            font-size: 30px;
+            margin-top: 20px;
+        }
+
+        .customer__section2__description, .customer__section1__description {
+            font-size: 20px;
+        }
+
+    }
+
+    @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+         .customer__section2__title, .customer__section1__title {
+            font-size: 30px;
+            margin-top: 20px;
+        }
+
+        .customer__section2__description, .customer__section1__description {
+            font-size: 20px;
+        }
+
+        .customer__section1__row {
+            padding-left: 50px !important;
+            padding-right: 50px !important;
+        }
+
     }
 
     @media (min-width: 769px) AND (max-width: 992px) {
@@ -270,7 +301,35 @@ export default {
 
     }
 
-    @media (min-width: 380px) AND (max-width: 768px) {
+    @media (min-width: 481px) AND (max-width: 768px) {
+        .customer__section1__row {
+            padding-left: 50px !important;
+            padding-right: 50px !important;
+        }
+
+        .customer__section2__row {
+            padding-left: 50px !important;
+            padding-right: 50px !important;
+        }
+
+        #logoMarqueeSection {
+            bottom: 150px !important;
+        }
+
+    }
+
+
+    @media (min-width: 320px) AND (max-width: 480px) {
+
+        .customer__section2__title, .customer__section1__title {
+            font-size: 30px;
+            margin-top: 20px;
+        }
+
+        .customer__section2__description, .customer__section1__description {
+            font-size: 20px;
+        }
+
         .customer__section1__row {
             padding-left: 50px !important;
             padding-right: 50px !important;

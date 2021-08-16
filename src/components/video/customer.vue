@@ -203,7 +203,7 @@ export default {
         }
     }
 
-    @media (min-width: 769px) AND (max-width: 992px) {
+    @media (min-width: 768px) AND (max-width: 992px) {
         .customer__section1__row {
             padding-left: 50px !important;
             padding-right: 50px !important;
@@ -220,7 +220,33 @@ export default {
 
     }
 
-    @media (min-width: 380px) AND (max-width: 768px) {
+    @media (min-width: 481px) AND (max-width: 767px) {
+        .customer__section1__row {
+            padding-left: 50px !important;
+            padding-right: 50px !important;
+        }
+
+        .customer__section2__row {
+            padding-left: 50px !important;
+            padding-right: 50px !important;
+        }
+
+        #logoMarqueeSection {
+            bottom: 250px !important;
+        }
+
+    }
+
+    @media (min-width: 320px) AND (max-width: 480px) {
+
+        .video-title {
+            font-size: 26px !important;
+        }
+
+        .customer__section1__title {
+            font-size: 35px !important;
+        }
+
         .customer__section1__row {
             padding-left: 50px !important;
             padding-right: 50px !important;
