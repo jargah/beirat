@@ -35,7 +35,6 @@
                             <div class="col-12 align-self-center scalability__section2__row__text">
                                 <p class="scalability__section2__title font-basic">
                                     CREEMOS QUE LAS EMPRESAS DISRUPTIVAS
-                                    <br>
                                     CAMBIAN EL JUEGO POR COMPLETO
                                 </p>
                             </div>
@@ -64,7 +63,7 @@
 
             <div class="row">
                 <div class="col-12 col-12 col-sm-12 col-md-12 col-lg-6 mt-5 pt-5">
-                    <div class="container mt-5 pt-5">
+                    <div class="container">
                         <div class="row">
                             <div class="col-12  scalability__section3__row pb-5">
                                 <p class="font-futura scalability__section3__row__title mb-5">
@@ -72,7 +71,7 @@
                                     RESULTADOS
                                 </p>
                             </div>
-                            <div class="col-12 scalability__section3__row pt-5 pb-5">
+                            <div class="col-12 scalability__section3__row">
                                 <p class="font-futura  scalability__section3__row__description">
                                     En la mayoría de los casos, los malos resultados constituyen el motivo principal
 
@@ -86,13 +85,13 @@
                             <div class="col-12 scalability__section3__row pt-5 pb-5">
                                 <p class="font-futura mt-5 scalability__section3__row__ul">
                                     <ul>
-                                        <li class="scalability__section3__row__ul__li pb-5">
+                                        <li class="scalability__section3__row__ul__li pb-3">
                                             Hablar con todo el personal y pedirles que den el 200% y que se pongan la camiseta.
                                         </li>
-                                        <li class="scalability__section3__row__ul__li pb-5">
+                                        <li class="scalability__section3__row__ul__li pb-3">
                                             Despedir al Jefe o Gerente del área que tiene malos resultados.
                                         </li>
-                                        <li class="scalability__section3__row__ul__li pb-5">
+                                        <li class="scalability__section3__row__ul__li pb-3">
                                             Despedir una cantidad de personas que nos permita mejorar nuestros resultados económicos.
                                         </li>
                                     </ul>
@@ -127,15 +126,10 @@
 
                     <p class="font-futura mt-5 scalability__section4__row__description">
                         Encontraremos las posibilidades que no está
-                        <br>
                         aprovechando en cuanto a la venta cruzada o tal
-                        <br>
                         vez se sorprenderá al ver que algunos grupos no
-                        <br>
                         están dando el 100%, por desconocimiento de
-                        <br>
                         producto/servicio o por falta de supervisión,
-                        <br>
                         sistema de comisiones poco atractivo, etc.
 
                     </p>
@@ -181,17 +175,17 @@
                             <div class="col-12 mb-5">
                                 <p class="font-futura mt-5 scalability__section6__row__title">
                                     ¿QUIERES COLABORADORES MÁS
-                                    <br>
+
                                     COMPROMETIDOS?
                                 </p>
 
                                 <p class="font-futura mt-5 scalability__section6__row__description">
                                     Encontrará los drivers principales por los que
-                                    <br>
+
                                     sus trabajadores no están conectados con la
-                                    <br>
+
                                     empresa: sueldo, reconocimiento, línea de
-                                    <br>
+
                                     carrera, capacitaciones, clima, etc.
                                 </p>
                             </div>
@@ -214,18 +208,16 @@
                         <div class="row scalability__section7__row">
                             <div class="col-12 mb-5">
                                 <p class="font-futura mt-5 scalability__section7__row__title">
-                                    ¿QUIERES COLABORADORES MÁS
-                                    <br>
-                                    COMPROMETIDOS?
+                                    ¿QUIERES MAYOR RENTABILIDAD?
                                 </p>
 
                                 <p class="font-futura mt-5 scalability__section7__row__description">
                                     Encontrará los drivers principales por los que
-                                    <br>
+
                                     sus trabajadores no están conectados con la
-                                    <br>
+
                                     empresa: sueldo, reconocimiento, línea de
-                                    <br>
+
                                     carrera, capacitaciones, clima, etc.
                                 </p>
                             </div>
@@ -243,19 +235,19 @@
                             <div class="col-12">
                                 <p class="font-futura mt-5 scalability__section8__row__title">
                                     ¿QUIERES QUE TU PRODUCTIVIDAD
-                                    <br>
+
                                     CREZCA?
                                 </p>
 
                                 <p class="font-futura mt-5 scalability__section8__row__description">
                                     Encontrará los limitantes directos de ese bajo
-                                    <br>
+
                                     performance: falta de capacitación, condiciones
-                                    <br>
+
                                     de trabajo, desconocimiento de objetivos,
-                                    <br>
+
                                     desconocimiento de la capacidad de atención
-                                    <br>
+
                                     máxima, liderazgo, procesos mal planteados, etc.
                                 </p>
                             </div>
@@ -440,9 +432,7 @@ export default {
                 }
 
                 &__description {
-                    position: relative;
-                    left: 100px;
-                    top: 50px;
+                    margin-left: 101px;
                     font-size: 30px;
                 }
 
@@ -645,18 +635,33 @@ export default {
         }
     }
 
-    @media (min-width: 380px) AND (max-width: 768px) {
+    @media (min-width: 320px) AND (max-width: 768px) {
+
+        .scalability__section2__description {
+            font-size: 40px;
+            /* top: 121px; */
+            font-size: 30px;
+            position: relative;
+            color: #717271;
+        }
+
+        .scalability__section2 {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
 
         .scalability__section1__title {
             padding-left: 30px;
             padding-right: 30px;
             padding-bottom: 20px;
+            font-size: 40px !important;
         }
 
         .scalability__section1__description {
             padding-left: 30px;
             padding-right: 30px;
             padding-bottom: 20px;
+            font-size: 20px !important;
         }
 
         .scalability__section3__row {
@@ -675,11 +680,8 @@ export default {
         }
 
         .scalability__section4__row__description {
-            position: relative;
-            left: 50px;
-            top: 5px;
+            margin-left: 50px;
             font-size: 20px;
-            padding-bottom: 20px !important;
         }
 
         .scalability__section5__row, .scalability__section6__row, .scalability__section7__row, .scalability__section8__row {

@@ -239,6 +239,7 @@ export default {
 
                 &__item {
                     font-size: 21px;
+                    color: #000;
                 }
             }
         }
@@ -321,10 +322,6 @@ export default {
 
         .mobile-investigation {
             background: #C4C4C4 !important;
-        }
-
-        .business__section2__row__item {
-            color: #fff;
         }
 
         .mobile-investigation-image {

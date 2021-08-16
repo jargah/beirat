@@ -25,20 +25,11 @@
                 <div class="header__nav__menu align-self-center">
                     <div class="d-flex flex-row">
                         <a class="nav-button" @click="openMenu"><span id="nav-icon3"><span></span><span></span><span></span><span></span></span></a>
-                        <span class="font-menu font-menu__nav font-menu__menu-left">
+                        <!-- <span class="font-menu font-menu__nav font-menu__menu-left">
                             Menu
-                        </span>
+                        </span> -->
                     </div>
                 </div>
-                <!-- <div class="header__nav__menu align-self-center">
-
-                    <div class="d-flex flex-row">
-                        <a class="nav-button" @click="openMenu"><span id="nav-icon3"><span></span><span></span><span></span><span></span></span></a>
-                        <span class="align-self-center font-menu font-menu__nav">
-                            Menu
-                        </span>
-                    </div>
-                </div> -->
             </div>
         </div>
 
@@ -230,7 +221,7 @@
 
 <script>
 
-import logo from 'ASSETS/global/logo'
+import logo from 'ASSETS/global/beirat-completo-gris'
 import points from 'ASSETS/global/points'
 import instagram from 'ASSETS/global/instagram'
 import twitter from 'ASSETS/global/twitter'
@@ -293,26 +284,26 @@ export default {
 
 <style lang="scss">
 
-    @media (min-width: 769px) AND (max-width: 992px) {
-        .main-menu .nav li a {
-            font-size: 3.5vh !important;
-            font-weight: 200;
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .header {
+            &__nav {
+
+                &__menu {
+                    padding-right: 4.2rem !important;
+                    max-width: 23px !important;
+                    right: 50px;
+                }
+            }
         }
 
-        .nav-link {
-            display: block;
-            padding: 0.1rem 1rem;
-        }
-
-        .header__logo__item {
-            max-width: 209px !important;
-            max-height: 65px !important;
-            top: 10px !important;
-            left: -100px;
+        .font-menu {
+            &__menu-left {
+                display: none;
+            }
         }
     }
 
-    @media (min-width: 380px) AND (max-width: 768px) {
+    @media (min-width: 769px) AND (max-width: 992px) {
         .main-menu .nav li a {
             font-size: 3.5vh !important;
             font-weight: 200;
@@ -359,10 +350,35 @@ export default {
         }
     }
 
-    @media (min-width: 380px) AND (max-width: 768px) {
+    @media (min-width: 320px) AND (max-width: 768px) {
+
+        .header {
+            &__nav {
+                &__language {
+                    display: none !important;
+                }
+            }
+        }
+
+        .main-menu .nav li a {
+            font-size: 3.5vh !important;
+            font-weight: 200;
+        }
+
+        .nav-link {
+            display: block;
+            padding: 0.1rem 1rem;
+        }
+
+        .header__logo__item {
+            max-width: 209px !important;
+            max-height: 65px !important;
+            top: 10px !important;
+            left: -100px;
+        }
 
         .nav-button {
-            right: -45px;
+            right: -3px;
         }
 
         .font-menu {
@@ -378,6 +394,7 @@ export default {
                 }
 
                 &__menu {
+                    padding-right: 4.2rem !important;
                     max-width: 23px !important;
                     right: 50px;
                 }
@@ -427,7 +444,7 @@ export default {
                 }
 
                 color: #fff;
-                padding-right: 10.2rem !important;
+                padding-right: 10.2rem;
                 padding: 1.8rem;
                 position: relative;
                 max-width: 362px;

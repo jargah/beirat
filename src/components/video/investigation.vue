@@ -20,13 +20,9 @@
                     </p>
                     <p class="font-basic __row__description mt-5">
                         Creemos que como hacemos una cosa hacemos todas,
-                        <br>
                         pues el cerebro es una red neural holística que recicla
-                        <br>
                         los mismos patrones para distintas tareas. Por ende,
-                        <br>
                         no podemos evitar usar el método científico a la hora
-                        <br>
                         de hacer negocios.
 
                     </p>
@@ -76,7 +72,7 @@ export default {
         position: absolute;
         z-index: 1;
         align-items: center;
-        top: 400px;
+        top: 100px;
         right: 100px;
 
         padding-left: 30px;
@@ -96,12 +92,127 @@ export default {
         }
     }
 
-    @media (min-width: 380px) AND (max-width: 619px) {
+    @media (min-width: 1280px) {
         .__row {
             right: 1px !important;
+            top: 150px !important;
 
             &__title {
                 text-align: center;
+                font-size: 40px !important;
+            }
+
+            &__subtitle, &__description {
+                text-align: left;
+                font-size: 30px !important;
+                width: 600px;
+                text-align: left;
+            }
+
+        }
+    }
+
+    @media (min-width: 1024px) and (max-width: 1279px) {
+
+        .__row {
+            right: 1px !important;
+            top: 350px !important;
+
+            &__title {
+                text-align: center;
+                font-size: 40px !important;
+            }
+
+            &__subtitle, &__description {
+                text-align: left;
+                font-size: 30px !important;
+                width: 400px;
+                text-align: left;
+            }
+
+        }
+
+    /* CSS */
+
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+
+        .__row {
+            right: 1px !important;
+            top: 200px !important;
+
+            &__title {
+                text-align: center;
+                font-size: 40px !important;
+            }
+
+            &__subtitle, &__description {
+                text-align: left;
+                font-size: 30px !important;
+                width: 400px;
+                text-align: left;
+            }
+
+        }
+
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+
+        .__row {
+            right: 1px !important;
+            top: 200px !important;
+
+            &__title {
+                text-align: center;
+                font-size: 40px !important;
+
+            }
+
+            &__subtitle, &__description {
+                font-size: 20px !important;
+                width: 400px;
+                text-align: left;
+            }
+
+        }
+
+    }
+
+    @media (min-width: 481px) and (max-width: 767px) {
+
+        .__row {
+            right: 1px !important;
+            top: 200px !important;
+
+            &__title {
+                text-align: center;
+                font-size: 30px !important;
+            }
+
+            &__subtitle, &__description {
+                text-align: left;
+                font-size: 20px !important;
+            }
+
+        }
+
+    }
+
+    @media (min-width: 320px) AND (max-width: 480px) {
+        .__row {
+            right: 1px !important;
+            top: 200px !important;
+
+            &__title {
+                text-align: center;
+                font-size: 30px !important;
+            }
+
+            &__subtitle, &__description {
+                text-align: left;
+                font-size: 20px !important;
             }
 
         }
@@ -109,7 +220,6 @@ export default {
 
     body{
         margin:0;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size:1rem;
         font-weight:normal;
         line-height:1.5;

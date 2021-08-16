@@ -1,9 +1,9 @@
 <template>
     <footer class="bg-dark">
         <div class="container-fluid footer">
-            <div class="row mt-3">
+            <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-8">
-                    <div class="row mt-5">
+                    <div class="row">
                         <div class="col-12">
                             <p class="footer__content-text__title mb-3 font-footer font-footer__title">
                                 UNLOCK YOUR FULL POTENTIAL.
@@ -34,7 +34,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row mt-5">
+            <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-6 option_bottom_1_movil ">
                     <div class="row">
                         <div class="col-12 text-center">
@@ -51,7 +51,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row mt-1">
+                    <div class="row">
                         <div class="col-12 mt-1 d-flex justify-content-center">
                             <div class="footer__social">
                                 <a href="https://instagram.com/beirat.mx?utm_medium=copy_link" target="_blank">
@@ -66,7 +66,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-6 option_bottom_1_movil">
-                    <div class="row mt-1">
+                    <div class="row ">
                         <div class="col-12">
                             <p class="footer__content-text__copyright font-footer__copy">
                                 Todos los derechos reservados Beirat Consulting 2021
@@ -147,7 +147,7 @@ export default {
         display: block;
     }
 
-    @media (min-width: 769px) AND (max-width: 992px) {
+    @media (min-width: 768px) AND (max-width: 992px) {
 
         .font-footer__title {
             text-align: center !important;
@@ -164,6 +164,7 @@ export default {
         }
 
         .footer__contact {
+            margin-top: 7rem;
             position: relative !important;
         }
 
@@ -221,7 +222,66 @@ export default {
         }
     }
 
-    @media (min-width: 380px) AND (max-width: 768px) {
+    @media (min-width: 320px) and (max-width: 480px) {
+
+        .footer__content-text__copyright {
+            font-size: 17px;
+            position: relative;
+            color: #717271;
+            top: 83px;
+        }
+
+        .font-footer__title {
+            text-align: center !important;
+        }
+
+        .option_bottom_1 {
+            display: none;
+        }
+
+        .option_bottom_1_movil {
+            text-align: center !important;
+            margin-top: 3rem !important;
+            display: block;
+        }
+
+        .footer__contact {
+            position: relative !important;
+            bottom: 32px;
+        }
+
+        .footer {
+            height: 550px !important;
+
+            &__content-text {
+
+                &__title {
+                    font-size: 25px !important;
+                }
+            }
+        }
+
+        .font-footer {
+            &__title {
+                margin-top: 4rem !important;
+                font-size: 25px;
+            }
+
+            &__description {
+                display: none;
+            }
+        }
+
+        .social {
+            display: none ;
+        }
+
+        .show_social {
+            display: block !important;
+        }
+    }
+
+    @media (min-width: 480px) AND (max-width: 767px) {
 
         .font-footer__title {
             text-align: center !important;
@@ -298,6 +358,7 @@ export default {
 
 
         &__contact {
+            margin-top: 6rem;
             position: absolute;
 
             &__btn {
@@ -321,6 +382,7 @@ export default {
             top: 100px;
 
             &__title {
+                margin-top: 6rem;
                 color: #fff;
             }
 

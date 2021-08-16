@@ -28,11 +28,5 @@ module.exports = {
             }
         }
     },
-    // css: {
-    //     loaderOptions: {
-    //         sass: {
-    //             additionalData: `@import "SCSS/app.scss";`,
-    //         },
-    //     }
-    // }
+
 }

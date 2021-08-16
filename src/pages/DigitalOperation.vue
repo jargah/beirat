@@ -68,16 +68,16 @@
                             <div class="col-12">
                                 <p class="font-futura mb-5 digital__section3__row__title">
                                     ALL OF THIS IS POSSIBLE
-                                    <br>
+
                                     BECAUSE OF OUR TEAM
                                 </p>
                                 <p class="font-futura mt-5 digital__section3__row__description">
                                     Científicos dedicados al análisis de datos,
-                                    <br>
+
                                     ingenieros, arquitectos, desarrolladores,
-                                    <br>
+
                                     entrenadores ágiles, diseñadores
-                                    <br>
+
                                     y expertos en ciberseguridad.
 
                                 </p>
@@ -96,7 +96,7 @@
                             <div class="col-12 align-self-center digital__section4__row text-center">
                                 <p class="digital__section4__title font-basic">
                                 Complementando nuestras capacidades internas, contamos con múltiples soluciones
-                                <br>
+
                                 patentadas y una asociación con una de las empresas líderes en tecnología del mundo.
                                 </p>
                             </div>

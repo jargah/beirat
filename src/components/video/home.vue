@@ -1,8 +1,6 @@
 <template>
     <header class="v-header container">
         <div class="fullscreen-video-wrap">
-            <!--  https://www.videvo.net/video/typing-on-computer-white-bg/4475/ -->
-            <!-- DO NOT USE THIS VIDEO, I JUST NEEDED A HOSTED VIDEO FOR THIS CODEPEN> USE THE ONE ABOVE -->
             <video loop muted autoplay id="video1">
                 <source :src="video1" type="video/mp4" />
             </video>
