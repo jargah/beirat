@@ -96,7 +96,7 @@
                     <div class="container">
                         <div class="col-12">
                             <p class="font-futura mb-5 scalability__section4__title">
-                                {{ $t('scalability.section4.title') }}
+                                ¿QUÉ GANAMOS UTILIZANDO LA CIENCIA COMO FORMA DE HACER NEGOCIO?
                             </p>
                         </div>
                     </div>
@@ -104,11 +104,16 @@
                 <div class="col-12 col-12 col-sm-12 col-md-12 col-lg-6 align-self-center text-left">
 
                     <p class="font-futura mt-5 scalability__section4__row__title">
-                        {{ $t('scalability.section4.item1.title') }}
-                    </p>
+                                ¿QUIERES VENDER MÁS?
+                            </p>
 
                     <p class="font-futura mt-5 scalability__section4__row__description">
-                        {{ $t('scalability.section4.item2.description') }}
+                        Encontraremos las posibilidades que no está
+                        aprovechando en cuanto a la venta cruzada o tal
+                        vez se sorprenderá al ver que algunos grupos no
+                        están dando el 100%, por desconocimiento de
+                        producto/servicio o por falta de supervisión,
+                        sistema de comisiones poco atractivo, etc.
 
                     </p>
 
@@ -133,7 +138,10 @@
                                 </p>
 
                                 <p class="font-futura mt-5 scalability__section5__row__description">
-                                    {{ $t('scalability.section4.item2.description') }}
+                                    Encontrará los principales desvíos en las
+                                    cuentas, el motivo e incluso los momentos en los
+                                    que hay posibilidades de gastar más, sin control
+                                    alguno.
                                 </p>
                             </div>
                         </div>
@@ -149,11 +157,19 @@
                         <div class="row scalability__section6__row">
                             <div class="col-12 mb-5">
                                 <p class="font-futura mt-5 scalability__section6__row__title">
-                                    {{ $t('scalability.section4.item3.title') }}
+                                    ¿QUIERES COLABORADORES MÁS
+
+                                    COMPROMETIDOS?
                                 </p>
 
                                 <p class="font-futura mt-5 scalability__section6__row__description">
-                                    {{ $t('scalability.section4.item3.description') }}
+                                    Encontrará los drivers principales por los que
+
+                                    sus trabajadores no están conectados con la
+
+                                    empresa: sueldo, reconocimiento, línea de
+
+                                    carrera, capacitaciones, clima, etc.
                                 </p>
                             </div>
                         </div>
@@ -175,11 +191,17 @@
                         <div class="row scalability__section7__row">
                             <div class="col-12 mb-5">
                                 <p class="font-futura mt-5 scalability__section7__row__title">
-                                    {{ $t('scalability.section4.item4.title') }}
+                                    ¿QUIERES MAYOR RENTABILIDAD?
                                 </p>
 
                                 <p class="font-futura mt-5 scalability__section7__row__description">
-                                    {{ $t('scalability.section4.item4.description') }}
+                                    Encontrará los drivers principales por los que
+
+                                    sus trabajadores no están conectados con la
+
+                                    empresa: sueldo, reconocimiento, línea de
+
+                                    carrera, capacitaciones, clima, etc.
                                 </p>
                             </div>
                         </div>

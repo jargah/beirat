@@ -12,7 +12,13 @@
                         :class="[isExactActive ? 'main-menu__active' : '']"
                         :href="href"
                         @click="navigate">
-                        <img :src="logo" class="header__logo__item" alt="logo" style="cursor:pointer;">
+                        <template v-if="$route.name == 'customer'">
+                            <img :src="logo_blanco" class="header__logo__item" alt="logo" style="cursor:pointer;">
+                        </template>
+                        <template v-else>
+                           <img :src="logo_selected" class="header__logo__item" alt="logo" style="cursor:pointer;">
+                        </template>
+
                     </a>
                 </router-link>
             </div>
@@ -219,6 +225,7 @@
 <script>
 
 import logo from 'ASSETS/global/beirat-completo-gris'
+import logo_blanco from 'ASSETS/global/beirat-completo-blanco'
 import points from 'ASSETS/global/points'
 import instagram from 'ASSETS/global/instagram'
 import twitter from 'ASSETS/global/twitter'
@@ -232,6 +239,8 @@ export default {
         return {
             route: this.$route,
             logo,
+            logo_blanco,
+            logo_selected: null,
             points,
             instagram,
             twitter,
@@ -243,7 +252,15 @@ export default {
     watch: {
         windowWidth(newWidth, oldWidth) {
             this.windowWidth = newWidth
+        },
+        '$route.name': {
+            handler: function(search) {
+                this.logo_selected = this.logo
+            },
+            deep: true,
+            immediate: true
         }
+
     },
     methods: {
         onResize() {
@@ -263,6 +280,9 @@ export default {
         }
     },
     mounted() {
+
+        let _this = this
+        console.log(_this)
         $(window).scroll(function(){
             var scroll = $(window).scrollTop();
 
@@ -270,13 +290,13 @@ export default {
             if (scroll > 100) {
                 $(".header").css("background" , "#000").fadeIn(500);
 
-                console.log(window.location.pathname.includes('customer'))
-
                 if(window.location.pathname.includes('customer')) {
                     $('.font-menu__nav').css('color', '#fff')
+                    _this.logo_selected = _this.logo_blanco
                 }
                 else {
                     $('.font-menu__nav').css('color', '#fff')
+                    _this.logo_selected = _this.logo_blanco
                 }
 
             }
@@ -285,9 +305,11 @@ export default {
                 $(".header").css("background" , "rgba(255, 255, 255, 0)").fadeIn(500);
                 if(window.location.pathname.includes('customer')) {
                     $('.font-menu__nav').css('color', '#fff')
+                    _this.logo_selected = _this.logo_blanco
                 }
                 else {
                     $('.font-menu__nav').css('color', '#000')
+                    _this.logo_selected = _this.logo
                 }
             }
         })
