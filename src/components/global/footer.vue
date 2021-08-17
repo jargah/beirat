@@ -16,9 +16,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-12 col-md-12 col-lg-4 social">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 social mt-5 text-right">
                     <div class="row">
-                        <div class="col-12 mt-5 mb-5 d-flex flex-row-reverse">
+                        <div class="col-12 d-flex justify-content-end mt-5">
                             <div class="footer__contact">
                                 <router-link
                                     :to="{ name: 'contact' }"
@@ -29,7 +29,23 @@
                                         {{ $t('global.contact') }}
                                     </b-button>
                                 </router-link>
+                                <div class="mt-5">
+                                     <p style="cursor: pointer; color: #fff;" @click="redirect('term')">
+                                        Términos y condiciones
+                                    </p>
+                                    <p style="cursor: pointer; color: #fff;" @click="redirect('notice')">
+                                        Aviso de privacidad
+                                    </p>
+                                    <p style="cursor: pointer; color: #fff;" @click="redirect('policity')">
+                                        Politicas
+                                    </p>
+                                </div>
                             </div>
+
+                        </div>
+                        <br>
+                        <div class="col-12 mt-5 mb-5 text-right">
+
                         </div>
                     </div>
                 </div>
@@ -39,6 +55,17 @@
                     <div class="row">
                         <div class="col-12 text-center">
                             <div class="footer__contact">
+                                <div class="">
+                                     <p style="cursor: pointer; color: #fff;" @click="redirect('term')">
+                                        Términos y condiciones
+                                    </p>
+                                    <p style="cursor: pointer; color: #fff;" @click="redirect('notice')">
+                                        Aviso de privacidad
+                                    </p>
+                                    <p style="cursor: pointer; color: #fff;" @click="redirect('policity')">
+                                        Politicas
+                                    </p>
+                                </div>
                                 <router-link
                                     :to="{ name: 'contact' }"
                                     custom
@@ -49,6 +76,7 @@
                                     </b-button>
                                 </router-link>
                             </div>
+
                         </div>
                     </div>
                     <div class="row">
@@ -71,9 +99,10 @@
                             <p class="footer__content-text__copyright font-footer__copy">
                                 Todos los derechos reservados Beirat Consulting 2021
                                 <br>
-                                <video loop muted autoplay style="max-width: 50% !important;">
+                                <!-- <video loop muted autoplay style="max-width: 50% !important;">
                                     <source :src="bb" type="video/mp4" />
-                                </video>
+                                </video> -->
+                                <img :src="bb" style="max-width: 100%; min-width: 100%;">
                             </p>
                         </div>
                     </div>
@@ -85,9 +114,10 @@
                             <p class="footer__content-text__copyright font-footer__copy">
                                 Todos los derechos reservados Beirat Consulting 2021
                                 <br>
-                                <video loop muted autoplay style="max-width: 50% !important;">
+                                <!-- <video loop muted autoplay style="max-width: 50% !important;">
                                     <source :src="bb" type="video/mp4" />
-                                </video>
+                                </video> -->
+                                <img :src="bb" style="max-width: 35%; min-width: 35%;">
                             </p>
                         </div>
                     </div>
@@ -121,7 +151,7 @@ import blueberry from 'ASSETS/global/blueberry'
 import instagram from 'ASSETS/global/instagram'
 import twitter from 'ASSETS/global/twitter'
 import linkedin from 'ASSETS/global/linkedin'
-import bb from 'ASSETS/global/Blueberry-Materialized'
+import bb from 'ASSETS/global/blueberry-codigo-sin-fondo-blanco'
 
 export default {
     name: 'footer-global',
@@ -164,7 +194,7 @@ export default {
         }
 
         .footer__contact {
-            margin-top: 7rem;
+            //margin-top: 7rem;
             position: relative !important;
         }
 
@@ -263,7 +293,7 @@ export default {
 
         .font-footer {
             &__title {
-                margin-top: 4rem !important;
+                //margin-top: 4rem !important;
                 font-size: 25px;
             }
 
@@ -314,7 +344,7 @@ export default {
 
         .font-footer {
             &__title {
-                margin-top: 4rem !important;
+                //margin-top: 4rem !important;
                 font-size: 25px;
             }
 
@@ -358,7 +388,7 @@ export default {
 
 
         &__contact {
-            margin-top: 6rem;
+            //margin-top: 6rem;
             position: absolute;
 
             &__btn {

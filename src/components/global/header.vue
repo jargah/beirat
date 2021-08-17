@@ -12,7 +12,7 @@
                         :class="[isExactActive ? 'main-menu__active' : '']"
                         :href="href"
                         @click="navigate">
-                        <template v-if="$route.name == 'customer'">
+                        <template v-if="$route.name == 'customer' || $route.name == 'contact'">
                             <img :src="logo_blanco" class="header__logo__item" alt="logo" style="cursor:pointer;">
                         </template>
                         <template v-else>
@@ -293,7 +293,7 @@ export default {
             if (scroll > 100) {
                 $(".header").css("background" , "#000").fadeIn(500);
 
-                if(window.location.pathname.includes('customer')) {
+                if(window.location.pathname.includes('customer') || window.location.pathname.includes('contact')) {
                     $('.font-menu__nav').css('color', '#fff')
                     _this.logo_selected = _this.logo_blanco
                 }
@@ -306,7 +306,7 @@ export default {
             else{
 
                 $(".header").css("background" , "rgba(255, 255, 255, 0)").fadeIn(500);
-                if(window.location.pathname.includes('customer')) {
+                if(window.location.pathname.includes('customer') || window.location.pathname.includes('contact')) {
                     $('.font-menu__nav').css('color', '#fff')
                     _this.logo_selected = _this.logo_blanco
                 }
