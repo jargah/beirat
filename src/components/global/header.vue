@@ -30,7 +30,8 @@
                 </div>
                 <div class="header__nav__menu align-self-center">
                     <div class="d-flex flex-row">
-                        <a class="nav-button" @click="openMenu"><span id="nav-icon3"><span></span><span></span><span></span><span></span></span></a>
+                        <img :src="menu" alt="" class="nav-button" @click="openMenu">
+                        <!-- <a class="nav-button" @click="openMenu"><span id="nav-icon3"><span></span><span></span><span></span><span></span></span></a> -->
                     </div>
                 </div>
             </div>
@@ -231,6 +232,7 @@ import instagram from 'ASSETS/global/instagram'
 import twitter from 'ASSETS/global/twitter'
 import linkedin from 'ASSETS/global/linkedin'
 import asterisk from 'ASSETS/global/asterisk1'
+import menu from 'ASSETS/global/menu'
 
 export default {
     name: 'global-header',
@@ -246,7 +248,8 @@ export default {
             twitter,
             linkedin,
             asterisk,
-            windowWidth: window.innerWidth
+            windowWidth: window.innerWidth,
+            menu
         }
     },
     watch: {

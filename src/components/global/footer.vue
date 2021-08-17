@@ -99,7 +99,7 @@
                                 <a href="https://instagram.com/beirat.mx?utm_medium=copy_link" target="_blank">
                                     <img :src="instagram" alt="instragram" class="p-2">
                                 </a>
-                                <a href="https://www.linkedin.com/in/beirat-mx-b10355214/" target="_blank">
+                                <a href="https://twitter.com/BeiratM?s=09" target="_blank">
                                     <img :src="twitter" alt="twitter" class="p-2">
                                 </a>
                                 <a href="https://www.linkedin.com/in/beirat-mx-b10355214/" target="_blank">

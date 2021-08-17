@@ -20,6 +20,17 @@ export default {
         'global-header': Header,
         'global-footer': Footer,
     },
+    watch: {
+        '$route.name': {
+            handler: () => {
+                $(document).ready(function(){
+                    $(window).scrollTop(0);
+                });
+            },
+            deep: true,
+            immediate: true
+        }
+    },
     data() {
         return {
 
