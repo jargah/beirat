@@ -89,14 +89,13 @@
             </div>
 
         </div>
-
         <div class="scalability__section4">
             <div class="row scalability__section4__row">
                 <div class="col-12 align-self-center text-left">
                     <div class="container">
                         <div class="col-12">
                             <p class="font-futura mb-5 scalability__section4__title">
-                                ¿QUÉ GANAMOS UTILIZANDO LA CIENCIA COMO FORMA DE HACER NEGOCIO?
+                                 {{ $t('scalability.section4.title') }}
                             </p>
                         </div>
                     </div>
@@ -104,17 +103,11 @@
                 <div class="col-12 col-12 col-sm-12 col-md-12 col-lg-6 align-self-center text-left">
 
                     <p class="font-futura mt-5 scalability__section4__row__title">
-                                ¿QUIERES VENDER MÁS?
-                            </p>
+                                {{ $t('scalability.section4.item1.title') }}
+                     </p>
 
                     <p class="font-futura mt-5 scalability__section4__row__description">
-                        Encontraremos las posibilidades que no está
-                        aprovechando en cuanto a la venta cruzada o tal
-                        vez se sorprenderá al ver que algunos grupos no
-                        están dando el 100%, por desconocimiento de
-                        producto/servicio o por falta de supervisión,
-                        sistema de comisiones poco atractivo, etc.
-
+                                {{ $t('scalability.section4.item1.description') }}
                     </p>
 
                 </div>
@@ -134,14 +127,11 @@
                         <div class="row scalability__section5__row">
                             <div class="col-12 mb-5">
                                 <p class="font-futura mt-5 scalability__section5__row__title">
-                                    ¿QUIERES REDUCIR GASTOS?
+                                     {{ $t('scalability.section4.item2.title') }}
                                 </p>
 
                                 <p class="font-futura mt-5 scalability__section5__row__description">
-                                    Encontrará los principales desvíos en las
-                                    cuentas, el motivo e incluso los momentos en los
-                                    que hay posibilidades de gastar más, sin control
-                                    alguno.
+                                    {{ $t('scalability.section4.item2.description') }}
                                 </p>
                             </div>
                         </div>
@@ -157,20 +147,12 @@
                         <div class="row scalability__section6__row">
                             <div class="col-12 mb-5">
                                 <p class="font-futura mt-5 scalability__section6__row__title">
-                                    ¿QUIERES COLABORADORES MÁS
-
-                                    COMPROMETIDOS?
+                                    {{ $t('scalability.section4.item3.title') }}
                                 </p>
 
                                 <p class="font-futura mt-5 scalability__section6__row__description">
-                                    Encontrará los drivers principales por los que
-
-                                    sus trabajadores no están conectados con la
-
-                                    empresa: sueldo, reconocimiento, línea de
-
-                                    carrera, capacitaciones, clima, etc.
-                                </p>
+                                    {{ $t('scalability.section4.item3.description') }}
+                                </p>    
                             </div>
                         </div>
                     </div>
@@ -191,17 +173,11 @@
                         <div class="row scalability__section7__row">
                             <div class="col-12 mb-5">
                                 <p class="font-futura mt-5 scalability__section7__row__title">
-                                    ¿QUIERES MAYOR RENTABILIDAD?
+                                     {{ $t('scalability.section4.item4.title') }}
                                 </p>
 
                                 <p class="font-futura mt-5 scalability__section7__row__description">
-                                    Encontrará los drivers principales por los que
-
-                                    sus trabajadores no están conectados con la
-
-                                    empresa: sueldo, reconocimiento, línea de
-
-                                    carrera, capacitaciones, clima, etc.
+                                    {{ $t('scalability.section4.item4.description') }}
                                 </p>
                             </div>
                         </div>
@@ -217,21 +193,11 @@
                         <div class="row scalability__section8__row">
                             <div class="col-12">
                                 <p class="font-futura mt-5 scalability__section8__row__title">
-                                    ¿QUIERES QUE TU PRODUCTIVIDAD
-
-                                    CREZCA?
+                                     {{ $t('scalability.section4.item5.title') }}
                                 </p>
 
                                 <p class="font-futura mt-5 scalability__section8__row__description">
-                                    Encontrará los limitantes directos de ese bajo
-
-                                    performance: falta de capacitación, condiciones
-
-                                    de trabajo, desconocimiento de objetivos,
-
-                                    desconocimiento de la capacidad de atención
-
-                                    máxima, liderazgo, procesos mal planteados, etc.
+                                     {{ $t('scalability.section4.item5.description') }}
                                 </p>
                             </div>
                         </div>
@@ -690,6 +656,4 @@ export default {
             font-size: 34px;
         }
     }
-
-
 </style>

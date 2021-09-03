@@ -10,7 +10,7 @@
                         </p>
                     </div>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-5 d-flex justify-content-end mt-5 ">
-                        <video loop muted autoplay class="video_formula">
+                        <video loop muted autoplay class="video_formula"  width="100%">
                             <source :src="video1" type="video/mp4" />
                         </video>
                     </div>
@@ -159,7 +159,7 @@
                                                 <img :src="animation1" alt="asesores-de-negocio-en-guadalajara" class="we-are__section5__services__image">
                                             </div>
                                             <span class="font-futura">
-                                                Medicina y Farmacéutica
+                                                {{ $t('weare.services.service_1') }}
                                             </span>
                                         </div>
                                         <div class="col-6 col-sm-6 col-md-6 col-lg-3">
@@ -167,7 +167,7 @@
                                                 <img :src="animation2" alt="asesores-de-negocio-en-guadalajara" class="we-are__section5__services__image">
                                             </div>
                                             <span class="font-futura">
-                                                Construcción y Bienes raíces
+                                                {{ $t('weare.services.service_2') }}
                                             </span>
                                         </div>
                                         <div class="col-6 col-sm-6 col-md-6 col-lg-3">
@@ -175,7 +175,7 @@
                                                 <img :src="animation3" alt="asesores-de-negocio-en-guadalajara" class="we-are__section5__services__image">
                                             </div>
                                             <span class="font-futura">
-                                                Energía y Recursos naturales
+                                                {{ $t('weare.services.service_3') }}
                                             </span>
                                         </div>
                                         <div class="col-6 col-sm-6 col-md-6 col-lg-3">
@@ -183,7 +183,7 @@
                                                 <img :src="animation4" alt="asesores-de-negocio-en-guadalajara" class="we-are__section5__services__image">
                                             </div>
                                             <span class="font-futura">
-                                                Agroindustria
+                                                {{ $t('weare.services.service_4') }}
                                             </span>
                                         </div>
                                     </div>
@@ -193,7 +193,7 @@
                                                 <img :src="animation5" alt="asesores-de-negocio-en-guadalajara" class="we-are__section5__services__image">
                                             </div>
                                             <span class="font-futura">
-                                                Agropecuario
+                                                {{ $t('weare.services.service_5') }}
                                             </span>
                                         </div>
                                         <div class="col-6 col-sm-6 col-md-6 col-lg-3">
@@ -201,7 +201,7 @@
                                                 <img :src="animation6" alt="asesores-de-negocio-en-guadalajara" class="we-are__section5__services__image">
                                             </div>
                                             <span class="font-futura">
-                                                Manufactura
+                                                {{ $t('weare.services.service_6') }}
                                             </span>
                                         </div>
                                         <div class="col-6 col-sm-6 col-md-6 col-lg-3">
@@ -209,7 +209,7 @@
                                                 <img :src="animation7" alt="asesores-de-negocio-en-guadalajara" class="we-are__section5__services__image">
                                             </div>
                                             <span class="font-futura">
-                                                Productos de Consumo
+                                                {{ $t('weare.services.service_7') }}
                                             </span>
                                         </div>
                                         <div class="col-6 col-sm-6 col-md-6 col-lg-3">
@@ -217,7 +217,7 @@
                                                 <img :src="animation8" alt="asesores-de-negocio-en-guadalajara" class="we-are__section5__services__image">
                                             </div>
                                             <span class="font-futura">
-                                                Servicios Financieros
+                                                {{ $t('weare.services.service_8') }}
                                             </span>
                                         </div>
                                     </div>
@@ -227,10 +227,7 @@
                                                 <img :src="animation9" alt="asesores-de-negocio-en-guadalajara" class="we-are__section5__services__image">
                                             </div>
                                             <span class="font-futura">
-                                                Tecnología, Medios
-                                                <br>
-                                                y Telecomunicaciones
-
+                                                {{ $t('weare.services.service_9') }}
                                             </span>
                                         </div>
                                         <div class="col-6 col-sm-6 col-md-6 col-lg-3">
@@ -238,7 +235,7 @@
                                                 <img :src="animation10" alt="asesores-de-negocio-en-guadalajara" class="we-are__section5__services__image">
                                             </div>
                                             <span class="font-futura">
-                                                Comercio al por mayor
+                                                {{ $t('weare.services.service_10') }}
                                             </span>
                                         </div>
                                         <div class="col-6 col-sm-6 col-md-6 col-lg-3">
@@ -246,7 +243,7 @@
                                                 <img :src="animation11" alt="asesores-de-negocio-en-guadalajara" class="we-are__section5__services__image">
                                             </div>
                                             <span class="font-futura">
-                                                Alimentícia
+                                                {{ $t('weare.services.service_11') }}
                                             </span>
                                         </div>
 

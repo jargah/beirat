@@ -16,13 +16,7 @@
 
                                 <p class="customer__section1__description mt-5">
                                     <br>
-                                    Empresa comprometida con sus clientes y con el objetivo principal
-
-                                    de prestarles el mejor servicio de carga terrestre.
-
-                                    Asegurándose en todo momento de cumplir con los tiempos establecidos
-
-                                    y con la honestidad que nos caracteriza.
+                                    {{ $t('clients.item_1') }}
                                 </p>
                             </div>
                         </div>
@@ -50,13 +44,7 @@
 
                                 <p class="customer__section2__description">
                                     <br>
-                                    Es un proyecto cuyo objetivo es el crear un certificado que avale
-
-                                    a los diferentes proveedores de servicios de hospitalidad, utilizando
-
-                                    una metodología basada en los estándares y criterios ya establecidos
-
-                                    por otras empresas como es el ISO 9001, pero enfocada al área hospitalaria.
+                                   {{ $t('clients.item_2') }}
                                 </p>
                             </div>
                         </div>
@@ -77,18 +65,7 @@
 
                             <p class="customer__section1__description">
                                 <br>
-                                “45 AÑOS DE EXPERIENCIA EN EL SEGMENTO DE LA HOSPITALIDAD”
-                                <br>
-                                <br>
-                                45 Años de Experiencia en el segmento de la hospitalidad,
-
-                                Iniciando en 1975 con la participación desde el arranque
-
-                                del proyecto Paraíso Mazatlán en Sinaloa, desempeñándose
-
-                                en los departamentos de Ama de Llaves, Atención al Huésped
-
-                                y Supervisión de Mantenimiento.
+                                {{ $t('clients.item_3') }}
                             </p>
                         </div>
                     </div>
@@ -115,11 +92,7 @@
 
                                 <p class="customer__section2__description">
                                     <br>
-                                    Te asesoran integralmente en relación a tu recurso humano,
-
-                                    con la finalidad de organizar, gestionar, atraer, monitorear y capitalizar
-
-                                    el talento de tu empresa.
+                                   {{ $t('clients.item_4') }}
                                 </p>
                             </div>
                         </div>
@@ -139,19 +112,7 @@
 
                                 <p class="customer__section1__description">
                                     <br>
-                                    Empresa mexicana dedicada a la fabricación
-
-                                    y comercialización de partes y accesorios
-
-                                    para tracto camión en territorio Nacional
-
-                                    y extranjero con una experiencia de más de
-
-                                    30 años en el ramo,siempre manteniendo el
-
-                                    enfoque en cubrir las necesidades de nuestros
-
-                                    clientes día con día a través de un servicio de excelencia.
+                                    {{ $t('clients.item_5') }}
                                 </p>
                             </div>
                         </div>

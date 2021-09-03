@@ -27,12 +27,8 @@
                     </div>
                 </div>
             </div>
-
         </div>
-
-
         <div class="container-fluid business__section2">
-
             <div class="row">
                 <div class="col-12">
                     <div class="container">
@@ -41,7 +37,6 @@
                                     <p class="business__section2__title font-futura">
                                         {{ $t('business.section2.title') }}
                                     </p>
-
                                     <p class="business__section2__description font-basic">
                                         {{ $t('business.section2.description') }}
                                         <br>
@@ -54,7 +49,7 @@
             </div>
 
             <div class="row mb-1">
-                <video loop muted autoplay class="business__section2__video">
+                <video loop muted autoplay class="business__section2__video" width="100%">
                     <source :src="video3" type="video/mp4" />
                 </video>
             </div>
@@ -89,7 +84,7 @@
                                     <img :src="animation3" class="mobile-investigation-image">
                                 </div>
                                 <p class="font-basic business__section2__row__item">
-                                    Para ello es muy importante contar con una Investigación de Viabilidad de Negocio. 
+                                     {{ $t('business.section2.item3') }}
                                 </p>
                             </div>
                         </div>
@@ -139,14 +134,13 @@
 
 <script>
 
-import video1 from 'ASSETS/business-investigation/video/consultoria-en-guadalajara-1'
+import video1 from 'ASSETS/business-investigation/video/consultoria-en-guadalajara'
 import video2 from 'ASSETS/business-investigation/video/consultoria-gdl-2'
 import video3 from 'ASSETS/business-investigation/video/empresas-de-consultoria-en-guadalajara-linea'
 import animation1 from 'ASSETS/business-investigation/gif/consultores-de-empresa-en-guadalajara-3'
 import animation2 from 'ASSETS/business-investigation/gif/consultores-de-empresas-2'
 import animation3 from 'ASSETS/business-investigation/gif/consultores-de-negocios-en-guadalajara-1'
 import arrow from 'ASSETS/business-investigation/image/arrow'
-
 import video_investigation from '@/components/video/investigation'
 
 

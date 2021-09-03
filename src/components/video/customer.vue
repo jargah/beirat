@@ -1,7 +1,7 @@
 <template>
     <header class="v-header container">
         <div class="fullscreen-video-wrap">
-            <video loop muted autoplay >
+            <video loop muted autoplay  width="100%">
                 <source :src="video1" type="video/mp4" />
             </video>
 

@@ -3,10 +3,10 @@
         <div class="fullscreen-video-wrap">
             <!--  https://www.videvo.net/video/typing-on-computer-white-bg/4475/ -->
             <!-- DO NOT USE THIS VIDEO, I JUST NEEDED A HOSTED VIDEO FOR THIS CODEPEN> USE THE ONE ABOVE -->
-            <video loop muted autoplay id="video1">
+            <video loop muted autoplay id="video1" width="100%">
                 <source :src="video1" type="video/mp4" />
             </video>
-            <video loop muted autoplay id="video2">
+            <video loop muted autoplay id="video2" width="100%">
                 <source :src="video2" type="video/mp4" />
             </video>
         </div>

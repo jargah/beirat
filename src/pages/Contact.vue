@@ -8,11 +8,7 @@
                     </video>
                     <div class="video_title">
                         <p>
-                            THE POWER OF
-                            <br>
-                            KNOWLEDGE FOR
-                            <br>
-                            BUSINESS
+                           {{ $t('contact.title') }}
                         </p>
                     </div>
                 </div>
@@ -24,50 +20,56 @@
                             <div class="row">
                                 <div class="col-12">
                                     <p class="font-basic label_contact">
-                                        CONTACTO
+                                       {{ $t('contact.contacto') }}
                                     </p>
                                 </div>
                             </div>
                             <template v-if="!send">
                                 <div class="row">
                                     <div class="col-6">
-                                        <mu-text-field v-model="form.name" label="Nombre" placeholder="Ingresa tu nombre" full-width></mu-text-field>
+                                        <mu-text-field v-model="form.name" 
+                                        :label=" $t('contact.placeholder.item_1')" 
+                                        :placeholder=" $t('contact.placeholder.label_1')" full-width></mu-text-field>
                                     </div>
                                     <div class="col-6">
-                                        <mu-text-field v-model="form.company" label="Compañía" placeholder="Tu compañía es" full-width></mu-text-field>
+                                        <mu-text-field v-model="form.company" 
+                                            :label="$t('contact.placeholder.item_2')" 
+                                            :placeholder="$t('contact.placeholder.item_2')" 
+                                            full-width></mu-text-field>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-6">
-                                        <mu-text-field v-model="form.email" label="Email" placeholder="Tu correo es" full-width></mu-text-field>
+                                        <mu-text-field v-model="form.email" 
+                                            :label="$t('contact.placeholder.item_3')" 
+                                            :placeholder="$t('contact.placeholder.item_3')" full-width></mu-text-field>
                                     </div>
                                     <div class="col-6">
-                                        <mu-text-field v-model="form.phone" label="Teléfono" placeholder="Tu contacto es" full-width></mu-text-field>
+                                        <mu-text-field v-model="form.phone" 
+                                         :label="$t('contact.placeholder.item_4')" 
+                                         :placeholder="$t('contact.placeholder.item_4')" full-width></mu-text-field>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-12">
-                                        <mu-text-field v-model="form.message" placeholder="Dejanos tu mensaje" multi-line :rows="4" full-width></mu-text-field>
+                                        <mu-text-field v-model="form.message" 
+                                        :placeholder="$t('contact.placeholder.item_4')" multi-line :rows="4" full-width></mu-text-field>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-12">
                                         <button class="btn font-basic" @click.prevent="sendForm()">
-                                            Enviar <img :src="arrow">
+                                            {{ $t('contact.placeholder.title') }} <img :src="arrow">
                                         </button>
                                     </div>
                                 </div>
                             </template>
                             <template v-else>
                                 <p class="font-basic mb-5" style="font-size: 20px;">
-                                    Hemos recibido tu información, nos comunicaremos contigo
-                                    <br>
-                                    a la brevedad.
+                                   
                                 </p>
                                 <p class="font-futura mt-5">
-                                    TE AGRADECEMOS EL INTERES DE QUERER
-                                    <br>
-                                    COLABORAR CON NOSOTROS.
+                                    {{ $t('contact.placeholder.colaboration') }} 
                                 </p>
                             </template>
 

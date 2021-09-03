@@ -1,10 +1,10 @@
 <template>
     <header class="v-header container">
         <div class="fullscreen-video-wrap">
-            <video loop muted autoplay id="video1">
+            <video loop muted autoplay id="video1" width="100%">
                 <source :src="video1" type="video/mp4" />
             </video>
-            <video loop muted autoplay id="video2">
+            <video loop muted autoplay id="video2" width="100%">
                 <source :src="video2" type="video/mp4" />
             </video>
         </div>
