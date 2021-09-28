@@ -71,8 +71,8 @@ const routes = [
         component: () => import( /* webpackChunkName: "js/page-academy" */ '@/pages/Academy')
     },
     {
-        name: 'term',
-        path: '/term',
+        name: 'terms',
+        path: '/terms',
         meta: {
             layout: 'default'
         },

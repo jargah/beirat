@@ -5,13 +5,30 @@
                 <div class="row mb-5">
                     <div class="col-12 mt-5 mb-5">
                         <p class="section__title">
-                            TÉRMINOS Y CONDICIONES
+                           {{ $t('terms.title') }}
                         </p>
 
                         <p class="section__description">
-                            Creemos que como hacemos una cosa hacemos todas, pues el cerebro es una red neural holística que recicla
-                            <br>
-                            los mismos patrones para distintas tareas. Por ende, no podemos evitar usar el método científico a la hora de hacer negocios.
+                               {{ $t('terms.text_1') }}<br><br>
+                               {{ $t('terms.text_2') }}<br><br>
+                               {{ $t('terms.text_3') }}<br><br>
+                               {{ $t('terms.text_4') }}<br><br>
+                               {{ $t('terms.text_5') }}<br><br>
+                               {{ $t('terms.text_6') }}<br><br>
+                               {{ $t('terms.text_7') }}<br><br>
+                               {{ $t('terms.text_8') }}<br><br>
+                               {{ $t('terms.text_9') }}<br><br>
+                               {{ $t('terms.text_10') }}<br><br>
+                               {{ $t('terms.text_11') }}<br><br>
+                               {{ $t('terms.text_12') }}<br><br>
+                               {{ $t('terms.text_13') }}<br><br>
+                               {{ $t('terms.text_14') }}<br><br>
+                               {{ $t('terms.text_15') }}<br><br>
+                               {{ $t('terms.text_16') }}<br><br>
+                               {{ $t('terms.text_17') }}<br><br>
+                               {{ $t('terms.text_18') }}<br><br>
+                               {{ $t('terms.text_19') }}<br><br>
+                               {{ $t('terms.text_20') }}<br><br>
                         </p>
                     </div>
                 </div>
@@ -20,7 +37,6 @@
 
     </div>
 </template>
-
 <script>
 
 
@@ -40,7 +56,6 @@ export default {
 
         padding-left: 100px;
         padding-right: 100px;
-        height: 500px;
 
         &__title {
             position: relative;

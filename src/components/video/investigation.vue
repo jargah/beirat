@@ -11,19 +11,13 @@
             <div class="row __row">
                 <div class="col-12">
                     <p class="font-futura __row__title mb-5">
-                        INVESTIGACIÓN EN
-                        <br>
-                        NEGOCIOS
+                       {{ $t('business.header.title') }}
                     </p>
                     <p class="font-futura __row__subtitle mt-5 mb-5">
-                        En el fondo de nuestro corazón somos científicos.
+                        {{ $t('business.header.description') }}
                     </p>
                     <p class="font-basic __row__description mt-5">
-                        Creemos que como hacemos una cosa hacemos todas,
-                        pues el cerebro es una red neural holística que recicla
-                        los mismos patrones para distintas tareas. Por ende,
-                        no podemos evitar usar el método científico a la hora
-                        de hacer negocios.
+                       {{ $t('business.header.description_full') }}
 
                     </p>
                 </div>

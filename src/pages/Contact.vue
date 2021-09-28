@@ -27,59 +27,70 @@
                             <template v-if="!send">
                                 <div class="row">
                                     <div class="col-6">
-                                        <mu-text-field v-model="form.name" 
-                                        :label=" $t('contact.placeholder.item_1')" 
+                                        <mu-text-field v-model="form.name"
+                                        :label=" $t('contact.placeholder.item_1')"
                                         :placeholder=" $t('contact.placeholder.label_1')" full-width></mu-text-field>
                                     </div>
                                     <div class="col-6">
-                                        <mu-text-field v-model="form.company" 
-                                            :label="$t('contact.placeholder.item_2')" 
-                                            :placeholder="$t('contact.placeholder.item_2')" 
+                                        <mu-text-field v-model="form.company"
+                                            :label="$t('contact.placeholder.item_2')"
+                                            :placeholder="$t('contact.placeholder.item_2')"
                                             full-width></mu-text-field>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-6">
-                                        <mu-text-field v-model="form.email" 
-                                            :label="$t('contact.placeholder.item_3')" 
+                                        <mu-text-field v-model="form.email"
+                                            :label="$t('contact.placeholder.item_3')"
                                             :placeholder="$t('contact.placeholder.item_3')" full-width></mu-text-field>
                                     </div>
                                     <div class="col-6">
-                                        <mu-text-field v-model="form.phone" 
-                                         :label="$t('contact.placeholder.item_4')" 
+                                        <mu-text-field v-model="form.phone"
+                                         :label="$t('contact.placeholder.item_4')"
                                          :placeholder="$t('contact.placeholder.item_4')" full-width></mu-text-field>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-12">
-                                        <mu-text-field v-model="form.message" 
+                                        <mu-text-field v-model="form.message"
                                         :placeholder="$t('contact.placeholder.item_4')" multi-line :rows="4" full-width></mu-text-field>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-12">
                                         <button class="btn font-basic" @click.prevent="sendForm()">
-                                            {{ $t('contact.placeholder.title') }} <img :src="arrow">
+                                            {{ $t('contact.placeholder.item_5') }} <img :src="arrow">
                                         </button>
                                     </div>
                                 </div>
                             </template>
                             <template v-else>
                                 <p class="font-basic mb-5" style="font-size: 20px;">
-                                   
+
                                 </p>
                                 <p class="font-futura mt-5">
-                                    {{ $t('contact.placeholder.colaboration') }} 
+                                    {{ $t('contact.placeholder.colaboration') }}
                                 </p>
                             </template>
 
                             <div class="row mt-5">
                                 <div class="col-12">
-                                    <p class="font-futura">
+                                <p class="font-futura">
+                                       {{ $t('contact.placeholder.item_3') }}
+                                        <br>
+                                        <a href="mailto:hello@beirat.mx">hello@beirat.mx</a>
+                                 </p>
+                                <p class="font-futura">
                                         Whatsapp
                                         <br>
-                                        hello@beirat.mx
+                                    <a href="https://api.whatsapp.com/send?phone=3322228729&text=Hola%20Beirat" target="_blank">33 22 22 87 29</a>
+                                 </p>
+                                 <p class="font-futura">
+                                       {{ $t('contact.placeholder.item_4') }}
+                                        <br>
+                                        <a href="tel:5213322228729">33 22 22 87 29</a>
                                     </p>
+
                                 </div>
                             </div>
 

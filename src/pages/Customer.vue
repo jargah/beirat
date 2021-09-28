@@ -23,14 +23,16 @@
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-7">
-                    <img :src="test" class="customer__section1__image" style="max-width: 100%; min-width: 100%;">
+                    <!-- <img :src="test" class="customer__section1__image" style="max-width: 100%; min-width: 100%;"> -->
+                    <tdmex />
                 </div>
             </div>
         </div>
         <div class="customer__section2">
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-7">
-                    <img :src="test" class="customer__section1__image" style="max-width: 100%; min-width: 100%;">
+                    <!-- <img :src="test" class="customer__section1__image" style="max-width: 100%; min-width: 100%;"> -->
+                    <integra />
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-5 align-self-center">
                     <div class="container">
@@ -71,14 +73,15 @@
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-7">
-                    <img :src="test" class="customer__section1__image" style="max-width: 100%; min-width: 100%;">
+                    <!-- <img :src="test" class="customer__section1__image" style="max-width: 100%; min-width: 100%;"> -->
+                    <maria />
                 </div>
             </div>
         </div>
         <div class="customer__section2">
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-7">
-                    <img :src="test" class="customer__section1__image" style="max-width: 100%; min-width: 100%;">
+                    <nova />
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-5 align-self-center">
                     <div class="container mt-5 mb-5">
@@ -119,7 +122,8 @@
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-7 ">
-                    <img :src="test" class="customer__section1__image" style="max-width: 100%; min-width: 100%;">
+                    <!-- <img :src="test" class="customer__section1__image" style="max-width: 100%; min-width: 100%;"> -->
+                    <tracto />
                 </div>
             </div>
         </div>
@@ -130,6 +134,12 @@
 <script>
 
 import video1 from 'ASSETS/business-investigation/video/consultoria-en-guadalajara-1'
+import tdmex  from 'COMPONENTS/video/tdmex'
+import integra  from 'COMPONENTS/video/integra'
+import nova  from 'COMPONENTS/video/nova'
+import tracto  from 'COMPONENTS/video/tracto'
+import maria  from 'COMPONENTS/video/maria'
+
 import image1 from 'ASSETS/customer/image/client/geg-logo'
 import image2 from 'ASSETS/customer/image/client/nova-logo'
 import image3 from 'ASSETS/customer/image/client/movalia-logo'
@@ -140,11 +150,15 @@ import test from 'ASSETS/global/test'
 import video_customer from '@/components/video/customer'
 
 
-
 export default {
     name: 'customer',
     components: {
-        'video-customer': video_customer
+        'video-customer': video_customer,
+        'tdmex': tdmex,
+        'nova': nova,
+        'integra': integra,
+        'tracto': tracto,
+        'maria': maria
     },
     data() {
         return {

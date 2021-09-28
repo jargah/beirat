@@ -31,13 +31,37 @@
                                 </router-link>
                                 <div class="mt-5">
                                      <p style="cursor: pointer; color: #fff;" @click="redirect('term')">
-                                        Términos y condiciones
+                                     <router-link
+                                            :to="{ name: 'terms' }"
+                                            custom
+                                            v-slot="{ navigate }"
+                                        >
+                                            <a href="#" @click="navigate" class="footer_link">
+                                                {{ $t('global.terms') }}
+                                            </a>
+                                    </router-link>
                                     </p>
                                     <p style="cursor: pointer; color: #fff;" @click="redirect('notice')">
-                                        Aviso de privacidad
+                                        <router-link
+                                            :to="{ name: 'notice' }"
+                                            custom
+                                            v-slot="{ navigate }"
+                                            >
+                                            <a href="#" @click="navigate" class="footer_link">
+                                                {{ $t('global.notice') }}
+                                            </a>
+                                        </router-link>
                                     </p>
                                     <p style="cursor: pointer; color: #fff;" @click="redirect('policity')">
-                                        Politicas
+                                        <router-link
+                                            :to="{ name: 'policity' }"
+                                            custom
+                                            v-slot="{ navigate }"
+                                            >
+                                            <a href="#" @click="navigate" class="footer_link">
+                                                {{ $t('global.politics') }}
+                                            </a>
+                                        </router-link>
                                     </p>
                                 </div>
                             </div>
@@ -57,13 +81,13 @@
                             <div class="footer__contact">
                                 <div class="">
                                      <p style="cursor: pointer; color: #fff;" @click="redirect('term')">
-                                        Términos y condiciones
+                                        Términos y condiciones2
                                     </p>
                                     <p style="cursor: pointer; color: #fff;" @click="redirect('notice')">
-                                        Aviso de privacidad
+                                        Aviso de privacidad2
                                     </p>
                                     <p style="cursor: pointer; color: #fff;" @click="redirect('policity')">
-                                        Politicas
+                                        Politicas2
                                     </p>
                                 </div>
                                 <router-link
@@ -168,7 +192,15 @@ export default {
 </script>
 
 <style lang="scss">
-
+    
+    .footer_link{
+        color: #ffffff;
+        text-decoration: inherit;
+    }
+    .footer_link:hover{
+        color: #ffffff;
+        text-decoration: inherit;
+    }
     .show_social {
         display: none !important;
     }

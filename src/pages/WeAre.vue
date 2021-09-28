@@ -135,14 +135,14 @@
 
              <div class="container-fluid we-are__section5">
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-2" style="padding:10px;">
                            <div class="we-are__section5__portafolio text-center">
                                 <p class="we-are__section5__portafolio__title font-futura">
                                     {{ $t('weare.section5.portafolio.title') }}
                                 </p>
                             </div>
                         </div>
-                        <div class="col-9">
+                        <div class="col-10">
                             <div class="we-are__section5__services text-center">
                                 <div class="row">
                                     <div class="col-12 mt-5 mb-4">
