@@ -7,6 +7,10 @@
                 style="cursor: pointer;"
                 @click="toggleModal"
                 ref="btnToggle">
+
+                <div class="overlay-image">
+                    <img :src="play" alt="play" class="video-btn image-play" @click="toggleModal">
+                </div>
         </div>
 
         <b-modal
@@ -29,12 +33,14 @@
 
 
 import image from 'ASSETS/customer/image/tdmex.jpeg'
+import play from 'ASSETS/play'
 
 export default {
     name: 'tdmex',
     data() {
         return {
-            image
+            image,
+            play
         }
     },
     methods: {
@@ -67,5 +73,15 @@ export default {
         height: 100%;
         widows: 100%;
         background-color: transparent;
+    }
+    .image-play {
+        color: black;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        cursor: pointer;
+        z-index: 2;
     }
 </style>

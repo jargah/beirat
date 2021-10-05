@@ -39,9 +39,7 @@
                         <div class="row customer__section2__row ">
                             <div class="col-12">
                                 <p class="customer__section2__title mb-5">
-                                    GREAT  EXPERIENCE
-                                    <br>
-                                    GUARANTEED
+                                    INTEGRA
                                 </p>
 
                                 <p class="customer__section2__description">
@@ -127,6 +125,29 @@
                 </div>
             </div>
         </div>
+        <div class="customer__section2">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-7">
+                    <movalia />
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 align-self-center">
+                    <div class="container mt-5 mb-5">
+                        <div class="row customer__section2__row">
+                            <div class="col-12">
+                                <p class="customer__section2__title mb-5">
+                                    MOVALIA
+                                </p>
+
+                                <p class="customer__section2__description">
+                                    <br>
+                                   {{ $t('clients.item_7') }}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </section>
 </template>
@@ -139,6 +160,7 @@ import integra  from 'COMPONENTS/video/integra'
 import nova  from 'COMPONENTS/video/nova'
 import tracto  from 'COMPONENTS/video/tracto'
 import maria  from 'COMPONENTS/video/maria'
+import movalia  from 'COMPONENTS/video/movalia'
 
 import image1 from 'ASSETS/customer/image/client/geg-logo'
 import image2 from 'ASSETS/customer/image/client/nova-logo'
@@ -158,7 +180,8 @@ export default {
         'nova': nova,
         'integra': integra,
         'tracto': tracto,
-        'maria': maria
+        'maria': maria,
+        'movalia': movalia
     },
     data() {
         return {

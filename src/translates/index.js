@@ -54,8 +54,8 @@ module.exports = {
              header: {
                 title: `BUSINESS RESEARCH`,
                 description: 'In the bottom of our hearts, we are scientists.',
-                description_full:`We believe as we do one thing, we can do all of them, 
-                                  since the brain is a holistic neural network that recycles the same patterns 
+                description_full:`We believe as we do one thing, we can do all of them,
+                                  since the brain is a holistic neural network that recycles the same patterns
                                   for different tasks. Because of that, we can’t help but use the scientific method when we do business.`,
             },
             section1: {
@@ -76,20 +76,20 @@ module.exports = {
         },
         scalability: {
             title:'BUSINESS DIAGNOSIS',
-            description: `When we have a product or service already established, 
-                          and we understand the vision for the future of our company, 
-                          but we haven’t reached an organized growth, sistematized and automated, 
-                          in which the operational difficulties are the everyday problems, 
-                          often the reason of the lack of results is the absence of scientifically 
+            description: `When we have a product or service already established,
+                          and we understand the vision for the future of our company,
+                          but we haven’t reached an organized growth, sistematized and automated,
+                          in which the operational difficulties are the everyday problems,
+                          often the reason of the lack of results is the absence of scientifically
                           proven information that allows us taking better decisions in our business.`,
             section1: {
                 title: `WE BELIEVE THAT DISRUPTIVE COMPANIES CHANGE THE GAME COMPLETELY`,
-                description: `Those are the ones who anticipate problems 
+                description: `Those are the ones who anticipate problems
                               before they exist, or before the market realizes it has them.`
             },
             section2: {
                 title: 'QUICK SOLUTIONS TO BAD RESULTS',
-                subtitle: `In most of the cases, bad results are the main reason why one or more managers 
+                subtitle: `In most of the cases, bad results are the main reason why one or more managers
                 start making changes, and the first ideas to turn this situation around can be as simple
                 as unnecessary, for example:
                 `,
@@ -131,7 +131,7 @@ module.exports = {
                 },
                 item5: {
                     title: 'DO YOU WANT YOUR PRODUCTIVITY TO GROW?',
-                    description: `You will find the direct limitations of that low performance: lack of trainning, work conditions, 
+                    description: `You will find the direct limitations of that low performance: lack of trainning, work conditions,
                                   ignorance of goals, ignorance of the maximum atention capacity, leadership, poorly planned processes, etc.`
                 }
             }
@@ -142,7 +142,7 @@ module.exports = {
             title_3: "ALL OF THIS IS POSSIBLE BECAUSE OF OUR TEAM",
             description_1:`We drive the transformation and we build businesses joining the necessary abilities to help the organizations to grow and prosper in the digital era. `,
             description_2:`The artificial intelligence and the capitalization of the new technology, optimize and automate the operations. Driving the digital growth, creating awesome experiences for the final client and developing the talent and a more technologic culture.`,
-       
+
             description_3:`Scientists dedicated to data analysis, engineers, architects, developers, agile trainers, designers and cibersecurity experts.`,
             description_4:`Complementing our inner skills, we have multiple patented solutions and an association  with one of the leading companies in technology in the world.`,
             description_5:`WE HELP OUR CLIENTS TO TAKE ADVANTAGE OF THE POWER OF DATA.`,
@@ -170,16 +170,19 @@ module.exports = {
         },
         clients:{
             item_1:`Company committed with their clients and with the main goal of providing them the best land cargo service. Always making sure to fulfill with the established times and with the honesty that characterizes us.`,
-            item_2:`It’s a project whose main goal is to create a certificate that guarantees the different 
-                    suppliers of the hospitality services, using a methodology based on the standards and 
+            item_7:`It’s a project whose main goal is to create a certificate that guarantees the different
+                    suppliers of the hospitality services, using a methodology based on the standards and
                     guidelines already established by companies such as ISO 9001, but focused on the hospitality area.`,
+            item_2:`Integra is a first class customs agency with more than 90 years of experience.
+                    Committed to offering all the alternatives and solutions based on the highest
+                    quality standards that provide control and operational efficiency in each of its processes`,
 
-            item_3:`45 years of experience in the hospitality sector. Starting in 1975 with the participation of the 
-                    Paraíso Mazatlán project in Sinaloa since the beginning, performing in the department of housekeeper, 
+            item_3:`45 years of experience in the hospitality sector. Starting in 1975 with the participation of the
+                    Paraíso Mazatlán project in Sinaloa since the beginning, performing in the department of housekeeper,
                     customer service and maintenance supervision.`,
 
             item_4:`They advise you in relation to your human resource, with the purpose of organice, manage, attract, monitor and capitalize on your company’s talent.`,
-            item_5:`Mexican company specialized in the manufacturing and commercialization of 
+            item_5:`Mexican company specialized in the manufacturing and commercialization of
                     parts and accesories for tracto trucks in national and international territory,
                     with more than 30 years of experience, always focusing on covering the needs of
                     our clients everyday through an excellent service.`,
@@ -208,22 +211,22 @@ module.exports = {
                     ACADEMY ENTERPRISE FIRM BC7 SA DE CV. reserves the right to change these rules. The rules of Conduct, Publication and Security are as described below.`,
 
 
-            text_8: `6.1. General: 
+            text_8: `6.1. General:
                     The contact information of ACADEMY ENTERPRISE FIRM BC7 SA DE CV. is listed on the Website. ACADEMY ENTERPRISE FIRM BC7 SA DE CV. and its associated agents do not assume responsibility for the content being appropriate or downloaded outside of the Mexican Republic. Access to the content of the website may not be legal for certain people or in certain countries. If you have access to the content of the Internet site from outside the Mexican Republic, you do so at your own risk and you are responsible for compliance with the laws within your jurisdiction. The User agrees to use the Website and the Services in accordance with the law, these General Conditions, the applicable Particular Conditions, as well as generally accepted morals and good customs and public order. ACADEMY ENTERPRISE FIRM BC7 SA DE CV. excludes any liability for damages of any kind that may be due to services provided by third parties through the Website, and in particular, although not exclusively for damages that may be due to breach of the law, morality and generally accepted good customs or public order as a consequence of the provision of services by third parties through the Website; the infringement of intellectual and industrial property rights, business secrets, contractual commitments of any kind, rights to honor, personal and family privacy and the image of people, property rights and all other nature belonging to a third party as a result of the provision of services by third parties through the portal; the performance of acts of unfair competition and illegal advertising as a result of the provision of services by third parties through the portal, the lack of veracity, accuracy, completeness, relevance and / or timeliness of the content transmitted, disseminated, stored, received, obtained , made available or accessible through the services provided by third parties through the portal; non-compliance, delay in compliance, defective compliance or termination for any reason of the obligations contracted by third parties and contracts made with third parties in relation to or due to the provision of services through the portal; vices and defects of all kinds of services provided through the portal. You must not assign or transfer your obligations under these terms, these conditions constitute the entire contract between you and the company regarding the use of the Internet site. ACADEMY ENTERPRISE FIRM BC7 SA DE CV. reserves the right to deny or withdraw access to the Portal and / or the Services, at any time and without prior notice, to those users who breach these General Conditions or the Particular Conditions that result from`,
 
-            text_9: `6.2 Rules of Conduct: 
+            text_9: `6.2 Rules of Conduct:
                     • You may not respond to posts on behalf of other users in any way and for any other purpose than expected (example, to apply to work or to initiate a discussion regarding work). Communications requesting the employer's business are prohibited.
-                    • You cannot send commercial emails to users. 
-                    • Report inappropriate behavior or publications to: hello@beirat.mx 
+                    • You cannot send commercial emails to users.
+                    • Report inappropriate behavior or publications to: hello@beirat.mx
                     • You may not delete or review any material posted by any other person or entity.
-                    • If at any time during the term of this contract ACADEMY ENTERPRISE FIRM BC7 SA DE CV. learns that you have misled him as to your business practice and / or services, and / or have purchased services that do not precisely represent your business, ACADEMY ENTERPRISE FIRM BC7 SA DE CV. reserves the right to terminate this contract and its use of privileges immediately without prior notice. 
+                    • If at any time during the term of this contract ACADEMY ENTERPRISE FIRM BC7 SA DE CV. learns that you have misled him as to your business practice and / or services, and / or have purchased services that do not precisely represent your business, ACADEMY ENTERPRISE FIRM BC7 SA DE CV. reserves the right to terminate this contract and its use of privileges immediately without prior notice.
                     • ACADEMY ENTERPRISE FIRM BC7 SA DE CV. It has no obligation to monitor the behavior of its users, but undertakes to investigate and respond when violations of the terms mentioned herein are reported.`,
 
-            text_10: ` 6.3 Security Rules: 
-                    A. Users are prohibited from violating or threatening the security of the Website, including, without limitation: 
-                    • Entering data that is not intended for that user or entering a server or account in which the user is not authorized to access. If you have a password that allows you to access a non-public area of this website, you may not disclose or share your password with third parties or use your password for any unauthorized purpose. 
-                    • Attempting, exploring, or testing the vulnerability of the system or the network or attempting to bypass security or authentication measures without prior authorization; 
-                    • Attempting and interfering with the service of any user, server or network (host, network) by sending a virus to the Website, or other acts such as overloading (overloading, flooding). 
+            text_10: ` 6.3 Security Rules:
+                    A. Users are prohibited from violating or threatening the security of the Website, including, without limitation:
+                    • Entering data that is not intended for that user or entering a server or account in which the user is not authorized to access. If you have a password that allows you to access a non-public area of this website, you may not disclose or share your password with third parties or use your password for any unauthorized purpose.
+                    • Attempting, exploring, or testing the vulnerability of the system or the network or attempting to bypass security or authentication measures without prior authorization;
+                    • Attempting and interfering with the service of any user, server or network (host, network) by sending a virus to the Website, or other acts such as overloading (overloading, flooding).
                     • Send unsolicited e-mails, including promotions and / or advertising of products or services.`,
 
             text_11:`B. Violation of these Safety Rules may result in civil or criminal liability. ACADEMY ENTERPRISE FIRM BC7 SA DE CV. will investigate the cases that may present said violations and will involve, and cooperate with the respective authorities in the legal process of the users who are involved in these violations.`,
@@ -236,23 +239,23 @@ module.exports = {
             text_14:`9. Exclusion of guarantees:
                     The site and all its content is provided "as-is" without warranties of any kind, express or implied. The company and its associated agents (ACADEMY ENTERPRISE FIRM BC7 SA DE CV.) to the extent permitted by law , limits liability for all warranties, including, but not limited to, the warranty of merchantability, fitness for a specific purpose, and non-infringement. The company and its associated agents make no warranties regarding the accuracy, reliability, completeness, or timeliness of the content of the website, services, software, text, graphics and links ACADEMY ENTERPRISE FIRM BC7 SA DE CV. and its associated agents do not guarantee that the site will operate free of errors or that the site and its servers are free from computer viruses or other harmful mechanisms.If your use of the website results directly or indirectly in the need to replace equipment or data or perform services, ACADEMY ENTERPRISE FIRM BC7 SA DE CV. and its agents associates are not responsible for the costs associated with such replacements and / or services.`,
 
-            text_15:`10. Termination ACADEMY ENTERPRISE FIRM BC7 SA DE CV. 
+            text_15:`10. Termination ACADEMY ENTERPRISE FIRM BC7 SA DE CV.
                     Completion of ACADEMY ENTERPRISE FIRM BC7 SA DE CV. and its associated agents reserve the right, at their sole discretion, to pursue all legal remedies, including, without limitation, the elimination of their publications on this Website, the immediate termination of access codes to this Website and / or any other services provided by the company and its associated agents, due to any breach by you of these terms and conditions of use or if the company is unable to verify or authenticate any information that you submit to the website or other records; In case of cancellation of the service for these reasons ACADEMY ENTERPRISE FIRM BC7 SA DE CV. nor its associated agents will make any refund of amounts paid for the termination of the service.`,
 
-            text_16 :`11. Links to other sites: 
+            text_16 :`11. Links to other sites:
                     ACADEMY ENTERPRISE FIRM BC7 SA DE CV. and its associated agents contain links or hyperlinks to Third Party Sites. These links are provided for your convenience and the contents are not endorsed by ACADEMY ENTERPRISE FIRM BC7 SA DE CV. is not responsible for the content of those sites or the accuracy of their materials. If you decide to enter these sites it is your responsibility.`,
 
-            text_17 :`12. Amendments to this agreement and Changes to the Website www.beirat.mx 
-                    You can review these terms at any time and update their content. Any use of the Website will be considered as your acceptance of the terms shown here. If at any time you find the terms unacceptable, you should not use this Website. Any new or different terms provided by you will be specifically rejected by ACADEMY ENTERPRISE FIRM BC7 SA DE CV. 
+            text_17 :`12. Amendments to this agreement and Changes to the Website www.beirat.mx
+                    You can review these terms at any time and update their content. Any use of the Website will be considered as your acceptance of the terms shown here. If at any time you find the terms unacceptable, you should not use this Website. Any new or different terms provided by you will be specifically rejected by ACADEMY ENTERPRISE FIRM BC7 SA DE CV.
                     ACADEMY ENTERPRISE FIRM BC7 SA DE CV. you may make changes to these terms without prior notice.`,
 
-            text_18 :`13. Indemnification of ACADEMY ENTERPRISE FIRM BC7 SA DE CV: 
+            text_18 :`13. Indemnification of ACADEMY ENTERPRISE FIRM BC7 SA DE CV:
                     You agree to defend, indemnify and declare exempt from liability the Company and its associated agents, its officers, directors, employees and agents, against and against any claim, legal action or lawsuit, including without limitation the damages, legal and accounting costs derived or resulting from any allegation resulting from or in connection with your use of the Website, from any material published by you or for any breach of these terms ACADEMY ENTERPRISE FIRM BC7 SA DE CV. will inform you of the existence of such claims, lawsuits or legal proceedings and will assist you, at your cost, in the defense of such claims, lawsuits or legal proceedings.`,
 
-            text_19:`14. User information: 
+            text_19:`14. User information:
                     The Privacy Notice of ACADEMY ENTERPRISE FIRM BC7 SA DE CV. incorporates this agreement.`,
 
-            text_20 :`15. Notifications and questions: 
+            text_20 :`15. Notifications and questions:
                     Questions about the use of this Website should be directed to hello@beirat.mx notifications should be directed to the address shown on the Website.
                     `,
             text_21:'',
@@ -280,12 +283,12 @@ module.exports = {
             text_10:`Changes to the Privacy Notice: hello@beirat.mx reserves the right to periodically update this Notice to reflect changes in our information practices. It is the responsibility of the Holder to periodically review the content of the Notice where the changes made together with the date of the last update will be published.`,
         },
         politics:{
-            
+
             title: `Privacy Policy`,
             text_1: `Effective date: January 1, 2019. `,
-                          
+
             text_2: `We believe that we must be clear about how we collect and use your data. To offer a higher level of transparency, this Policy provides detailed information on how and when we use cookies. `,
-      
+
             text_3: `This Cookies Policy applies to any product or service of ACADEMY ENTERPRISE FIRM BC7 SA DE CV. associated with this policy or incorporating it by reference.`,
 
             text_4: `Does ACADEMY ENTERPRISE FIRM BC7 SA DE CV. use cookies?`,
@@ -459,7 +462,7 @@ module.exports = {
                            Impulsando el crecimiento digital, creando experiencias
                            asombrosas a su cliente final y desarrollando el talento y
                            una cultura más tecnológica.`,
-       
+
             description_3:`Científicos dedicados al análisis de datos,
                             ingenieros, arquitectos, desarrolladores,
                             entrenadores ágiles, diseñadores
@@ -497,16 +500,26 @@ module.exports = {
                     de prestarles el mejor servicio de carga terrestre.
                     Asegurándose en todo momento de cumplir con los tiempos establecidos
                     y con la honestidad que nos caracteriza.`,
-           
-            item_2:`Es un proyecto cuyo objetivo es el crear un certificado que avale
+
+            item_7:`Es un proyecto cuyo objetivo es el crear un certificado que avale
                      a los diferentes proveedores de servicios de hospitalidad, utilizando
                      una metodología basada en los estándares y criterios ya establecidos
                      por otras empresas como es el ISO 9001, pero enfocada al área hospitalaria.`,
+            item_2: `Integra es una agencia aduanal de primer nivel con más de 90 años de experiencia.
+                    Comprometida en ofrecer todas las alternativas y soluciones basadas en los estándares más altos
+                    de calidad que brindan control y eficiencia operativa en cada uno de sus procesos.`,
             item_3:`45 años de experiencia en el segmento de la hospitalidad. Iniciando en 1975 con la participación desde el arranque del proyecto Paraíso Mazatlán en Sinaloa, desempeñándose en los departamentos de Ama de Llaves, Atención al Huésped y Supervisión de Mantenimiento. `,
             item_4:`Te asesoran integralmente en relación a tu recurso humano,
                     con la finalidad de organizar, gestionar, atraer, monitorear y capitalizar
                     el talento de tu empresa.`,
             item_5:`Empresa mexicana dedicada a la fabricación
+                    y comercialización de partes y accesorios
+                    para tracto camión en territorio Nacional
+                    y extranjero con una experiencia de más de
+                    30 años en el ramo, siempre manteniendo el
+                    enfoque en cubrir las necesidades de nuestros
+                    clientes día con día a través de un servicio de excelencia.`,
+            item_6:`Empresa mexicana dedicada a la fabricación
                     y comercialización de partes y accesorios
                     para tracto camión en territorio Nacional
                     y extranjero con una experiencia de más de
@@ -520,22 +533,22 @@ module.exports = {
 
             text_2:`1. Introducción.
                     Esta página establece los "términos y condiciones" bajo los cuales usted puede utilizar ACADEMY ENTERPRISE FIRM BC7 SA DE CV. Por favor lea esta página cuidadosamente. Si no acepta los términos y condiciones establecidos aquí, no utilice este sitio de Internet ni este servicio.`,
-                   
+
             text_3:`2. Aceptación de términos.
                     Al utilizar este sitio de Internet, usted acepta obligarse a éstos términos y condiciones. Los términos y condiciones pueden ser actualizados por ACADEMY ENTERPRISE FIRM BC7 SA DE CV. en cualquier momento y sin previo aviso por lo que debe visitar ésta página periódicamente para consultar la versión más reciente de los términos y condiciones. Los términos "usted" y "usuario" según se utilizan aquí hacen referencia a todas las personas y/o entidades que acceden a este sitio de Internet por cualquier razón.`,
-                    
+
             text_4:`3. Acuerdo Obligatorio.
                     Estos términos (pueden ser cambiados periódicamente por ACADEMY ENTERPRISE FIRM BC7 SA DE CV. los cuales forman un acuerdo obligatorio entre usted y ACADEMY ENTERPRISE FIRM BC7 SA DE CV. El acceso y uso de ACADEMY ENTERPRISE FIRM BC7 SA DE CV. indica su aceptación de estos términos. Así mismo, usted acuerda ACADEMY ENTERPRISE FIRM BC7 SA DE CV. a su propio riesgo. Tratándose de contratación electrónica de servicios, ésta se perfeccionará desde que se reciba la aceptación de la propuesta o las condiciones con que ésta fuere modificada.`,
-                    
+
             text_5: `4. Descripción del Servicio.
                     Queda establecido que usted entiende y acepta que el servicio puede incluir ciertas comunicaciones de ACADEMY ENTERPRISE FIRM BC7 SA DE CV como mensajes administrativos y anuncios de servicio, éstas comunicaciones son consideradas como parte del servicio de ACADEMY ENTERPRISE FIRM BC7 SA DE CV. y usted no puede excluir la recepción de dichas comunicaciones. El uso de la herramienta online denominada “www.beirat.mx " de la compañía ACADEMY ENTERPRISE FIRM BC7 SA DE CV. forma parte del servicio otorgado por ACADEMY ENTERPRISE FIRM BC7 SA DE CV. y su uso se regirá bajo los términos del presente. La liberación de nuevos productos y propiedades, queda sujeta a éstos términos. Usted entiende y acuerda que los servicios mencionados anteriormente son proporcionados “como - es" y ACADEMY ENTERPRISE FIRM BC7 SA DE CV. de cualquier comunicación o características de personalización. Si un usuario de ACADEMY ENTERPRISE FIRM BC7 SA DE CV. desea dejar de recibir estás comunicaciones, el usuario puede hacer clic en la solicitud de remoción de envío, que se agrega al final de cada pieza de correo electrónico enviada.`,
-                    
+
             text_6: `5. Otras Reglas Particulares de Uso del Sitio Web:
                     Usted representa, garantiza y acepta que usted no usará (o planeará, motivará o ayudará a otros a usar) el Sitio Web para cualquier otro propósito o que en cualquier manera esté prohibido por los términos aquí mencionados o los que sean aplicables por ley. Es su responsabilidad asegurar que usted use el Sitio Web de acuerdo a los términos aquí especificados.`,
-                    
+
             text_7:`6. Otras Reglas Particulares de Uso del Sitio Web:
                     Usted representa, garantiza y acepta que usted no usará (o planeará, motivará o ayudará a otros a usar) el Sitio Web para cualquier otro propósito o que en cualquier manera esté prohibido por los términos aquí mencionados o los que sean aplicables por ley. Es su responsabilidad asegurar que usted use el Sitio Web de acuerdo a los términos aquí especificados.`,
-                    
+
             text_8:`7. Reglas de Publicación. Conducta y Seguridad:
                     Usted acepta cumplir con las reglas de ACADEMY ENTERPRISE FIRM BC7 SA DE CV. de Conducta y de Seguridad en este sitio Web. Usuarios que violen dichas reglas tendrán el uso y el acceso del sitio suspendido o cancelado a discreción exclusiva de ACADEMY ENTERPRISE FIRM BC7 SA DE CV.
                     ACADEMY ENTERPRISE FIRM BC7 SA DE CV. se reserva el derecho de cambiar estas reglas. Las reglas de Conducta, Publicación y Seguridad son como se describe a continuación:`,
@@ -547,7 +560,7 @@ module.exports = {
 
             text_10:`7.2 General:
                     La información de contacto de ACADEMY ENTERPRISE FIRM BC7 SA DE CV. está listada en el Sitio Web. ACADEMY ENTERPRISE FIRM BC7 SA DE CV. y sus agentes asociados no asumen responsabilidad de que el contenido sea apropiado o sea bajado fuera de la República Mexicana. El acceso al contenido del sitio de Internet puede no ser legal para ciertas personas o en ciertos países. Si usted tiene acceso al contenido del sitio de Internet desde fuera de la República Mexicana, lo hace a su propio riesgo y es responsable por el cumplimiento de las leyes dentro de su jurisdicción. El Usuario se compromete a utilizar el Sitio Web y los Servicios de conformidad con la ley, estas Condiciones Generales, las Condiciones Particulares aplicables, así como con la moral y buenas costumbres generalmente aceptadas y el orden público. ACADEMY ENTERPRISE FIRM BC7 SA DE CV.  excluye cualquier responsabilidad por los daños y perjuicios de toda naturaleza que puedan deberse a los servicios prestados por terceros a través del Sitio Web, y en particular, aunque no de modo exclusivo por los daños y perjuicios que puedan deberse a el incumplimiento de la ley, la moral y las buenas costumbres generalmente aceptadas o de orden público como consecuencia de la prestación de servicios por terceros a través del Sitio Web; la infracción de los derechos de propiedad intelectual e industrial, de los secretos empresariales, de compromisos contractuales de cualquier clase, de los derechos al honor, a la intimidad personal y familiar y a la imagen de las personas, de los derechos de propiedad y de toda otra naturaleza pertenecientes a un tercero como consecuencia de la prestación de servicios por terceros a través del portal; la realización de actos de competencia desleal y publicidad ilícita como consecuencia de la prestación de servicios por terceros a través del portal, la falta de veracidad, exactitud, exhaustividad, pertinencia y/o actualidad de los contenidos transmitidos, difundidos, almacenados, recibidos, obtenidos, puestos a disposición o accesibles mediante los servicios prestados por terceros a través del portal; el incumplimiento, retraso en el cumplimiento, cumplimiento defectuosos o terminación por cualquier causa de las obligaciones contraídas por terceros y contratos realizados con terceros en relación o con motivo de la prestación de servicios a través del portal; los vicios y defectos de toda clase de los servicios prestados a través del portal. Usted no debe asignar o transferir sus obligaciones bajo estos términos, estas condiciones constituyen todo el contrato entre usted y la empresa con respecto al uso del sitio de Internet. ACADEMY ENTERPRISE FIRM BC7 SA DE CV. se reserva el derecho a denegar o retirar el acceso al Portal y/o a los Servicios, en cualquier momento y sin necesidad de preaviso, a aquellos usuarios que incumplan estas Condiciones Generales o las Condiciones Particulares que resulten de `,
-                    
+
             text_11:`7.3 Reglas de Conducta:
                     •   Usted no puede responder a publicaciones a nombre de otros usuarios de ninguna manera y para ningún otro propósito que el esperado (ejemplo, para aplicar al trabajo o para iniciar una discusión con referencia al trabajo). Comunicaciones solicitando el negocio del empleador están prohibidas.
                     •   Usted no puede enviar correos electrónicos comerciales a los usuarios.
@@ -555,7 +568,7 @@ module.exports = {
                     •   Usted no puede borrar o revisar ningún material publicado por ninguna otra persona o entidad.
                     •   Si en cualquier momento durante el término del presente contrato ACADEMY ENTERPRISE FIRM BC7 SA DE CV. se entera que usted lo ha engañado en cuanto a su práctica de negocios y/o servicios, y/o ha comprado servicios que no representan precisamente su negocio, ACADEMY ENTERPRISE FIRM BC7 SA DE CV. se reserva el derecho de terminar el presente contrato y su uso de privilegios inmediatamente sin previa notificación.
                     •   ACADEMY ENTERPRISE FIRM BC7 SA DE CV. no tiene obligación de monitorear la conducta de sus usuarios, pero se compromete a investigar y responder cuando se reporten violaciones a los términos aquí mencionados.`,
-                    
+
             text_12 :`7.4 Reglas de Seguridad:
                     A. Los usuarios tienen prohibido violar o atentar contra la seguridad del Sitio Web, incluyendo, sin limitación:
                     •   Ingresar datos que no sean previstos para ese usuario o ingresar a un servidor o cuenta en la cual el usuario no esté autorizado para accesar. Si usted tiene una contraseña que le permita acceso a un área no pública de este sitio de Internet, no podrá divulgar o compartir su contraseña con terceros o utilizar su contraseña para cualquier fin no autorizado.
@@ -566,30 +579,30 @@ module.exports = {
 
             text_13 :`8. Exclusión de Garantías y de responsabilidad:
                     ACADEMY ENTERPRISE FIRM BC7 SA DE CV. no es una agencia de empleos ni una firma de reclutamiento, y no tiene ninguna representación ni garantiza la efectividad o el tiempo en la obtención de empleo para los usuarios ACADEMY ENTERPRISE FIRM BC7 SA DE CV. no garantiza los materiales publicados en este sitio por usuarios que resulten candidatos contratados o por puestos por cubrir y no es responsable de ninguna decisión sobre un empleo, por cualquier razón hecho por cualquier usuario.`,
-                    
+
             text_14:`9. ACADEMY ENTERPRISE FIRM BC7 SA DE CV. no garantiza la veracidad, exactitud, vigencia o confiabilidad de ninguno de los materiales publicados por los usuarios, o por cualquier otra forma de comunicación que sea comprometida por los usuarios. Los materiales pueden contener inexactitudes o errores tipográficos. Usted acepta que cualquier consecuencia en materiales publicados por los usuarios, o en cualquier otra forma de comunicación con los usuarios, será a su propio riesgo. ACADEMY ENTERPRISE FIRM BC7 SA DE CV. no garantiza el contenido del Sitio Web incluyendo responsabilidad limitada hacía, ligas que no funcionen, inexactitudes o errores tipográficos. Iguales términos son extensibles de ACADEMY ENTERPRISE FIRM BC7 SA DE CV.`,
-                    
+
             text_15 :`10. EXCLUSIÓN DE GARANTÍAS:
                     EL SITIO Y TODO SU CONTENIDO ES PROVEÍDO “COMO- ES" SIN GARANTÍAS DE NINGUNA CLASE, EXPRESAS O IMPLÍCITAS. LA EMPRESA Y SUS AGENTES ASOCIADOS (ACADEMY ENTERPRISE FIRM BC7 SA DE CV) HASTA DONDE LO PERMITA LA LEY, LIMITA LA RESPONSABILIDAD DE TODAS LAS GARANTÍAS, INCLUYENDO, PERO NO LIMITANDO LA GARANTÍA DE COMERCIALIZACIÓN, IDONEIDAD PARA UN PROPÓSITO ESPECÍFICO Y NO INFRACCIÓN. LA EMPRESA Y SUS AGENTES ASOCIADOS NO OFRECEN GARANTÍAS ACERCA DE LA PRECISIÓN, CONFIABILIDAD, INTEGRIDAD U OPORTUNIDAD DEL CONTENIDO DEL SITIO DE INTERNET, SERVICIOS, SOFTWARE, TEXTO, GRÁFICAS Y VÍNCULOS ACADEMY ENTERPRISE FIRM BC7 SA DE CV.  Y SUS AGENTES ASOCIADOS NO GARANTIZA QUE EL SITIO VA A OPERAR LIBRE DE ERRORES O QUE EL SITIO Y SUS SERVIDORES ESTÁN LIBRE DE VIRUS INFORMÁTICOS U OTROS MECANISMOS DAÑINOS. SI SU USO DEL SITIO WEB RESULTA DIRECTA O INDIRECTAMENTE EN LA NECESIDAD DE REMPLAZAR EQUIPOS O DATOS O REALIZAR SERVICIOS, ACADEMY ENTERPRISE FIRM BC7 SA DE CV. Y SUS AGENTES ASOCIADOS NO SON RESPONSABLES POR LOS COSTOS ASOCIADOS CON DICHOS REEMPLAZOS Y/O SERVICIOS.`,
 
             text_16 :`11. Terminación ACADEMY ENTERPRISE FIRM BC7 SA DE CV.
                     Terminación ACADEMY ENTERPRISE FIRM BC7 SA DE CV. y sus agentes asociados se reservan el derecho, a su entera discreción, a perseguir todos los remedios legales, incluyendo, sin limitación, la eliminación de sus publicaciones en este Sitio Web, la terminación inmediata de claves de acceso a este Sitio Web y/o cualesquier otros servicios que le brinde la empresa y sus agentes asociados, debido a cualquier incumplimiento suyo a estos términos y condiciones de uso o si la empresa es incapaz de verificar o autentificar cualquier información que usted presente al sitio de Internet u otros registros; En caso de cancelación del servicio por estas causas ACADEMY ENTERPRISE FIRM BC7 SA DE CV. ni sus agentes asociados harán ningún reembolso de cantidades pagadas por la terminación del servicio.`,
-                    
+
             text_17:`12. Ligas a otros sitios:
                     ACADEMY ENTERPRISE FIRM BC7 SA DE CV. y sus agentes asociados contienen ligas o hipervínculos a Sitios de terceros. Estás ligas son proporcionadas para conveniencia de ustedes y los contenidos no son avalados por ACADEMY ENTERPRISE FIRM BC7 SA DE CV. no es responsable por el contenido de esos sitios ni por la exactitud de sus materiales. Si usted decide ingresar a esos sitios es su responsabilidad.`,
-                    
+
             text_18:`13. Enmiendas a este acuerdo y Cambios al Sitio Web www.beirat.mx
                      Podrá revisar estos términos en cualquier momento y actualizar su contenido. Cualquier uso del Sitio Web se considerará como aceptación de usted de los términos aquí mostrados. Si en cualquier momento usted encuentra los términos inaceptables, usted no deberá usar este Sitio Web. Cualquier término nuevo o diferente proporcionado por usted será específicamente rechazado por ACADEMY ENTERPRISE FIRM BC7 SA DE CV.
                     ACADEMY ENTERPRISE FIRM BC7 SA DE CV. podrá realizar cambios a éstos términos sin previo aviso.`,
-                    
+
            text_19:`14. Indemnización de ACADEMY ENTERPRISE FIRM BC7 SA DE CV:
                     Usted acepta defender, indemnizar y declarar exenta de responsabilidad a la Empresa y sus agentes asociados, sus funcionarios, directores, empleados y agentes, frente y contra cualquier reclamación, acción judicial o demanda, incluido sin limitaciones los daños, costos legales y contables derivados o resultantes de cualquier alegato resultado o en conexión con su uso del Sitio Web, de cualquier material publicado por usted o por cualquier incumplimiento a éstos términos ACADEMY ENTERPRISE FIRM BC7 SA DE CV. le informará de la existencia de tales reclamaciones, demandas o procedimientos judiciales y le asistirá, a su costo, en la defensa de tales reclamaciones, demandas o procedimientos judiciales.`,
 
             text_20:`15. Información del usuario:
                     El Aviso de Privacidad de ACADEMY ENTERPRISE FIRM BC7 SA DE CV. incorpora este acuerdo.`,
-                    
+
             text_21:`16. Notificaciones y preguntas:
-                    Preguntas acerca del uso de este Sitio Web deberán ser dirigidas a 
+                    Preguntas acerca del uso de este Sitio Web deberán ser dirigidas a
                     hello@beirat.mx notificaciones deberán ser dirigidas a la dirección mostrada en el Sitio Web.`,
         },
         privacy:{
@@ -615,13 +628,13 @@ module.exports = {
             text_10:`hello@beirat.mx se reserva el derecho de actualizar periódicamente el presente Aviso para reflejar los cambios en nuestras prácticas de información. Es responsabilidad del Titular revisar periódicamente el contenido del Aviso en donde se publicarán los cambios realizados conjuntamente con la fecha de la última actualización.`
         },
         politics:{
-            
+
             title: `POLÍTICAS`,
-        
+
             text_1: `Fecha de entrada en vigor: 1 de enero de 2019.`,
-                          
+
             text_2: `En   creemos que hay que ser claros sobre el modo en que recabamos y utilizamos tus datos. Para ofrecer un mayor nivel de transparencia, esta Política proporciona información detallada sobre cómo y cuándo utilizamos cookies.`,
-      
+
             text_3: `Esta Política de cookies se aplica a cualquier producto o servicio de ACADEMY ENTERPRISE FIRM BC7 SA DE CV. asociado a esta política o que la incorpore por referencia.`,
 
             text_4: `¿Utiliza ACADEMY ENTERPRISE FIRM BC7 SA DE CV. cookies?`,

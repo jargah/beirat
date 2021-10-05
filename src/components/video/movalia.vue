@@ -3,7 +3,7 @@
         <div class="container-image">
             <img :src="image"
                 class="img-fluid img-thumbnail-item image-doctor"
-                alt="maria"
+                alt="movalia"
                 style="cursor: pointer;"
                 @click="toggleModal"
                 ref="btnToggle">
@@ -14,7 +14,7 @@
         </div>
 
         <b-modal
-            id="maria"
+            id="movalia"
             header-bg-variant="dark"
             headerTextVariant="light"
             hide-footer
@@ -22,7 +22,7 @@
             centered>
            <div class="modal-content">
                 <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/610145594" id="video" allowscriptaccess="always" allow="autoplay"></iframe>
+                    <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/616176052" id="video" allowscriptaccess="always" allow="autoplay"></iframe>
                 </div>
             </div>
         </b-modal>
@@ -32,12 +32,12 @@
 <script>
 
 
-import image from 'ASSETS/customer/image/maria.jpeg'
+import image from 'ASSETS/customer/image/movalia.jpg'
 import play from 'ASSETS/play'
 
 
 export default {
-    name: 'integra',
+    name: 'tracto',
     data() {
         return {
             image,
@@ -46,7 +46,7 @@ export default {
     },
     methods: {
         toggleModal() {
-            this.$root.$emit('bv::toggle::modal', 'maria', '#btnToggle')
+            this.$root.$emit('bv::toggle::modal', 'movalia', '#btnToggle')
         }
     },
     mounted() {

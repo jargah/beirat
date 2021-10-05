@@ -7,6 +7,10 @@
                 style="cursor: pointer;"
                 @click="toggleModal"
                 ref="btnToggle">
+
+                <div class="overlay-image">
+                    <img :src="play" alt="play" class="video-btn image-play" @click="toggleModal">
+                </div>
         </div>
 
         <b-modal
@@ -29,12 +33,15 @@
 
 
 import image from 'ASSETS/customer/image/nova.jpeg'
+import play from 'ASSETS/play'
+
 
 export default {
     name: 'nova',
     data() {
         return {
-            image
+            image,
+            play
         }
     },
     methods: {
@@ -58,7 +65,7 @@ export default {
         width: 100%;
         height: auto;
     }
-    .overlay-image {
+     .overlay-image {
         position: absolute;
         top: 0;
         bottom: 0;
@@ -67,5 +74,15 @@ export default {
         height: 100%;
         widows: 100%;
         background-color: transparent;
+    }
+    .image-play {
+        color: black;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        cursor: pointer;
+        z-index: 2;
     }
 </style>
