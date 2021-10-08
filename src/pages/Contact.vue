@@ -53,13 +53,14 @@
                                 <div class="row">
                                     <div class="col-12">
                                         <mu-text-field v-model="form.message"
-                                        :placeholder="$t('contact.placeholder.item_4')" multi-line :rows="4" full-width></mu-text-field>
+                                        :label="$t('contact.placeholder.item_5')"
+                                        :placeholder="$t('contact.placeholder.item_5')" multi-line :rows="4" full-width></mu-text-field>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-12">
                                         <button class="btn font-basic" @click.prevent="sendForm()">
-                                            {{ $t('contact.placeholder.item_5') }} <img :src="arrow">
+                                            {{ $t('contact.placeholder.item_6') }} <img :src="arrow">
                                         </button>
                                     </div>
                                 </div>

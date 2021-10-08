@@ -1,5 +1,5 @@
 <template>
-    <header class="v-header container">
+    <header class="v-header container-fluid px-0">
         <div class="fullscreen-video-wrap">
             <video loop muted autoplay  width="100%">
                 <source :src="video1" type="video/mp4" />
@@ -26,6 +26,7 @@
                                     <a target="_blank"><img :src="image3" title="" class="marqueelogo" style="width: auto; max-width: none;" /></a>
                                     <a target="_blank"><img :src="image4" title="" class="marqueelogo" style="width: auto; max-width: none;" /></a>
                                     <a target="_blank"><img :src="image5" title="" class="marqueelogo" style="width: auto; max-width: none;" /></a>
+                                    <a target="_blank"><img :src="image6" title="" class="marqueelogo" style="width: auto; max-width: none;" /></a>
 
                                 </div>
                                 <div class="marquee" style="animation-duration: 57s;">
@@ -34,6 +35,7 @@
                                     <a target="_blank"><img :src="image3" title="" class="marqueelogo" style="width: auto; max-width: none;" /></a>
                                     <a target="_blank"><img :src="image4" title="" class="marqueelogo" style="width: auto; max-width: none;" /></a>
                                     <a target="_blank"><img :src="image5" title="" class="marqueelogo" style="width: auto; max-width: none;" /></a>
+                                    <a target="_blank"><img :src="image6" title="" class="marqueelogo" style="width: auto; max-width: none;" /></a>
                                 </div>
                             </div>
                         </div>
@@ -46,14 +48,13 @@
 </template>
 
 <script>
-
-
 import consultores from 'ASSETS/customer/video/empresas-de-asesoria-guadalajara'
 import image1 from 'ASSETS/customer/image/client/geg-logo'
 import image2 from 'ASSETS/customer/image/client/nova-logo'
 import image3 from 'ASSETS/customer/image/client/movalia-logo'
 import image4 from 'ASSETS/customer/image/client/mariaelena-logo'
 import image5 from 'ASSETS/customer/image/client/tdmex-logo'
+import image6 from 'ASSETS/customer/image/client/tractobull-logo'
 
 export default {
     name: 'customer',
@@ -65,6 +66,7 @@ export default {
             image3,
             image4,
             image5,
+            image6
         }
     },
     watch: {
@@ -73,14 +75,12 @@ export default {
     methods: {
 
     },
-
     mounted() {
-
 
     },
     beforeDestroy() {
 
-    },
+    }
 }
 </script>
 
@@ -215,9 +215,8 @@ export default {
         }
 
         #logoMarqueeSection {
-            bottom: 250px !important;
+            bottom: 80px !important;
         }
-
     }
 
     @media (min-width: 481px) AND (max-width: 767px) {
@@ -232,7 +231,7 @@ export default {
         }
 
         #logoMarqueeSection {
-            bottom: 250px !important;
+            bottom: 80px !important;
         }
 
     }
@@ -258,7 +257,7 @@ export default {
         }
 
         #logoMarqueeSection {
-            bottom: 250px !important;
+            bottom: 80px !important;
         }
 
     }
@@ -278,7 +277,7 @@ export default {
     }
 
     .v-header{
-        height:100vh;
+        //height:100vh;
         display:flex;
         align-items:center;
         color:#fff;
@@ -292,12 +291,12 @@ export default {
         text-align:center;
     }
 
-    .fullscreen-video-wrap{
-        position:absolute;
-        top:0;
-        left:0;
+    .fullscreen-video-wrap {
+        //position:absolute;
+        //top:0;
+        //left:0;
         width:100%;
-        height:100vh;
+        //height:100vh;
         overflow:hidden;
     }
 
@@ -363,6 +362,86 @@ export default {
         }
     }
 
+
+    @media (min-width: 1200px) AND (max-width: 1379px) {
+
+        .video-title {
+            font-size: 60px !important;
+        }
+
+        #logoMarqueeSection {
+            bottom: 150px !important;
+        }
+    }
+
+    @media (min-width: 1011px) AND (max-width: 1199px) {
+
+        .video-title {
+            top: 150px !important;
+            font-size: 50px !important;
+        }
+
+        #logoMarqueeSection {
+            bottom: 150px !important;
+        }
+    }
+
+    @media (min-width: 991px) AND (max-width: 1010px) {
+
+        .video-title {
+            top: 150px !important;
+            font-size: 40px !important;
+        }
+
+        #logoMarqueeSection {
+            bottom: 100px !important;
+        }
+    }
+
+    @media (min-width: 641px) AND (max-width: 990px) {
+        .video-title {
+            top: 150px !important;
+            left: 50px !important;
+            font-size: 30px !important;
+        }
+
+        #logoMarqueeSection {
+            bottom: 80px !important;
+        }
+    }
+
+    @media (min-width: 436px) AND (max-width: 640px) {
+        .fullscreen-video-wrap{
+            padding-top: 95px;
+        }
+
+        .video-title {
+            top: 120px !important;
+            left: 20px !important;
+            font-size: 30px !important;
+        }
+
+        #logoMarqueeSection {
+            position: inherit;
+        }
+    }
+
+    @media(max-width: 435px) {
+        .fullscreen-video-wrap{
+            padding-top: 95px;
+        }
+
+        .video-title {
+            top: 120px !important;
+            left: 20px !important;
+            font-size: 25px !important;
+        }
+
+        #logoMarqueeSection {
+            // display: none;
+            position: inherit;
+        }
+    }
 
 </style>
 

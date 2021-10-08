@@ -3,8 +3,8 @@
         <div class="container-fluid footer">
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-8">
-                    <div class="row">
-                        <div class="col-12">
+                    <div class="row pt-2 pt-md-5">
+                        <div class="col-12 pt-2 pt-sm-5">
                             <p class="footer__content-text__title mb-3 font-footer font-footer__title">
                                 UNLOCK YOUR FULL POTENTIAL.
                             </p>
@@ -78,27 +78,29 @@
                 <div class="col-12 col-sm-12 col-md-12 col-lg-6 option_bottom_1_movil ">
                     <div class="row">
                         <div class="col-12 text-center">
-                            <div class="footer__contact">
-                                <div class="">
+                            <div class="row footer__contact">
+                                <div class="col-12">
                                      <p style="cursor: pointer; color: #fff;" @click="redirect('term')">
-                                        Términos y condiciones2
+                                        Términos y condiciones
                                     </p>
                                     <p style="cursor: pointer; color: #fff;" @click="redirect('notice')">
-                                        Aviso de privacidad2
+                                        Aviso de privacidad
                                     </p>
                                     <p style="cursor: pointer; color: #fff;" @click="redirect('policity')">
-                                        Politicas2
+                                        Politicas
                                     </p>
                                 </div>
-                                <router-link
-                                    :to="{ name: 'contact' }"
-                                    custom
-                                    v-slot="{ navigate }"
-                                >
-                                    <b-button size="lg" variant="outline-dark footer__contact__btn font-footer__button" @click="navigate">
-                                        Contacto
-                                    </b-button>
-                                </router-link>
+                                <div class="col-12">
+                                    <router-link
+                                        :to="{ name: 'contact' }"
+                                        custom
+                                        v-slot="{ navigate }"
+                                    >
+                                        <b-button size="lg" variant="outline-dark footer__contact__btn font-footer__button" @click="navigate">
+                                            Contacto
+                                        </b-button>
+                                    </router-link>
+                                </div>
                             </div>
 
                         </div>
@@ -221,7 +223,7 @@ export default {
 
         .option_bottom_1_movil {
             text-align: center !important;
-            margin-top: 3rem !important;
+            margin-top: 0rem !important;
             display: block;
         }
 
@@ -243,7 +245,7 @@ export default {
 
         .font-footer {
             &__title {
-                margin-top: 4rem !important;
+                //margin-top: 4rem !important;
                 font-size: 35px !important;
             }
 
@@ -288,7 +290,7 @@ export default {
 
         .footer__content-text__copyright {
             font-size: 17px;
-            position: relative;
+            // position: relative;
             color: #717271;
             top: 83px;
         }
@@ -303,17 +305,18 @@ export default {
 
         .option_bottom_1_movil {
             text-align: center !important;
-            margin-top: 3rem !important;
+            margin-top: 0rem !important;
             display: block;
         }
 
         .footer__contact {
-            position: relative !important;
+            position: inherit !important;
+            margin-top: 2em;
             bottom: 32px;
         }
 
         .footer {
-            height: 550px !important;
+            //height: 550px !important;
 
             &__content-text {
 
@@ -355,7 +358,7 @@ export default {
 
         .option_bottom_1_movil {
             text-align: center !important;
-            margin-top: 3rem !important;
+            margin-top: 0rem !important;
             display: block;
         }
 
@@ -364,7 +367,7 @@ export default {
         }
 
         .footer {
-            height: 550px !important;
+            //height: 550px !important;
 
             &__content-text {
 
@@ -416,7 +419,8 @@ export default {
         position: relative;
         bottom: 0;
         background: black;
-        height: 500px;
+
+        //height: 500px;
 
 
         &__contact {
@@ -432,7 +436,7 @@ export default {
         }
 
         &__social {
-            position: absolute;
+            //position: absolute;
 
         }
 
@@ -444,7 +448,7 @@ export default {
             top: 100px;
 
             &__title {
-                margin-top: 6rem;
+                //margin-top: 6rem;
                 color: #fff;
             }
 

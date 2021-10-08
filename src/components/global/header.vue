@@ -367,9 +367,7 @@ export default {
         }
     }
 
-
-    .navbar-brand
-    {
+    .navbar-brand {
         position: absolute;
         width: 100%;
         left: 0;
@@ -377,7 +375,7 @@ export default {
         margin:0 auto;
     }
     .navbar-toggle {
-        z-index:3;
+        z-index:13;
     }
 
     .font-menu {
@@ -454,7 +452,7 @@ export default {
         display: grid;
         grid-template-areas: "a b";
         background: rgba(255, 255, 255, 0);
-        z-index: 1;
+        z-index: 10;
 
 
         &__logo {

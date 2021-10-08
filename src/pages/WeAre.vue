@@ -1,6 +1,7 @@
 <template>
     <div>
         <video-weare></video-weare>
+
         <section class="we-are">
             <div class="container-fluid we-are__section1">
                 <div class="row mt-5 mb-5">
@@ -134,20 +135,30 @@
             </div>
 
              <div class="container-fluid we-are__section5">
-                    <div class="row">
-                        <div class="col-2" style="padding:10px;">
-                           <div class="we-are__section5__portafolio text-center">
+                    <div class="row justify-content-end">
+
+                        <div class="col-2 d-none d-sm-block" style="padding:10px;">
+                            <div class="we-are__section5__portafolio text-center">
                                 <p class="we-are__section5__portafolio__title font-futura">
                                     {{ $t('weare.section5.portafolio.title') }}
                                 </p>
                             </div>
                         </div>
+
                         <div class="col-10">
                             <div class="we-are__section5__services text-center">
                                 <div class="row">
-                                    <div class="col-12 mt-5 mb-4">
+                                    <div class="col-12 mt-3 mb-0 mt-sm-5 mb-sm-4">
                                         <p class="we-are__section5__services__title font-basic">
                                             {{ $t('weare.section5.services.title') }}
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="col-9 d-block d-sm-none" style="padding: 20px;">
+                                    <div class="we-are__section5__services__portafolio py-3 text-center">
+                                        <p class="we-are__section5__services__portafolio__title font-futura m-0">
+                                            {{ $t('weare.section5.portafolio.title') }}
                                         </p>
                                     </div>
                                 </div>
@@ -362,6 +373,18 @@ export default {
         }
     }
 
+    @media (min-width: 320px) AND (max-width: 480px) {
+        .we-are {
+
+            &__section2 {
+
+                &__title {
+                    font-size: 33px !important;
+                }
+            }
+        }
+    }
+
     .animation-we-are {
         width: 84px;
         height: 86px;
@@ -389,7 +412,6 @@ export default {
             color: #fff;
 
             &__title {
-
                 font-size: 40px;
             }
 
@@ -482,6 +504,20 @@ export default {
                     position: relative;
                     color: #717271;
                 }
+
+                &__portafolio {
+                    position: absolute;
+                    top: 0px;
+                    left: -45px;
+                    padding: 10px;
+                    background: #717271;
+
+                    &__title {
+                        color: #fff;
+                        font-size: 25px;
+                        // margin-top: 6rem !important;
+                    }
+                }
             }
 
         }
@@ -503,6 +539,16 @@ export default {
         &__power {
 
             font-size: 40px;
+        }
+    }
+
+    @media (max-width: 429px) {
+        .we-are__section5__services__portafolio__title {
+            font-size: 20px;
+        }
+
+        .we-are__section5 {
+            padding-bottom: 1000px !important;
         }
     }
 </style>

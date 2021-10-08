@@ -34,14 +34,14 @@
                     <div class="container">
                         <div class="row mt-5 mb-5">
                             <div class="col-12">
-                                    <p class="business__section2__title font-futura">
-                                        {{ $t('business.section2.title') }}
-                                    </p>
-                                    <p class="business__section2__description font-basic">
-                                        {{ $t('business.section2.description') }}
-                                        <br>
-                                        {{ $t('business.section2.question') }}
-                                    </p>
+                                <p class="business__section2__title font-futura">
+                                    {{ $t('business.section2.title') }}
+                                </p>
+                                <p class="business__section2__description font-basic">
+                                    {{ $t('business.section2.description') }}
+                                    <br>
+                                    {{ $t('business.section2.question') }}
+                                </p>
                             </div>
                         </div>
                     </div>

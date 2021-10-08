@@ -549,10 +549,6 @@ export default {
 
             }
         }
-
-
-
-
     }
 
     @media (min-width: 769px) AND (max-width: 991px) {
@@ -622,7 +618,6 @@ export default {
         }
 
         .scalability__section4__row__title {
-
             margin-left: 50px;
             font-size: 30px;
         }
@@ -635,6 +630,16 @@ export default {
         .scalability__section5__row, .scalability__section6__row, .scalability__section7__row, .scalability__section8__row {
             padding-left: 50px !important;
             padding-right: 50px !important;
+        }
+
+        .scalability__section6__row__title {
+            // margin-left: 50px;
+            font-size: 30px;
+        }
+
+        .scalability__section6__row__description {
+            // margin-left: 50px;
+            font-size: 25px;
         }
     }
 

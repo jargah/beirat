@@ -51,7 +51,7 @@ module.exports = {
             }
         },
         business: {
-             header: {
+            header: {
                 title: `BUSINESS RESEARCH`,
                 description: 'In the bottom of our hearts, we are scientists.',
                 description_full:`We believe as we do one thing, we can do all of them,
@@ -162,8 +162,8 @@ module.exports = {
                 label_3 : "Your email",
                 item_4  : "Phone",
                 label_4 : "Your phone number",
-                item_5  : "Send",
-                item_6  : "Your message",
+                item_5  : "Message",
+                item_6  : "Send",
                 confirmation : "We have received your information, we will contact you shortly.",
                 colaboratin: "Colaboration"
             }
@@ -471,7 +471,7 @@ module.exports = {
                             patentadas y una asociación con una de las empresas líderes en tecnología del mundo.`,
             description_5:`Ayudamos a nuestros clientes a desarrollar la cultura laboral y las capacidades necesarias para ser ágiles e innovar antes del  mercado, mucho después de que nos hayamos ido.
                              Este es el cambio que importa.`,
-            description_6:`Más del 90 por ciento de nuestro
+            description_6:`Más del 90% de nuestro
                            trabajo ahora incluye Beirat Digital.`,
             description_7:`Solo en los últimos años, hemos prestado servicios a cientos de clientes y hemos completado
                         cientos de transformaciones tecnológicas y construcciones de nuevos negocios.`,
@@ -489,8 +489,8 @@ module.exports = {
                 label_3 : "Tu correo es",
                 item_4  : "Teléfono",
                 label_4 : "Tu contacto es",
-                item_5  : "Enviar",
-                item_6  : "Dejanos tu mensaje",
+                item_5  : "Mensaje",
+                item_6  : "Enviar",
                 confirmation : " Hemos recibido tu información, nos comunicaremos contigo a la brevedad.",
                 colaboratin: "TE AGRADECEMOS EL INTERES DE QUERER COLABORAR CON NOSOTROS."
             }
@@ -514,14 +514,14 @@ module.exports = {
                     el talento de tu empresa.`,
             item_5:`Empresa mexicana dedicada a la fabricación
                     y comercialización de partes y accesorios
-                    para tracto camión en territorio Nacional
+                    para tracto camión en territorio nacional
                     y extranjero con una experiencia de más de
                     30 años en el ramo, siempre manteniendo el
                     enfoque en cubrir las necesidades de nuestros
                     clientes día con día a través de un servicio de excelencia.`,
             item_6:`Empresa mexicana dedicada a la fabricación
                     y comercialización de partes y accesorios
-                    para tracto camión en territorio Nacional
+                    para tracto camión en territorio nacional
                     y extranjero con una experiencia de más de
                     30 años en el ramo, siempre manteniendo el
                     enfoque en cubrir las necesidades de nuestros

@@ -1,8 +1,7 @@
 <template>
     <section class="customer">
 
-        <video-customer></video-customer>
-
+        <video-customer class="pb-5 pb-md-0"></video-customer>
 
         <div class="customer__section1">
             <div class="row ">
@@ -30,11 +29,11 @@
         </div>
         <div class="customer__section2">
             <div class="row">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-7">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-7 order-1 order-lg-0">
                     <!-- <img :src="test" class="customer__section1__image" style="max-width: 100%; min-width: 100%;"> -->
                     <integra />
                 </div>
-                <div class="col-12 col-sm-12 col-md-12 col-lg-5 align-self-center">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 order-0 order-lg-1 mt-5 mt-lg-0 align-self-center">
                     <div class="container">
                         <div class="row customer__section2__row ">
                             <div class="col-12">
@@ -54,7 +53,7 @@
         </div>
         <div class="customer__section1">
             <div class="row">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-5 align-self-center">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 mt-5 mt-lg-0 align-self-center">
                     <div class="container">
                         <div class="row customer__section1__row">
                             <p class="customer__section1__title mb-5">
@@ -78,10 +77,10 @@
         </div>
         <div class="customer__section2">
             <div class="row">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-7">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-7 order-1 order-lg-0">
                     <nova />
                 </div>
-                <div class="col-12 col-sm-12 col-md-12 col-lg-5 align-self-center">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 order-0 order-lg-1 align-self-center">
                     <div class="container mt-5 mb-5">
                         <div class="row customer__section2__row">
                             <div class="col-12">
@@ -103,7 +102,7 @@
         </div>
         <div class="customer__section1">
             <div class="row">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-5 align-self-center">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 mt-5 mt-lg-0 align-self-center">
                     <div class="container">
                         <div class="row customer__section1__row">
                             <div class="col-12">
@@ -127,10 +126,10 @@
         </div>
         <div class="customer__section2">
             <div class="row">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-7">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-7 order-1 order-lg-0">
                     <movalia />
                 </div>
-                <div class="col-12 col-sm-12 col-md-12 col-lg-5 align-self-center">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 order-0 order-lg-1 align-self-center">
                     <div class="container mt-5 mb-5">
                         <div class="row customer__section2__row">
                             <div class="col-12">
@@ -167,6 +166,7 @@ import image2 from 'ASSETS/customer/image/client/nova-logo'
 import image3 from 'ASSETS/customer/image/client/movalia-logo'
 import image4 from 'ASSETS/customer/image/client/mariaelena-logo'
 import image5 from 'ASSETS/customer/image/client/tdmex-logo'
+import image6 from 'ASSETS/customer/image/client/tractobull-logo'
 import test from 'ASSETS/global/test'
 
 import video_customer from '@/components/video/customer'
@@ -191,6 +191,7 @@ export default {
             image3,
             image4,
             image5,
+            image6,
             test
 
         }
