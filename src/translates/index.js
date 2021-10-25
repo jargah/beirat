@@ -485,7 +485,7 @@ module.exports = {
                 label_1 : "Ingresa tu nombre",
                 item_2  : "Compañía",
                 label_2 : "Tu compañía es",
-                item_3  : "Email",
+                item_3  : "Correo",
                 label_3 : "Tu correo es",
                 item_4  : "Teléfono",
                 label_4 : "Tu contacto es",

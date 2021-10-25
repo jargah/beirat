@@ -176,16 +176,16 @@
                 <div class="col-12 col-sm-12 col-md-12 col-lg-6 mt-5 text-center">
 
                     <div class="flex-center">
-                        <div class="flex-column">
+                        <div class="flex-column" style="font-size: 16px !important;">
 
                             <p>
                                 <img :src="asterisk" alt="beirat" class="menu-info__asterisk">
                             </p>
                             <p class="menu-info font-menu">
-                                WhatsApp
+                                <a href="https://api.whatsapp.com/send?phone=+523322228729&text=Hola%20Beirat" target="_blank">WhatsApp</a>
                             </p>
                             <p class="menu-info font-menu">
-                                hello@beirat.mx
+                                <a href="mailto:hello@beirat.mx">hello@beirat.mx</a>
                             </p>
                             <p class="menu-info font-menu">
                                 Rubén Darío 586, Prados Providencia
@@ -507,6 +507,32 @@ export default {
 
         &__asterisk {
             max-width: 60px;
+        }
+
+        a {
+            color: white !important;
+            outline: none;
+            text-decoration: none;
+        }
+
+        a:link {
+            color: white !important;
+        }
+
+        a:visited {
+            color: white !important;
+        }
+
+        a:focus {
+            border-bottom: 1px solid;
+        }
+
+        a:hover {
+            border-bottom: 1px solid;
+        }
+
+        a:active {
+            color: #FFF;
         }
     }
 

@@ -29,7 +29,7 @@
                                     <div class="col-6">
                                         <mu-text-field v-model="form.name"
                                         :label=" $t('contact.placeholder.item_1')"
-                                        :placeholder=" $t('contact.placeholder.label_1')" full-width></mu-text-field>
+                                        :placeholder=" $t('contact.placeholder.item_1')" full-width></mu-text-field>
                                     </div>
                                     <div class="col-6">
                                         <mu-text-field v-model="form.company"
@@ -59,12 +59,13 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-12">
-                                        <button class="btn font-basic" @click.prevent="sendForm()">
+                                        <button class="btn font-basic" @click.prevent="sendMail()">
                                             {{ $t('contact.placeholder.item_6') }} <img :src="arrow">
                                         </button>
                                     </div>
                                 </div>
                             </template>
+                            
                             <template v-else>
                                 <p class="font-basic mb-5" style="font-size: 20px;">
 
@@ -84,12 +85,12 @@
                                 <p class="font-futura">
                                         Whatsapp
                                         <br>
-                                    <a href="https://api.whatsapp.com/send?phone=3322228729&text=Hola%20Beirat" target="_blank">33 22 22 87 29</a>
+                                    <a href="https://api.whatsapp.com/send?phone=+523322228729&text=Hola%20Beirat" target="_blank">33 22 22 87 29</a>
                                  </p>
                                  <p class="font-futura">
                                        {{ $t('contact.placeholder.item_4') }}
                                         <br>
-                                        <a href="tel:5213322228729">33 22 22 87 29</a>
+                                        <a href="tel:3322228729">33 22 22 87 29</a>
                                     </p>
 
                                 </div>
@@ -160,42 +161,22 @@ export default {
         }
     },
     methods: {
-        send_notification(to, subject, html) {
 
-            let transporter = nodemailer.createTransport({
-                name: 'hostgator',
-                host: 'mx60.hostgator.mx',
-                port: 465,
-                secure: true,
-                auth: {
-                    user: 'hello@beirat.mx',
-                    pass: 'Control2580!'
+        sendMail() {
+            fetch('https://https://beirat.mx/send_email.php', {
+                method: 'post',
+                headers: {
+                    'Accept': 'application/json, text/plain, /',
+                    'Content-Type': 'application/json'
                 },
-                tls: {
-                    rejectUnauthorized: false
-                }
-            });
+                body: JSON.stringify({ name: this.form.name, email: this.form.email, company: this.form.company, phone: this.form.phone, message: this.form.message })
+            }).then(
+                res => res.json()
+            ).then(
+                res => console.log(res)
+            )
 
-
-            let mailOptions = {
-                from: '"BEIRAT" <hello@beirat.mx>', // sender address
-                to: to, // list of receivers
-                subject: subject, // Subject line
-                html: html // html body
-            }
-
-
-            transporter.sendMail(mailOptions, function(error, info){
-                if(error){
-                    return console.log(error);
-                }
-                console.log('Message sent: ' + info.response);
-            });
-        },
-
-        sendForm() {
-
-            this.send_notification(this.form.email, 'CONTACTO', '<b>HOLA MUNDO</b>')
+            this.send = true
         }
     }
 }
