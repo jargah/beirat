@@ -67,10 +67,10 @@
                             </template>
                             
                             <template v-else>
-                                <p class="font-basic mb-5" style="font-size: 20px;">
-
+                                <p class="font-basic mb-5" style="font-size: 20px; max-width: 520px;">
+                                    {{ $t('contact.placeholder.confirmation') }}
                                 </p>
-                                <p class="font-futura mt-5">
+                                <p class="font-futura mt-5" style="font-size: 20px; max-width: 450px;">
                                     {{ $t('contact.placeholder.colaboration') }}
                                 </p>
                             </template>
@@ -163,7 +163,7 @@ export default {
     methods: {
 
         sendMail() {
-            fetch('https://https://beirat.mx/send_email.php', {
+            fetch('https://beirat.mx/send_email.php', {
                 method: 'post',
                 headers: {
                     'Accept': 'application/json, text/plain, /',

@@ -3,7 +3,7 @@ module.exports = {
     en: {
         global: {
             contact: 'Contact',
-            language: 'Español',
+            language: 'English',
             terms: 'Terms and conditions',
             politics: 'Politics',
             notice: 'Notice of privacy',
@@ -152,7 +152,6 @@ module.exports = {
         contact :{
             title:" THE POWER OF KNOWLEDGE FOR BUSINESS",
             contacto:"CONTACT",
-            colaboration:"WE THANK YOU FOR THE INTEREST IN WANTING TO COLLABORATE WITH US",
             placeholder:{
                 item_1  : "Name",
                 label_1 : "Insert yor name",
@@ -164,8 +163,8 @@ module.exports = {
                 label_4 : "Your phone number",
                 item_5  : "Message",
                 item_6  : "Send",
-                confirmation : "We have received your information, we will contact you shortly.",
-                colaboratin: "Colaboration"
+                confirmation: "We have received your information, we will contact you shortly.",
+                colaboration: "WE THANK YOU FOR THE INTEREST IN WANTING TO COLLABORATE WITH US."
             }
         },
         clients:{
@@ -315,7 +314,7 @@ module.exports = {
     es: {
         global: {
             contact: 'Contacto',
-            language: 'English',
+            language: 'Español',
             terms: 'Términos y condiciones',
             politics: 'Políticas',
             notice: 'Aviso de Privacidad',
@@ -479,7 +478,6 @@ module.exports = {
         contact :{
             title:" THE POWER OF KNOWLEDGE FOR BUSINESS",
             contacto:"CONTACTO",
-            colaboration:"TE AGRADECEMOS EL INTERES DE QUERER COLABORAR CON NOSOTROS",
             placeholder:{
                 item_1  : "Nombre",
                 label_1 : "Ingresa tu nombre",
@@ -491,8 +489,8 @@ module.exports = {
                 label_4 : "Tu contacto es",
                 item_5  : "Mensaje",
                 item_6  : "Enviar",
-                confirmation : " Hemos recibido tu información, nos comunicaremos contigo a la brevedad.",
-                colaboratin: "TE AGRADECEMOS EL INTERES DE QUERER COLABORAR CON NOSOTROS."
+                confirmation: "Hemos recibido tu información, nos comunicaremos contigo a la brevedad.",
+                colaboration: "TE AGRADECEMOS EL INTERES DE QUERER COLABORAR CON NOSOTROS."
             }
         },
         clients:{
