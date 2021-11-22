@@ -38,6 +38,7 @@ try {
 
     //$mail->addAddress('jaime.rico@tequilaplus.com', 'Jaime Rico');
     //$mail->addAddress('ruletaeriz@gmail.com', 'Cristo Lopez');
+    $mail->addAddress('hello.beirat@gmail.com', 'Hello Beirat Gmail');
     $mail->addAddress('hello@beirat.mx', 'Hello Beirat');
     
 
